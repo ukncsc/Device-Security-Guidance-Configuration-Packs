@@ -1,0 +1,90 @@
+# For information about this file see:
+# https://wiki.ubuntu.com/UbiquityAutomation
+# https://help.ubuntu.com/lts/installation-guide/amd64/ch04s06.html
+# https://help.ubuntu.com/lts/installation-guide/example-preseed.txt
+# https://help.ubuntu.com/lts/installation-guide/amd64/apbs02.html
+
+# Old partitioning - debian-installer style
+#d-i partman-auto/method string crypto
+#d-i partman-lvm/device_remove_lvm boolean true
+#d-i partman-md/device_remove_md boolean true
+#d-i partman-lvm/confirm boolean true
+#d-i partman-lvm/confirm_nooverwrite boolean true
+
+# Ubiquity style partitioning 
+ubiquity partman-auto/method string crypto
+ubiquity partman-auto-lvm/guided_size string max
+ubiquity partman-lvm/device_remove_lvm boolean true
+ubiquity partman-md/device_remove_md boolean true
+# Uncomment line below to skip partioning layout confirmation
+#ubiquity partman-lvm/confirm boolean true
+
+### PARTITIONING ###
+# To customise the partitioning layout comment the following line
+# and uncomment the "Custom Partitioning" section below
+# and apply the appropriate changes
+ubiquity partman-auto/choose_recipe select home
+
+### BEGIN CUSTOM PARTITIONING ###
+# 
+#ubiquity partman-auto/choose_recipe select my-recipe
+#
+#ubiquity partman-auto/expert_recipe string                    \
+#      root-encrypted ::                                       \
+#              512 512 512 fat32                               \
+#                      $primary{ }                             \
+#                      method{ efi }                           \
+#                      $lvmignore{ }                           \
+#                      format{ }                               \
+#              .                                               \
+#              1000 1000 1000 ext4                             \
+#                      $primary{ } $bootable{ }                \
+#                      method{ format } format{ }              \
+#                      use_filesystem{ } filesystem{ ext4 }    \
+#                      mountpoint{ /boot }                     \
+#              .                                               \
+#              2000 2000 2000 linux-swap                       \
+#                      $lvmok{ } lv_name{ swap }               \
+#                      method{ swap } format{ }                \
+#              .                                               \
+#              5000 10000 40000 ext4                           \
+#                      $lvmok{ } lv_name{ root }               \
+#                      method{ format } format{ }              \
+#                      use_filesystem{ } filesystem{ ext4 }    \
+#                      mountpoint{ / }                         \
+#              .                                               \
+#              1000 2000 4000 ext4                             \
+#                      $lvmok{ } lv_name{ tmp }                \
+#                      method{ format } format{ }              \
+#                      use_filesystem{ } filesystem{ ext4 }    \
+#                      mountpoint{ /tmp }                      \
+#              .                                               \
+#              500 10000 1000000000 ext4                       \
+#                      $lvmok{ } lv_name{ home }               \
+#                      method{ format } format{ }              \
+#                      use_filesystem{ } filesystem{ ext4 }    \
+#                      mountpoint{ /home }                     \
+#              .                                               \
+#
+### END CUSTOM PARTITIONING ###
+
+# This makes partman automatically partition without confirmation
+d-i partman-partitioning/confirm_write_new_label boolean true
+d-i partman/choose_partition select finish
+# d-i partman/confirm boolean true
+d-i partman/confirm_nooverwrite boolean true
+
+# This is fairly safe to set, it makes grub install automatically to the MBR
+# if no other operating system is detected on the machine.
+d-i grub-installer/only_debian boolean true
+
+# This one makes grub-installer install to the MBR if it also finds some other
+# OS, which is less safe as it might not be able to boot that other OS.
+d-i grub-installer/with_other_os boolean true
+
+### POST INSTALLATION COMMANDS ###
+# Run custom commands post installation
+# For example install a Software Configuration Management tool
+ubiquity ubiquity/success_command string \
+    echo "Running Post Install Commands"; \
+    in-target touch /root/post_install_test

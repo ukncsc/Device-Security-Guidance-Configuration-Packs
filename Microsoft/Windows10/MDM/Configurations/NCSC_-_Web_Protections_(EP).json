@@ -1,0 +1,419 @@
+{
+    "@odata.type":  "#microsoft.graph.windows10EndpointProtectionConfiguration",
+    "id":  "2d5ad1fd-72bc-46b5-90f5-7e7cdd23b255",
+    "lastModifiedDateTime":  "2020-11-19T14:47:46.5945891Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2020-11-19T14:47:30.0534374Z",
+    "description":  null,
+    "displayName":  "NCSC - Web Protections (EP)",
+    "version":  2,
+    "dmaGuardDeviceEnumerationPolicy":  "deviceDefault",
+    "xboxServicesEnableXboxGameSaveTask":  false,
+    "xboxServicesAccessoryManagementServiceStartupMode":  "manual",
+    "xboxServicesLiveAuthManagerServiceStartupMode":  "manual",
+    "xboxServicesLiveGameSaveServiceStartupMode":  "manual",
+    "xboxServicesLiveNetworkingServiceStartupMode":  "manual",
+    "localSecurityOptionsBlockMicrosoftAccounts":  false,
+    "localSecurityOptionsBlockRemoteLogonWithBlankPassword":  false,
+    "localSecurityOptionsDisableAdministratorAccount":  false,
+    "localSecurityOptionsAdministratorAccountName":  null,
+    "localSecurityOptionsDisableGuestAccount":  false,
+    "localSecurityOptionsGuestAccountName":  null,
+    "localSecurityOptionsAllowUndockWithoutHavingToLogon":  false,
+    "localSecurityOptionsBlockUsersInstallingPrinterDrivers":  false,
+    "localSecurityOptionsBlockRemoteOpticalDriveAccess":  false,
+    "localSecurityOptionsFormatAndEjectOfRemovableMediaAllowedUser":  "notConfigured",
+    "localSecurityOptionsMachineInactivityLimit":  null,
+    "localSecurityOptionsMachineInactivityLimitInMinutes":  null,
+    "localSecurityOptionsDoNotRequireCtrlAltDel":  false,
+    "localSecurityOptionsHideLastSignedInUser":  false,
+    "localSecurityOptionsHideUsernameAtSignIn":  false,
+    "localSecurityOptionsLogOnMessageTitle":  null,
+    "localSecurityOptionsLogOnMessageText":  null,
+    "localSecurityOptionsAllowPKU2UAuthenticationRequests":  false,
+    "localSecurityOptionsAllowRemoteCallsToSecurityAccountsManagerHelperBool":  false,
+    "localSecurityOptionsAllowRemoteCallsToSecurityAccountsManager":  null,
+    "localSecurityOptionsMinimumSessionSecurityForNtlmSspBasedClients":  "none",
+    "localSecurityOptionsMinimumSessionSecurityForNtlmSspBasedServers":  "none",
+    "lanManagerAuthenticationLevel":  "lmAndNltm",
+    "lanManagerWorkstationDisableInsecureGuestLogons":  false,
+    "localSecurityOptionsClearVirtualMemoryPageFile":  false,
+    "localSecurityOptionsAllowSystemToBeShutDownWithoutHavingToLogOn":  false,
+    "localSecurityOptionsAllowUIAccessApplicationElevation":  false,
+    "localSecurityOptionsVirtualizeFileAndRegistryWriteFailuresToPerUserLocations":  false,
+    "localSecurityOptionsOnlyElevateSignedExecutables":  false,
+    "localSecurityOptionsAdministratorElevationPromptBehavior":  "notConfigured",
+    "localSecurityOptionsStandardUserElevationPromptBehavior":  "notConfigured",
+    "localSecurityOptionsSwitchToSecureDesktopWhenPromptingForElevation":  false,
+    "localSecurityOptionsDetectApplicationInstallationsAndPromptForElevation":  false,
+    "localSecurityOptionsAllowUIAccessApplicationsForSecureLocations":  false,
+    "localSecurityOptionsUseAdminApprovalMode":  false,
+    "localSecurityOptionsUseAdminApprovalModeForAdministrators":  false,
+    "localSecurityOptionsInformationShownOnLockScreen":  "notConfigured",
+    "localSecurityOptionsInformationDisplayedOnLockScreen":  "notConfigured",
+    "localSecurityOptionsDisableClientDigitallySignCommunicationsIfServerAgrees":  false,
+    "localSecurityOptionsClientDigitallySignCommunicationsAlways":  false,
+    "localSecurityOptionsClientSendUnencryptedPasswordToThirdPartySMBServers":  false,
+    "localSecurityOptionsDisableServerDigitallySignCommunicationsAlways":  false,
+    "localSecurityOptionsDisableServerDigitallySignCommunicationsIfClientAgrees":  false,
+    "localSecurityOptionsRestrictAnonymousAccessToNamedPipesAndShares":  false,
+    "localSecurityOptionsDoNotAllowAnonymousEnumerationOfSAMAccounts":  false,
+    "localSecurityOptionsAllowAnonymousEnumerationOfSAMAccountsAndShares":  false,
+    "localSecurityOptionsDoNotStoreLANManagerHashValueOnNextPasswordChange":  false,
+    "localSecurityOptionsSmartCardRemovalBehavior":  "lockWorkstation",
+    "defenderSecurityCenterDisableAppBrowserUI":  null,
+    "defenderSecurityCenterDisableFamilyUI":  null,
+    "defenderSecurityCenterDisableHealthUI":  null,
+    "defenderSecurityCenterDisableNetworkUI":  null,
+    "defenderSecurityCenterDisableVirusUI":  null,
+    "defenderSecurityCenterDisableAccountUI":  null,
+    "defenderSecurityCenterDisableClearTpmUI":  null,
+    "defenderSecurityCenterDisableHardwareUI":  null,
+    "defenderSecurityCenterDisableNotificationAreaUI":  null,
+    "defenderSecurityCenterDisableRansomwareUI":  null,
+    "defenderSecurityCenterDisableSecureBootUI":  null,
+    "defenderSecurityCenterDisableTroubleshootingUI":  null,
+    "defenderSecurityCenterDisableVulnerableTpmFirmwareUpdateUI":  null,
+    "defenderSecurityCenterOrganizationDisplayName":  null,
+    "defenderSecurityCenterHelpEmail":  null,
+    "defenderSecurityCenterHelpPhone":  null,
+    "defenderSecurityCenterHelpURL":  null,
+    "defenderSecurityCenterNotificationsFromApp":  "notConfigured",
+    "defenderSecurityCenterITContactDisplay":  "notConfigured",
+    "windowsDefenderTamperProtection":  "notConfigured",
+    "firewallBlockStatefulFTP":  null,
+    "firewallIdleTimeoutForSecurityAssociationInSeconds":  null,
+    "firewallPreSharedKeyEncodingMethod":  "deviceDefault",
+    "firewallIPSecExemptionsNone":  false,
+    "firewallIPSecExemptionsAllowNeighborDiscovery":  false,
+    "firewallIPSecExemptionsAllowICMP":  false,
+    "firewallIPSecExemptionsAllowRouterDiscovery":  false,
+    "firewallIPSecExemptionsAllowDHCP":  false,
+    "firewallCertificateRevocationListCheckMethod":  "deviceDefault",
+    "firewallMergeKeyingModuleSettings":  null,
+    "firewallPacketQueueingMethod":  "deviceDefault",
+    "firewallProfileDomain":  null,
+    "firewallProfilePublic":  null,
+    "firewallProfilePrivate":  null,
+    "defenderAdobeReaderLaunchChildProcess":  "userDefined",
+    "defenderAttackSurfaceReductionExcludedPaths":  [
+
+                                                    ],
+    "defenderOfficeAppsOtherProcessInjectionType":  "userDefined",
+    "defenderOfficeAppsOtherProcessInjection":  "userDefined",
+    "defenderOfficeCommunicationAppsLaunchChildProcess":  "userDefined",
+    "defenderOfficeAppsExecutableContentCreationOrLaunchType":  "userDefined",
+    "defenderOfficeAppsExecutableContentCreationOrLaunch":  "userDefined",
+    "defenderOfficeAppsLaunchChildProcessType":  "userDefined",
+    "defenderOfficeAppsLaunchChildProcess":  "userDefined",
+    "defenderOfficeMacroCodeAllowWin32ImportsType":  "userDefined",
+    "defenderOfficeMacroCodeAllowWin32Imports":  "userDefined",
+    "defenderScriptObfuscatedMacroCodeType":  "userDefined",
+    "defenderScriptObfuscatedMacroCode":  "userDefined",
+    "defenderScriptDownloadedPayloadExecutionType":  "userDefined",
+    "defenderScriptDownloadedPayloadExecution":  "userDefined",
+    "defenderPreventCredentialStealingType":  "userDefined",
+    "defenderProcessCreationType":  "userDefined",
+    "defenderProcessCreation":  "userDefined",
+    "defenderUntrustedUSBProcessType":  "userDefined",
+    "defenderUntrustedUSBProcess":  "userDefined",
+    "defenderUntrustedExecutableType":  "userDefined",
+    "defenderUntrustedExecutable":  "userDefined",
+    "defenderEmailContentExecutionType":  "userDefined",
+    "defenderEmailContentExecution":  "userDefined",
+    "defenderAdvancedRansomewareProtectionType":  "userDefined",
+    "defenderGuardMyFoldersType":  "userDefined",
+    "defenderGuardedFoldersAllowedAppPaths":  [
+
+                                              ],
+    "defenderAdditionalGuardedFolders":  [
+
+                                         ],
+    "defenderNetworkProtectionType":  "enable",
+    "defenderExploitProtectionXml":  null,
+    "defenderExploitProtectionXmlFileName":  null,
+    "defenderSecurityCenterBlockExploitProtectionOverride":  false,
+    "appLockerApplicationControl":  "notConfigured",
+    "deviceGuardLocalSystemAuthorityCredentialGuardSettings":  "notConfigured",
+    "deviceGuardEnableVirtualizationBasedSecurity":  false,
+    "deviceGuardEnableSecureBootWithDMA":  false,
+    "deviceGuardSecureBootWithDMA":  "notConfigured",
+    "deviceGuardLaunchSystemGuard":  "notConfigured",
+    "smartScreenEnableInShell":  false,
+    "smartScreenBlockOverrideForFiles":  false,
+    "applicationGuardEnabled":  false,
+    "applicationGuardEnabledOptions":  "notConfigured",
+    "applicationGuardBlockFileTransfer":  "notConfigured",
+    "applicationGuardBlockNonEnterpriseContent":  false,
+    "applicationGuardAllowPersistence":  false,
+    "applicationGuardForceAuditing":  false,
+    "applicationGuardBlockClipboardSharing":  "notConfigured",
+    "applicationGuardAllowPrintToPDF":  false,
+    "applicationGuardAllowPrintToXPS":  false,
+    "applicationGuardAllowPrintToLocalPrinters":  false,
+    "applicationGuardAllowPrintToNetworkPrinters":  false,
+    "applicationGuardAllowVirtualGPU":  false,
+    "applicationGuardAllowFileSaveOnHost":  false,
+    "bitLockerAllowStandardUserEncryption":  false,
+    "bitLockerDisableWarningForOtherDiskEncryption":  false,
+    "bitLockerEnableStorageCardEncryptionOnMobile":  false,
+    "bitLockerEncryptDevice":  false,
+    "bitLockerRecoveryPasswordRotation":  "notConfigured",
+    "defenderDisableScanArchiveFiles":  null,
+    "defenderAllowScanArchiveFiles":  null,
+    "defenderDisableBehaviorMonitoring":  null,
+    "defenderAllowBehaviorMonitoring":  null,
+    "defenderDisableCloudProtection":  null,
+    "defenderAllowCloudProtection":  null,
+    "defenderEnableScanIncomingMail":  null,
+    "defenderEnableScanMappedNetworkDrivesDuringFullScan":  null,
+    "defenderDisableScanRemovableDrivesDuringFullScan":  null,
+    "defenderAllowScanRemovableDrivesDuringFullScan":  null,
+    "defenderDisableScanDownloads":  null,
+    "defenderAllowScanDownloads":  null,
+    "defenderDisableIntrusionPreventionSystem":  null,
+    "defenderAllowIntrusionPreventionSystem":  null,
+    "defenderDisableOnAccessProtection":  null,
+    "defenderAllowOnAccessProtection":  null,
+    "defenderDisableRealTimeMonitoring":  null,
+    "defenderAllowRealTimeMonitoring":  null,
+    "defenderDisableScanNetworkFiles":  null,
+    "defenderAllowScanNetworkFiles":  null,
+    "defenderDisableScanScriptsLoadedInInternetExplorer":  null,
+    "defenderAllowScanScriptsLoadedInInternetExplorer":  null,
+    "defenderBlockEndUserAccess":  null,
+    "defenderAllowEndUserAccess":  null,
+    "defenderScanMaxCpuPercentage":  null,
+    "defenderCheckForSignaturesBeforeRunningScan":  null,
+    "defenderCloudBlockLevel":  null,
+    "defenderCloudExtendedTimeoutInSeconds":  null,
+    "defenderDaysBeforeDeletingQuarantinedMalware":  null,
+    "defenderDisableCatchupFullScan":  null,
+    "defenderDisableCatchupQuickScan":  null,
+    "defenderEnableLowCpuPriority":  null,
+    "defenderFileExtensionsToExclude":  [
+
+                                        ],
+    "defenderFilesAndFoldersToExclude":  [
+
+                                         ],
+    "defenderProcessesToExclude":  [
+
+                                   ],
+    "defenderPotentiallyUnwantedAppAction":  null,
+    "defenderScanDirection":  null,
+    "defenderScanType":  null,
+    "defenderScheduledQuickScanTime":  null,
+    "defenderScheduledScanDay":  null,
+    "defenderScheduledScanTime":  null,
+    "defenderSignatureUpdateIntervalInHours":  null,
+    "defenderSubmitSamplesConsentType":  null,
+    "defenderDetectedMalwareActions":  null,
+    "firewallRules":  [
+
+                      ],
+    "userRightsAccessCredentialManagerAsTrustedCaller":  {
+                                                             "state":  "notConfigured",
+                                                             "localUsersOrGroups":  [
+
+                                                                                    ]
+                                                         },
+    "userRightsAllowAccessFromNetwork":  {
+                                             "state":  "notConfigured",
+                                             "localUsersOrGroups":  [
+
+                                                                    ]
+                                         },
+    "userRightsBlockAccessFromNetwork":  {
+                                             "state":  "notConfigured",
+                                             "localUsersOrGroups":  [
+
+                                                                    ]
+                                         },
+    "userRightsActAsPartOfTheOperatingSystem":  {
+                                                    "state":  "notConfigured",
+                                                    "localUsersOrGroups":  [
+
+                                                                           ]
+                                                },
+    "userRightsLocalLogOn":  {
+                                 "state":  "notConfigured",
+                                 "localUsersOrGroups":  [
+
+                                                        ]
+                             },
+    "userRightsDenyLocalLogOn":  {
+                                     "state":  "notConfigured",
+                                     "localUsersOrGroups":  [
+
+                                                            ]
+                                 },
+    "userRightsBackupData":  {
+                                 "state":  "notConfigured",
+                                 "localUsersOrGroups":  [
+
+                                                        ]
+                             },
+    "userRightsChangeSystemTime":  {
+                                       "state":  "notConfigured",
+                                       "localUsersOrGroups":  [
+
+                                                              ]
+                                   },
+    "userRightsCreateGlobalObjects":  {
+                                          "state":  "notConfigured",
+                                          "localUsersOrGroups":  [
+
+                                                                 ]
+                                      },
+    "userRightsCreatePageFile":  {
+                                     "state":  "notConfigured",
+                                     "localUsersOrGroups":  [
+
+                                                            ]
+                                 },
+    "userRightsCreatePermanentSharedObjects":  {
+                                                   "state":  "notConfigured",
+                                                   "localUsersOrGroups":  [
+
+                                                                          ]
+                                               },
+    "userRightsCreateSymbolicLinks":  {
+                                          "state":  "notConfigured",
+                                          "localUsersOrGroups":  [
+
+                                                                 ]
+                                      },
+    "userRightsCreateToken":  {
+                                  "state":  "notConfigured",
+                                  "localUsersOrGroups":  [
+
+                                                         ]
+                              },
+    "userRightsDebugPrograms":  {
+                                    "state":  "notConfigured",
+                                    "localUsersOrGroups":  [
+
+                                                           ]
+                                },
+    "userRightsRemoteDesktopServicesLogOn":  {
+                                                 "state":  "notConfigured",
+                                                 "localUsersOrGroups":  [
+
+                                                                        ]
+                                             },
+    "userRightsDelegation":  {
+                                 "state":  "notConfigured",
+                                 "localUsersOrGroups":  [
+
+                                                        ]
+                             },
+    "userRightsGenerateSecurityAudits":  {
+                                             "state":  "notConfigured",
+                                             "localUsersOrGroups":  [
+
+                                                                    ]
+                                         },
+    "userRightsImpersonateClient":  {
+                                        "state":  "notConfigured",
+                                        "localUsersOrGroups":  [
+
+                                                               ]
+                                    },
+    "userRightsIncreaseSchedulingPriority":  {
+                                                 "state":  "notConfigured",
+                                                 "localUsersOrGroups":  [
+
+                                                                        ]
+                                             },
+    "userRightsLoadUnloadDrivers":  {
+                                        "state":  "notConfigured",
+                                        "localUsersOrGroups":  [
+
+                                                               ]
+                                    },
+    "userRightsLockMemory":  {
+                                 "state":  "notConfigured",
+                                 "localUsersOrGroups":  [
+
+                                                        ]
+                             },
+    "userRightsManageAuditingAndSecurityLogs":  {
+                                                    "state":  "notConfigured",
+                                                    "localUsersOrGroups":  [
+
+                                                                           ]
+                                                },
+    "userRightsManageVolumes":  {
+                                    "state":  "notConfigured",
+                                    "localUsersOrGroups":  [
+
+                                                           ]
+                                },
+    "userRightsModifyFirmwareEnvironment":  {
+                                                "state":  "notConfigured",
+                                                "localUsersOrGroups":  [
+
+                                                                       ]
+                                            },
+    "userRightsModifyObjectLabels":  {
+                                         "state":  "notConfigured",
+                                         "localUsersOrGroups":  [
+
+                                                                ]
+                                     },
+    "userRightsProfileSingleProcess":  {
+                                           "state":  "notConfigured",
+                                           "localUsersOrGroups":  [
+
+                                                                  ]
+                                       },
+    "userRightsRemoteShutdown":  {
+                                     "state":  "notConfigured",
+                                     "localUsersOrGroups":  [
+
+                                                            ]
+                                 },
+    "userRightsRestoreData":  {
+                                  "state":  "notConfigured",
+                                  "localUsersOrGroups":  [
+
+                                                         ]
+                              },
+    "userRightsTakeOwnership":  {
+                                    "state":  "notConfigured",
+                                    "localUsersOrGroups":  [
+
+                                                           ]
+                                },
+    "bitLockerSystemDrivePolicy":  {
+                                       "encryptionMethod":  null,
+                                       "startupAuthenticationRequired":  false,
+                                       "startupAuthenticationBlockWithoutTpmChip":  false,
+                                       "startupAuthenticationTpmUsage":  "blocked",
+                                       "startupAuthenticationTpmPinUsage":  "blocked",
+                                       "startupAuthenticationTpmKeyUsage":  "blocked",
+                                       "startupAuthenticationTpmPinAndKeyUsage":  "blocked",
+                                       "minimumPinLength":  null,
+                                       "recoveryOptions":  null,
+                                       "prebootRecoveryEnableMessageAndUrl":  false,
+                                       "prebootRecoveryMessage":  null,
+                                       "prebootRecoveryUrl":  null
+                                   },
+    "bitLockerFixedDrivePolicy":  {
+                                      "encryptionMethod":  null,
+                                      "requireEncryptionForWriteAccess":  false,
+                                      "recoveryOptions":  null
+                                  },
+    "bitLockerRemovableDrivePolicy":  {
+                                          "encryptionMethod":  null,
+                                          "requireEncryptionForWriteAccess":  false,
+                                          "blockCrossOrganizationWriteAccess":  false
+                                      }
+}

@@ -1,0 +1,152 @@
+MDM settings,As per Profile Manager MDM
+,
+Chrome management ,
+User & Browser settings,
+Smart Lock for Chrome,Do not allow Smart Lock for Chrome 
+Browser sign-in settings,"Consider blocking users from signing in or out of Google Accounts within the browser. This will prevent users from signing into their personal Google Accounts on an Enterprise device. If this has been set to blocked, also ensure that Guest Mode and Incognito Mode are blocked, and that Sign-in Restriction is enabled. If allowing users to sign into their personal Google Accounts, Guest Mode and Incognito Mode can be enabled."
+Restrict sign-in to pattern,"Restrict Sign-in to list of users. Enter all domains used by your organisation, with the wildcard as the username, such as:
+*@example.com
+*@sales.example.com
+Wildcards should not be used in the domain portion of the entries to ensure only users from managed domains and not unmanaged subdomains or third-party domains are allowed to sign in.
+"
+Enrolment Permissions,Create a separate 'enrolment users' OU and ensure that users in this OU are the only ones able to enrol new devices. These accounts should not have access to any other data or applications. Allow users to re-enroll their existing devices.
+Site Isolation ,Turn on site isolation for all websites
+Site Isolation (Chrome on Android) ,Turn on site isolation for all websites
+Password Manager,Always allow use of password manager
+Lock Screen,Allow locking screen
+Idle Settings,"Set an appropriate idle time. Around 5 minutes is recommended.
+Lock screen on sleep
+"
+Incognito Mode,"If you are blocking users from signing into personal Google Accounts via ""Browser sign-in settings"", set this to Block, otherwise set to allow incognito mode "
+Force Ephemeral Mode,Erase all local user data 
+Online Revocation Checks,Perform online OCSP/CRL checks
+RC4 cipher suites in TLS,Disable RC4
+Local Trust Anchors Certificates,"Follow the publicly announced SHA-1 depreciation schedule for Local Anchors Sha1
+Block Local Anchors Common Name Fallback
+Block Symantec Corporation’s Legacy PKI Infrastructure
+"
+Enable leak detection for entered credentials,Enable leak detection for entered credentials
+Remote access clients,Remote access clients should not be configured unless absolutely necessary
+Elevated UI access for remote support,"If any remote access clients have been defined, this should be set to ‘prevent’."
+Proxy mode,"Force the use of a specific proxy if a proxy is used. Otherwise, select 'never use a proxy'. This can be set per-network if required."
+SSL Record Splitting,Enable SSL record splitting
+Data Compression Proxy,Always disable data compression proxy
+CORS legacy mode,Disable legacy mode
+CORS mitigations,Enable CORS mitigations
+Google location services,"Disable location services for Android apps in Chrome OS, or allow users to choose to enable."
+Account Management,Disable users adding any accounts
+Plugin Finder,Disable automatic search and installation of missing plugins
+Plugin Authorization,Ask for user permission before running plugins that require authorization
+Outdated Plugins,Disallow outdated plugins. This reduces the chance an attacker can exploit a plugin using a known and patched vulnerability.
+Strict treatment for mixed content,User strict treatment for mixed content
+Control use of insecure content exceptions,Do not allow any site to load blockable mixed content
+Developer Tools,"Never allow the use of built-in developer tools. There are some legitimate use-cases for developer tools but these should be permitted on an individual basis. 
+Note that this setting controls the browser’s web developer tools and not Chrome OS Developer mode.
+"
+Multiple Sign-in Access,"Block multiple sign-in access for users in this organization, as otherwise, policies may not apply to a secondary user logged-into the device."
+Sign-in to secondary accounts,Block users from signing in to or out of secondary Google accounts
+External Storage Devices,Configure this in line with corporate policy on the use of external storage devices.
+Verified Mode,Require verified mode boot for Verified Access.
+Safe Browsing,Always enable Safe Browsing
+Download restrictions,Block dangerous downloads
+Disable bypassing Safe Browsing warnings,Do not allow users to bypass Safe Browsing warnings
+Password alert,Trigger on password reused on phishing page.
+Legacy Browser support,Disable legacy browser support
+Chrome Management for Signed-in Users ,"Apply all user policies when users sign into Chrome, and provide a managed Chrome experience"
+,
+Device settings,
+Forced Re-enrolment,Force device to re-enrol into this domain after wiping. This will also prevent users from enabling Developer mode on the device and enforce secure boot.
+Verified Access,"Enable for Enterprise Extensions (this option is not available in the UI)
+Enable for Content Protection"
+Verified Mode,Require verified mode boot for Verified Access
+Guest Mode,Do not allow guest mode. This is discussed further in the Other Considerations section.
+Sign-in Restriction,"Restrict Sign-in to list of users. Enter all domains used by Google Admin with the wildcard as the username, such as:
+*@example.com
+*@sales.example.com
+Wildcards should not be used in the domain portion of the entries to ensure only users from managed domains and not unmanaged subdomains or third-party domains are allowed to sign in.
+"
+Autocomplete Domain,Do not display an autocomplete domain on the sign-in screen.
+Auto Update Settings,"Allow auto-updates
+No restriction on Google Chrome version
+"
+Release Channel,Move to Stable Channel
+Managed guest session,Do not allow managed guest sessions.
+Device Reporting,Enable device state reporting 
+Device User Tracking,Enable tracking recent device users 
+Inactive Device Notifications,"Enable inactive device notifications
+Set inactive range, notification cadence and email addresses as appropriate for the organisation. This recommendation aims to reduce the number of unused but available devices that have access to business data."
+Anonymous Metric Reporting,Never send metrics to Google
+Bluetooth,Disable Bluetooth unless required
+TPM Firmware Update,Allow users to perform TPM firmware updates. Users should follow the guidance on how to update their TPM and ensure that any local documents are backed up prior to updating their device.
+Virtual Machines ,Block Chrome OS from running virtual machines
+Allow EMM partners access to device management,Disable Chrome management  - partner access
+,
+Managed guest session settings,
+Managed guest session,"Do not allow managed guest sessions. If it needs to be enabled, configure in line with 'user and browser settings'."
+,
+Android application settings,
+Allow users to install other apps & extensions,Block all other apps & extensions
+Android applications on Chrome Devices,"If this functionality is required and an Android application whitelist is in place, allow. Otherwise, do not allow"
+App and extension install sources,"Only trusted sources should be defined, as required."
+Allow insecure extension packaging  ,Do not allow insecurely packaged extensions
+,
+Security,
+Configure this section to organisation policy,
+Basic settings: Enforce 2SV,"Consider enforcing two step verification (2SV) for all users. On Chrome OS, two step verification is enforced only at first login.
+One 2SV is enabled, it must be allowed and configured by each user individually.
+"
+Alert center: Rules,"The following rules should be set to active, at a minimum:
+ • Device compromised
+ • Domain data export initiated
+ • Government-backed attacks
+ • Leaked password
+ • Malware message detected  post-delivery
+ • Phishing in inboxes due to bad whitelist
+ • Phishing message detected post-delivery
+ • Suspicious device activity
+ • Suspicious login
+ • Suspicious message reported
+ • Suspicious programmatic login
+ • User granted Admin privilege
+Consider setting others as appropriate for you organisation.
+"
+Data protection: Data protection rules and detectors,"Refer to 
+https://support.google.com/a/answer/6321530?hl=en"
+Password management ,Configure a strong password policy in line with company policy requirements.
+Less secure apps,Disable access to less secure apps for all users. This can be modified if a business case is available for allowing a less secure app.
+Login Challenges,Consider implementing Login challenges as an additional security measure to verify the identity of users if suspicious login attempts are detected
+Set up Single Sign On (SSO),"When selecting a non-Google SSO provider, ensure that their security guidance is followed."
+Advanced Protection Program: Enrolment,Enable user enrolment
+Advanced settings: Authentication ,"Remove any unnecessary entries from this list, to reduce the number of applications able to directly access your organisation’s data."
+ API Permissions: API Access,Enable API access.
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,

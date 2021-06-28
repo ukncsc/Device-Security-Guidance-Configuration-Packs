@@ -1,0 +1,121 @@
+<AppLockerPolicy Version="1">
+<RuleCollection EnforcementMode="Enabled" Type="Exe">
+  <FilePublisherRule Action="Allow" UserOrGroupSid="S-1-1-0" Description="" Name="*, version 18.0.0.0 and above, in MICROSOFT ONEDRIVE, from O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Id="1242dbca-19a7-4351-8298-4bd4edfb4d8d">
+    <Conditions>
+      <FilePublisherCondition BinaryName="*" ProductName="MICROSOFT ONEDRIVE" PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US">
+        <BinaryVersionRange HighSection="*" LowSection="*"/>
+      </FilePublisherCondition>
+    </Conditions>
+  </FilePublisherRule>
+  <FilePublisherRule Action="Allow" UserOrGroupSid="S-1-1-0" Description="" Name="MICROSOFT TEAMS, from O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Id="75b579da-f591-4380-9d7a-59047789f775">
+    <Conditions>
+      <FilePublisherCondition BinaryName="*" ProductName="MICROSOFT TEAMS" PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US">
+        <BinaryVersionRange HighSection="*" LowSection="*"/>
+      </FilePublisherCondition>
+    </Conditions>
+  </FilePublisherRule>
+  <FilePublisherRule Action="Allow" UserOrGroupSid="S-1-1-0" Description="" Name="MICROSOFT TEAMS UPDATE, from O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Id="769c8959-0b3c-43e7-8d03-bf457723bc8b">
+    <Conditions>
+      <FilePublisherCondition BinaryName="*" ProductName="MICROSOFT TEAMS UPDATE" PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US">
+        <BinaryVersionRange HighSection="*" LowSection="*"/>
+      </FilePublisherCondition>
+    </Conditions>
+  </FilePublisherRule>
+  <FilePathRule Action="Allow" UserOrGroupSid="S-1-1-0" Description="" Name="%OSDRIVE%\USERS\*\APPDATA\LOCAL\MICROSOFT\ONEDRIVE\*" Id="1815bcad-a1a4-4bce-9c0e-c733d6114f6d">
+    <Conditions>
+      <FilePathCondition Path="%OSDRIVE%\USERS\*\APPDATA\LOCAL\MICROSOFT\ONEDRIVE\*"/>
+    </Conditions>
+  </FilePathRule>
+  <FilePathRule Action="Allow" UserOrGroupSid="S-1-1-0" Description="Allows members of the Everyone group to run applications that are located in the Program Files folder." Name="All files located in the Program Files folder" Id="36589a7e-4ac6-4bf0-aab9-1a87a469c7d2">
+    <Conditions>
+       <FilePathCondition Path="%PROGRAMFILES%\*"/>
+    </Conditions>
+  </FilePathRule>
+  <FilePathRule Action="Allow" UserOrGroupSid="S-1-1-0" Description="Allows members of the Everyone group to run applications that are located in the Windows folder." Name="All files located in the Windows folder - with exceptions" Id="5c2a926d-aa07-41ee-8199-2933a0e05979">
+    <Conditions>
+      <FilePathCondition Path="%WINDIR%\*"/>
+    </Conditions>
+  <Exceptions>
+    <FilePathCondition Path="%SYSTEM32%\catroot2\*"/>
+    <FilePathCondition Path="%SYSTEM32%\com\dmp\*"/>
+    <FilePathCondition Path="%SYSTEM32%\FxsTmp\*"/>
+    <FilePathCondition Path="%SYSTEM32%\Spool\drivers\color\*"/>
+    <FilePathCondition Path="%SYSTEM32%\Spool\PRINTERS\*"/>
+    <FilePathCondition Path="%SYSTEM32%\Spool\SERVERS\*"/>
+    <FilePathCondition Path="%SYSTEM32%\Tasks\*"/>
+    <FilePathCondition Path="%WINDIR%\debug\*"/>
+    <FilePathCondition Path="%WINDIR%\Debug\wia\*"/>
+    <FilePathCondition Path="%WINDIR%\pchealth\ERRORREP\*"/>
+    <FilePathCondition Path="%WINDIR%\registration\*"/>
+    <FilePathCondition Path="%WINDIR%\SysWOW64\com\dmp\*"/>
+    <FilePathCondition Path="%WINDIR%\SysWOW64\FxsTmp\*"/>
+    <FilePathCondition Path="%WINDIR%\SysWOW64\Tasks\*"/>
+    <FilePathCondition Path="%WINDIR%\Tasks\*"/>
+    <FilePathCondition Path="%WINDIR%\temp\*"/>
+    <FilePathCondition Path="%WINDIR%\Tracing\*"/>
+    <FilePublisherCondition BinaryName="MSHTA.EXE" ProductName="INTERNET EXPLORER" PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US">
+      <BinaryVersionRange HighSection="*" LowSection="11.0.0.0"/>
+    </FilePublisherCondition>
+    <FilePublisherCondition BinaryName="CSCRIPT.EXE" ProductName="MICROSOFT ® WINDOWS SCRIPT HOST" PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US">
+      <BinaryVersionRange HighSection="*" LowSection="5.8.0.0"/>
+    </FilePublisherCondition>
+    <FilePublisherCondition BinaryName="WSCRIPT.EXE" ProductName="MICROSOFT ® WINDOWS SCRIPT HOST" PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US">
+      <BinaryVersionRange HighSection="*" LowSection="5.8.0.0"/>
+    </FilePublisherCondition>
+    <FilePublisherCondition BinaryName="IEEXEC.EXE" ProductName="MICROSOFT® .NET FRAMEWORK" PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US">
+      <BinaryVersionRange HighSection="*" LowSection="2.0.0.0"/>
+    </FilePublisherCondition>
+    <FilePublisherCondition BinaryName="INSTALLUTIL.EXE" ProductName="MICROSOFT® .NET FRAMEWORK" PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US">
+      <BinaryVersionRange HighSection="*" LowSection="2.0.0.0"/>
+    </FilePublisherCondition>
+      <FilePublisherCondition BinaryName="FTP.EXE" ProductName="MICROSOFT® WINDOWS® OPERATING SYSTEM" PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US">
+    <BinaryVersionRange HighSection="*" LowSection="6.3.9600.17415"/>
+      </FilePublisherCondition>
+    <FilePublisherCondition BinaryName="NET.EXE" ProductName="MICROSOFT® WINDOWS® OPERATING SYSTEM" PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US">
+      <BinaryVersionRange HighSection="*" LowSection="6.3.0.0"/>
+    </FilePublisherCondition>
+    <FilePublisherCondition BinaryName="NET1.EXE" ProductName="MICROSOFT® WINDOWS® OPERATING SYSTEM" PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US">
+      <BinaryVersionRange HighSection="*" LowSection="6.3.0.0"/>
+    </FilePublisherCondition>
+      <FilePublisherCondition BinaryName="NETSH.EXE" ProductName="MICROSOFT® WINDOWS® OPERATING SYSTEM" PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US">
+    <BinaryVersionRange HighSection="*" LowSection="6.3.0.0"/>
+      </FilePublisherCondition>
+    <FilePublisherCondition BinaryName="POWERSHELL_ISE.EXE" ProductName="MICROSOFT® WINDOWS® OPERATING SYSTEM" PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US">
+      <BinaryVersionRange HighSection="*" LowSection="6.3.0.0"/>
+    </FilePublisherCondition>
+    <FilePublisherCondition BinaryName="REG.EXE" ProductName="MICROSOFT® WINDOWS® OPERATING SYSTEM" PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US">
+      <BinaryVersionRange HighSection="*" LowSection="6.3.0.0"/>
+    </FilePublisherCondition>
+    <FilePublisherCondition BinaryName="REGEDT32.EXE" ProductName="MICROSOFT® WINDOWS® OPERATING SYSTEM" PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US">
+      <BinaryVersionRange HighSection="*" LowSection="6.3.0.0"/>
+    </FilePublisherCondition>
+    <FilePublisherCondition BinaryName="REGINI.EXE" ProductName="MICROSOFT® WINDOWS® OPERATING SYSTEM" PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US">
+      <BinaryVersionRange HighSection="*" LowSection="6.3.0.0"/>
+    </FilePublisherCondition>
+    <FilePublisherCondition BinaryName="RUNAS.EXE" ProductName="MICROSOFT® WINDOWS® OPERATING SYSTEM" PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US">
+      <BinaryVersionRange HighSection="*" LowSection="6.3.0.0"/>
+    </FilePublisherCondition>
+    </Exceptions>
+  </FilePathRule>
+  <FilePathRule Action="Allow" UserOrGroupSid="S-1-1-0" Description="" Name="%OSDRIVE%\USERS\*\APPDATA\LOCAL\MICROSOFT\Teams\*" Id="87d8f18e-4ada-4026-99bc-8881676e60d9">
+    <Conditions>
+      <FilePathCondition Path="%OSDRIVE%\USERS\*\APPDATA\LOCAL\MICROSOFT\Teams\*"/>
+    </Conditions>
+    </FilePathRule>
+      <FilePathRule Action="Allow" UserOrGroupSid="S-1-1-0" Description="Windows Defender" Name="C:\ProgramData\Microsoft\*" Id="95b9ab17-6f3d-4f15-b93c-06cca9e1236f">
+    <Conditions>
+      <FilePathCondition Path="C:\ProgramData\Microsoft\*"/>
+    </Conditions>
+  </FilePathRule>
+  <FilePathRule Action="Allow" UserOrGroupSid="S-1-1-0" Description="" Name="C:\ProgramData\App-V\*" Id="beac373b-e4fc-49d8-9c27-c9536b84a26b">
+    <Conditions>
+      <FilePathCondition Path="C:\ProgramData\App-V\*"/>
+    </Conditions>
+  </FilePathRule>
+  <FilePathRule Action="Allow" UserOrGroupSid="S-1-5-32-544" Description="Allows members of the local Administrators group to run all applications." Name="(Default Rule) All files" Id="fd686d83-a829-4351-8ff4-27c7de5755d2">
+    <Conditions>
+      <FilePathCondition Path="*"/>
+    </Conditions>
+  </FilePathRule>
+</RuleCollection>
+</AppLockerPolicy>

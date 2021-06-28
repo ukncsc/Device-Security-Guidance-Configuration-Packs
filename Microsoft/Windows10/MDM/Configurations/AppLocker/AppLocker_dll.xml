@@ -1,0 +1,62 @@
+<RuleCollection EnforcementMode="Enabled" Type="Dll">
+  <FilePublisherRule Action="Allow" UserOrGroupSid="S-1-1-0" Description="" Name="*, version 1.0.0.0 and above, in MICROSOFT ONEDRIVE, from O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Id="c4f31fbd-634b-48a9-83b9-6ff20170573b">
+    <Conditions>
+      <FilePublisherCondition BinaryName="*" ProductName="MICROSOFT ONEDRIVE" PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US">
+        <BinaryVersionRange HighSection="*" LowSection="*"/>
+      </FilePublisherCondition>
+    </Conditions>
+  </FilePublisherRule>
+  <FilePathRule Action="Allow" UserOrGroupSid="S-1-1-0" Description="" Name="C:\ProgramData\App-V\*" Id="037a1688-740d-4fdd-998f-a34c246a8f5c">
+    <Conditions>
+      <FilePathCondition Path="C:\ProgramData\App-V\*"/>
+    </Conditions>
+  </FilePathRule>
+    <FilePathRule Action="Allow" UserOrGroupSid="S-1-1-0" Description="Windows Defender" Name="C:\ProgramData\Microsoft\*" Id="1f5ba109-db69-4ee8-8a67-457e21dca38b">
+    <Conditions>
+      <FilePathCondition Path="C:\ProgramData\Microsoft\*"/>
+    </Conditions>
+  </FilePathRule>
+  <FilePathRule Action="Allow" UserOrGroupSid="S-1-1-0" Description="Allows members of the Everyone group to load DLLs that are located in the Program Files folder." Name="(Default Rule) All DLLs located in the Program Files folder" Id="3737732c-99b7-41d4-9037-9cddfb0de0d0">
+    <Conditions>
+      <FilePathCondition Path="%PROGRAMFILES%\*"/>
+    </Conditions>
+  </FilePathRule>
+  <FilePathRule Action="Allow" UserOrGroupSid="S-1-1-0" Description="" Name="%OSDRIVE%\USERS\*\APPDATA\LOCAL\MICROSOFT\Teams\*" Id="a66e2cc1-f655-4d95-a9f8-bd74ae5bbf6c">
+    <Conditions>
+      <FilePathCondition Path="%OSDRIVE%\USERS\*\APPDATA\LOCAL\MICROSOFT\Teams\*"/>
+    </Conditions>
+  </FilePathRule>
+  <FilePathRule Action="Allow" UserOrGroupSid="S-1-1-0" Description="Allows members of the Everyone group to load DLLs located in the Windows folder." Name="Microsoft Windows DLLs - with exceptions for writeable locations" Id="e0e1f454-d63e-41cb-85d5-3c11a9b9889f">
+    <Conditions>
+      <FilePathCondition Path="%WINDIR%\*"/>
+    </Conditions>
+    <Exceptions>
+      <FilePathCondition Path="%SYSTEM32%\catroot2\*"/>
+      <FilePathCondition Path="%SYSTEM32%\com\dmp\*"/>
+      <FilePathCondition Path="%SYSTEM32%\FxsTmp\*"/>
+      <FilePathCondition Path="%SYSTEM32%\spool\drivers\color\*"/>
+      <FilePathCondition Path="%SYSTEM32%\spool\PRINTERS\*"/>
+      <FilePathCondition Path="%SYSTEM32%\spool\SERVERS\*"/>
+      <FilePathCondition Path="%SYSTEM32%\Tasks\*"/>
+      <FilePathCondition Path="%WINDIR%\debug\*"/>
+      <FilePathCondition Path="%WINDIR%\pchealth\ERRORREP\*"/>
+      <FilePathCondition Path="%WINDIR%\registration\*"/>
+      <FilePathCondition Path="%WINDIR%\SysWOW64\com\tmp\*"/>
+      <FilePathCondition Path="%WINDIR%\SysWOW64\FxsTmp\*"/>
+      <FilePathCondition Path="%WINDIR%\SysWOW64\Tasks\*"/>
+      <FilePathCondition Path="%WINDIR%\tasks\*"/>
+      <FilePathCondition Path="%WINDIR%\temp\*"/>
+      <FilePathCondition Path="%WINDIR%\tracing\*"/>
+    </Exceptions>
+  </FilePathRule>
+  <FilePathRule Action="Allow" UserOrGroupSid="S-1-1-0" Description="" Name="%OSDRIVE%\USERS\*\APPDATA\LOCAL\MICROSOFT\ONEDRIVE\*" Id="f4efd36e-56b5-4aec-be6f-673ce3e7bc94">
+    <Conditions>
+      <FilePathCondition Path="%OSDRIVE%\USERS\*\APPDATA\LOCAL\MICROSOFT\ONEDRIVE\*"/>
+    </Conditions>
+  </FilePathRule>
+  <FilePathRule Action="Allow" UserOrGroupSid="S-1-5-32-544" Description="Allows members of the local Administrators group to load all DLLs." Name="(Default Rule) All DLLs" Id="fe64f59f-6fca-45e5-a731-0f6715327c38">
+    <Conditions>
+      <FilePathCondition Path="*"/>
+    </Conditions>
+  </FilePathRule>
+</RuleCollection>

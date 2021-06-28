@@ -1,0 +1,30 @@
+{
+    "@odata.type":  "#microsoft.graph.windowsIdentityProtectionConfiguration",
+    "id":  "017294fc-6b8c-4818-8358-d7213126f667",
+    "lastModifiedDateTime":  "2020-12-11T14:40:09.2679415Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2020-11-20T11:54:37.3414462Z",
+    "description":  null,
+    "displayName":  "NCSC - Identity Protections",
+    "version":  3,
+    "useSecurityKeyForSignin":  false,
+    "enhancedAntiSpoofingForFacialFeaturesEnabled":  true,
+    "pinMinimumLength":  6,
+    "pinMaximumLength":  null,
+    "pinUppercaseCharactersUsage":  "allowed",
+    "pinLowercaseCharactersUsage":  "allowed",
+    "pinSpecialCharactersUsage":  "allowed",
+    "pinExpirationInDays":  0,
+    "pinPreviousBlockCount":  0,
+    "pinRecoveryEnabled":  true,
+    "securityDeviceRequired":  true,
+    "unlockWithBiometricsEnabled":  true,
+    "useCertificatesForOnPremisesAuthEnabled":  false,
+    "windowsHelloForBusinessBlocked":  false
+}

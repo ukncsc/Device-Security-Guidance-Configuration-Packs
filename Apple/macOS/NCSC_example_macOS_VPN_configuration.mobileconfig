@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HasRemovalPasscode</key>
+	<false/>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>IKEv2</key>
+			<dict>
+				<key>AuthenticationMethod</key>
+				<string>Certificate</string>
+				<key>CertificateType</key>
+				<string>ECDSA256</string>
+				<key>ChildSecurityAssociationParameters</key>
+				<dict>
+					<key>DiffieHellmanGroup</key>
+					<integer>19</integer>
+					<key>EncryptionAlgorithm</key>
+					<string>AES-128</string>
+					<key>IntegrityAlgorithm</key>
+					<string>SHA2-256</string>
+					<key>LifeTimeInMinutes</key>
+					<integer>1440</integer>
+				</dict>
+				<key>DeadPeerDetectionRate</key>
+				<string>Medium</string>
+				<key>DisableMOBIKE</key>
+				<integer>0</integer>
+				<key>DisableRedirect</key>
+				<integer>0</integer>
+				<key>EnableCertificateRevocationCheck</key>
+				<true/>
+				<key>EnableFallback</key>
+				<integer>0</integer>
+				<key>EnablePFS</key>
+				<true/>
+				<key>IKESecurityAssociationParameters</key>
+				<dict>
+					<key>DiffieHellmanGroup</key>
+					<integer>19</integer>
+					<key>EncryptionAlgorithm</key>
+					<string>AES-128</string>
+					<key>IntegrityAlgorithm</key>
+					<string>SHA2-256</string>
+					<key>LifeTimeInMinutes</key>
+					<integer>1440</integer>
+				</dict>
+				<key>UseConfigurationAttributeInternalIPSubnet</key>
+				<integer>0</integer>
+			</dict>
+			<key>IPv4</key>
+			<dict>
+				<key>OverridePrimary</key>
+				<integer>0</integer>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures VPN settings</string>
+			<key>PayloadDisplayName</key>
+			<string>VPN</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.vpn.managed.332E1EC4-0666-40AE-9736-B848C46BF272</string>
+			<key>PayloadType</key>
+			<string>com.apple.vpn.managed</string>
+			<key>PayloadUUID</key>
+			<string>332E1EC4-0666-40AE-9736-B848C46BF272</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Proxies</key>
+			<dict>
+				<key>HTTPEnable</key>
+				<integer>0</integer>
+				<key>HTTPSEnable</key>
+				<integer>0</integer>
+			</dict>
+			<key>UserDefinedName</key>
+			<string>NCSC Example macOS VPN configuration</string>
+			<key>VPNType</key>
+			<string>IKEv2</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>This configuration profile contains an example VPN configuration that can be used as a starting point for your own configuration. Configuration options included in this profile should be customised to your particular requirements.</string>
+	<key>PayloadDisplayName</key>
+	<string>NCSC Example macOS VPN configuration</string>
+	<key>PayloadIdentifier</key>
+	<string>uk.gov.ncsc.macos.vpn.example</string>
+	<key>PayloadOrganization</key>
+	<string>Your Organisation Here</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>DDF73AF1-12AB-49A1-967F-EB687CEF2A1D</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

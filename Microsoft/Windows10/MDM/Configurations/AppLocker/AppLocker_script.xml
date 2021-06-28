@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RuleCollection Type="Script" EnforcementMode="Enabled">
+    <FilePathRule Id="ed97d0cb-15ff-430f-b82c-8d7832957725" Name="(Default Rule) All scripts" Description="Allows members of the local Administrators group to run all scripts." UserOrGroupSid="S-1-5-32-544" Action="Allow">
+      <Conditions>
+        <FilePathCondition Path="*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="742c089a-d5bc-4f1e-98dc-2535b7b164b5" Name="All scripts located in the Program Files folder" Description="Allows members of the Everyone group to run scripts that are located in the Program Files folder." UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePathCondition Path="%PROGRAMFILES%\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePathRule Id="2d2e2715-50d1-4f32-9885-7c935e189f44" Name="All scripts located in the Windows folder" Description="Allows members of the Everyone group to run scripts that are located in the Windows folder." UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePathCondition Path="%WINDIR%\*" />
+      </Conditions>
+      <Exceptions>
+        <FilePathCondition Path="%WINDIR%\registration\crmlog\*" />
+        <FilePathCondition Path="%WINDIR%\servicestate\detectionverificationdrv\data\*" />
+        <FilePathCondition Path="%WINDIR%\servicestate\detectionverificationdrv\data:*" />
+        <FilePathCondition Path="%WINDIR%\servicestate\esif_umdf2\data\*" />
+        <FilePathCondition Path="%WINDIR%\servicestate\esif_umdf2\data:*" />
+        <FilePathCondition Path="%WINDIR%\servicestate\helloface\data\*" />
+        <FilePathCondition Path="%WINDIR%\servicestate\helloface\data:*" />
+        <FilePathCondition Path="%WINDIR%\servicestate\sensorscx0102\data\*" />
+        <FilePathCondition Path="%WINDIR%\servicestate\sensorscx0102\data:*" />
+        <FilePathCondition Path="%WINDIR%\servicestate\sensorshidclassdriver\data\*" />
+        <FilePathCondition Path="%WINDIR%\servicestate\sensorshidclassdriver\data:*" />
+        <FilePathCondition Path="%WINDIR%\servicestate\surfacepenpairing\data\*" />
+        <FilePathCondition Path="%WINDIR%\servicestate\surfacepenpairing\data:*" />
+        <FilePathCondition Path="%SYSTEM32%\com\dmp\*" />
+        <FilePathCondition Path="%SYSTEM32%\drivers\driverdata\*" />
+        <FilePathCondition Path="%SYSTEM32%\drivers\driverdata:*" />
+        <FilePathCondition Path="%SYSTEM32%\fxstmp\*" />
+        <FilePathCondition Path="%SYSTEM32%\microsoft\crypto\rsa\machinekeys\*" />
+        <FilePathCondition Path="%SYSTEM32%\microsoft\crypto\rsa\machinekeys:*" />
+        <FilePathCondition Path="%SYSTEM32%\spool\drivers\color\*" />
+        <FilePathCondition Path="%SYSTEM32%\spool\printers\*" />
+        <FilePathCondition Path="%SYSTEM32%\spool\servers\*" />
+        <FilePathCondition Path="%SYSTEM32%\tasks\*" />
+        <FilePathCondition Path="%SYSTEM32%\tasks_migrated\*" />
+		<FilePathCondition Path="%WINDIR%\SysWOW64\com\dmp\*"/>
+		<FilePathCondition Path="%WINDIR%\SysWOW64\FxsTmp\*"/>
+		<FilePathCondition Path="%WINDIR%\SysWOW64\Tasks\*"/>
+        <FilePathCondition Path="%WINDIR%\tasks\*" />
+        <FilePathCondition Path="%WINDIR%\temp\*" />
+        <FilePathCondition Path="%WINDIR%\tracing\*" />
+        <FilePathCondition Path="%WINDIR%\tracing:*" />
+      </Exceptions>
+    </FilePathRule>
+    <FilePathRule Id="cb53b773-9929-4a09-9758-641d189ef2b4" Name="Additional allowed path: %OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*" Description="Allows Everyone to execute from %OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePathCondition Path="%OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*" />
+      </Conditions>
+    </FilePathRule>
+    <FilePublisherRule Id="8a78bdbf-dad8-4b32-ba4f-2d97124e4171" Name="Microsoft Teams: Signer/product rule for O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US/MICROSOFT TEAMS" Description="Information acquired from TrustedSigners.ps1" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="MICROSOFT TEAMS" BinaryName="*">
+          <BinaryVersionRange LowSection="*" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+    <FilePublisherRule Id="4584b3d3-9e11-4104-b7fa-851a2274d430" Name="Microsoft-signed script files: Signer rule for O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="Information acquired from TrustedSigners.ps1" UserOrGroupSid="S-1-1-0" Action="Allow">
+      <Conditions>
+        <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="*" BinaryName="*">
+          <BinaryVersionRange LowSection="*" HighSection="*" />
+        </FilePublisherCondition>
+      </Conditions>
+    </FilePublisherRule>
+  </RuleCollection>
