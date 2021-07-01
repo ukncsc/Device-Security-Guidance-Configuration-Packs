@@ -1,5 +1,5 @@
-<AppLockerPolicy Version="1">
-<RuleCollection EnforcementMode="Enabled" Type="Exe">
+<?xml version="1.0" encoding="utf-8"?>
+  <RuleCollection EnforcementMode="Enabled" Type="Exe">
   <FilePublisherRule Action="Allow" UserOrGroupSid="S-1-1-0" Description="" Name="*, version 18.0.0.0 and above, in MICROSOFT ONEDRIVE, from O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Id="1242dbca-19a7-4351-8298-4bd4edfb4d8d">
     <Conditions>
       <FilePublisherCondition BinaryName="*" ProductName="MICROSOFT ONEDRIVE" PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US">
@@ -118,4 +118,3 @@
     </Conditions>
   </FilePathRule>
 </RuleCollection>
-</AppLockerPolicy>
