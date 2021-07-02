@@ -5,3 +5,11 @@ Remember, any guidance points given here are recommendations - they are not mand
 This configuration was last tested against Windows 10 20H2 in December 2020.
 
 Crown Copyright (c) 2020
+
+
+## Supplementary Information ##
+
+- [Installation instructions](https://github.com/ukncsc/Mobile-Device-Guidance-Policy-Packs#microsoft-endpoint-manager)
+
+- NCSC - Firewall and NCSC - Firewall_Rules
+   - These files are currently empty and were included for possible future coverage and for the sake of completeness. Having a firewall profile that is universally applicable is difficult as it is unknown what the requirements are on connectivity from organisation to organisation. You should develop rules specific to your organisation.
