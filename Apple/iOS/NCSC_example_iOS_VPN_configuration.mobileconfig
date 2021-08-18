@@ -40,7 +40,7 @@
 						<key>DisableRedirect</key>
 						<integer>0</integer>
 						<key>EnableCertificateRevocationCheck</key>
-						<integer>0</integer>
+						<integer>1</integer>
 						<key>EnableFallback</key>
 						<integer>0</integer>
 						<key>EnablePFS</key>
@@ -108,7 +108,7 @@
 				<integer>0</integer>
 			</dict>
 			<key>UserDefinedName</key>
-			<string>CTX VPN</string>
+			<string>NCSC Example VPN configuration</string>
 			<key>VPNType</key>
 			<string>AlwaysOn</string>
 			<key>VendorConfig</key>
