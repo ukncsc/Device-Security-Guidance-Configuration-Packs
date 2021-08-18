@@ -1,7 +1,7 @@
 {
     "@odata.type":  "#microsoft.graph.windows10GeneralConfiguration",
-    "id":  "b6d486e8-057b-4d1f-83a5-18cdfe76d2a4",
-    "lastModifiedDateTime":  "2020-11-19T14:26:13.5630669Z",
+    "id":  "23b8821d-7f63-46d8-822c-6b83f62dd84a",
+    "lastModifiedDateTime":  "2021-08-06T11:21:06.0011492Z",
     "roleScopeTagIds":  [
                             "0"
                         ],
@@ -9,10 +9,10 @@
     "deviceManagementApplicabilityRuleOsEdition":  null,
     "deviceManagementApplicabilityRuleOsVersion":  null,
     "deviceManagementApplicabilityRuleDeviceMode":  null,
-    "createdDateTime":  "2020-11-19T14:26:12.9747461Z",
+    "createdDateTime":  "2021-08-06T11:21:06.0011492Z",
     "description":  null,
     "displayName":  "NCSC - Device Control",
-    "version":  2,
+    "version":  1,
     "taskManagerBlockEndTask":  false,
     "energySaverOnBatteryThresholdPercentage":  null,
     "energySaverPluggedInThresholdPercentage":  null,

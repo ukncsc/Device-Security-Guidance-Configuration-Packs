@@ -1,7 +1,7 @@
 {
     "@odata.type":  "#microsoft.graph.windows10GeneralConfiguration",
-    "id":  "66b23fa7-b9a8-45cd-9fed-16699af237ef",
-    "lastModifiedDateTime":  "2020-11-19T14:52:06.6684485Z",
+    "id":  "137b31f8-b913-47a6-81df-4abc7a5bdf45",
+    "lastModifiedDateTime":  "2021-08-06T12:59:52.9148006Z",
     "roleScopeTagIds":  [
                             "0"
                         ],
@@ -9,10 +9,10 @@
     "deviceManagementApplicabilityRuleOsEdition":  null,
     "deviceManagementApplicabilityRuleOsVersion":  null,
     "deviceManagementApplicabilityRuleDeviceMode":  null,
-    "createdDateTime":  "2020-11-19T14:52:06.16601Z",
+    "createdDateTime":  "2021-08-06T11:21:16.9941657Z",
     "description":  null,
     "displayName":  "NCSC - Web Protections (DR)",
-    "version":  2,
+    "version":  3,
     "taskManagerBlockEndTask":  false,
     "energySaverOnBatteryThresholdPercentage":  null,
     "energySaverPluggedInThresholdPercentage":  null,
@@ -309,7 +309,7 @@
     "tenantLockdownRequireNetworkDuringOutOfBoxExperience":  false,
     "appManagementMSIAllowUserControlOverInstall":  false,
     "appManagementMSIAlwaysInstallWithElevatedPrivileges":  false,
-    "dataProtectionBlockDirectMemoryAccess":  false,
+    "dataProtectionBlockDirectMemoryAccess":  true,
     "appManagementPackageFamilyNamesToLaunchAfterLogOn":  [
 
                                                           ],

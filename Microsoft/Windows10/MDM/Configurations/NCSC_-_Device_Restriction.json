@@ -1,7 +1,7 @@
 {
     "@odata.type":  "#microsoft.graph.windows10GeneralConfiguration",
-    "id":  "4b5c1f0f-5209-4d42-9767-38dd8a5adc53",
-    "lastModifiedDateTime":  "2020-12-11T14:39:05.9009962Z",
+    "id":  "e3d9ea58-d79c-4e7a-b094-2b752acb6615",
+    "lastModifiedDateTime":  "2021-08-06T12:56:54.0864212Z",
     "roleScopeTagIds":  [
                             "0"
                         ],
@@ -9,10 +9,10 @@
     "deviceManagementApplicabilityRuleOsEdition":  null,
     "deviceManagementApplicabilityRuleOsVersion":  null,
     "deviceManagementApplicabilityRuleDeviceMode":  null,
-    "createdDateTime":  "2020-11-23T11:26:05.7437103Z",
+    "createdDateTime":  "2021-08-06T11:21:07.0223157Z",
     "description":  null,
     "displayName":  "NCSC - Device Restriction",
-    "version":  4,
+    "version":  3,
     "taskManagerBlockEndTask":  false,
     "energySaverOnBatteryThresholdPercentage":  null,
     "energySaverPluggedInThresholdPercentage":  null,
@@ -309,7 +309,7 @@
     "tenantLockdownRequireNetworkDuringOutOfBoxExperience":  true,
     "appManagementMSIAllowUserControlOverInstall":  true,
     "appManagementMSIAlwaysInstallWithElevatedPrivileges":  true,
-    "dataProtectionBlockDirectMemoryAccess":  false,
+    "dataProtectionBlockDirectMemoryAccess":  true,
     "appManagementPackageFamilyNamesToLaunchAfterLogOn":  [
 
                                                           ],
