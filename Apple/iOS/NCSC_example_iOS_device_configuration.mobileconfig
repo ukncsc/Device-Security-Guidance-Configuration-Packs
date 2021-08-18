@@ -8,27 +8,76 @@
 	<array>
 		<dict>
 			<key>PayloadDescription</key>
+			<string>Configures passcode settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Passcode</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mobiledevice.passwordpolicy.4ED70A96-02CB-49D5-A46F-4E4C0868D917</string>
+			<key>PayloadType</key>
+			<string>com.apple.mobiledevice.passwordpolicy</string>
+			<key>PayloadUUID</key>
+			<string>4ED70A96-02CB-49D5-A46F-4E4C0868D917</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowSimple</key>
+			<true/>
+			<key>forcePIN</key>
+			<true/>
+			<key>minLength</key>
+			<integer>8</integer>
+			<key>requireAlphanumeric</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>NotificationSettings</key>
+			<array>
+				<dict>
+					<key>AlertType</key>
+					<integer>2</integer>
+					<key>BundleIdentifier</key>
+					<string>com.apple.MobileSMS</string>
+					<key>GroupingType</key>
+					<integer>0</integer>
+					<key>PreviewType</key>
+					<integer>1</integer>
+					<key>ShowInNotificationCenter</key>
+					<false/>
+				</dict>
+			</array>
+			<key>PayloadDescription</key>
+			<string>Configures notifications settings for apps</string>
+			<key>PayloadDisplayName</key>
+			<string>Notifications</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.notificationsettings.65A1B78B-251D-4025-9259-8FF3741962A4</string>
+			<key>PayloadType</key>
+			<string>com.apple.notificationsettings</string>
+			<key>PayloadUUID</key>
+			<string>65A1B78B-251D-4025-9259-8FF3741962A4</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadDescription</key>
 			<string>Configures restrictions</string>
 			<key>PayloadDisplayName</key>
 			<string>Restrictions</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.applicationaccess.56C35EC7-FFE3-483D-8AE8-58A6584A9ED7</string>
+			<string>com.apple.applicationaccess.0F425154-CEF8-4441-B6CF-B0F39B9A70CB</string>
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>56C35EC7-FFE3-483D-8AE8-58A6584A9ED7</string>
+			<string>0F425154-CEF8-4441-B6CF-B0F39B9A70CB</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowAccountModification</key>
 			<false/>
 			<key>allowActivityContinuation</key>
-			<true/>
+			<false/>
 			<key>allowAddingGameCenterFriends</key>
 			<true/>
 			<key>allowAirDrop</key>
 			<false/>
 			<key>allowAirPlayIncomingRequests</key>
-			<true/>
+			<false/>
 			<key>allowAirPrint</key>
 			<true/>
 			<key>allowAirPrintCredentialsStorage</key>
@@ -37,10 +86,14 @@
 			<true/>
 			<key>allowAppCellularDataModification</key>
 			<true/>
+			<key>allowAppClips</key>
+			<false/>
 			<key>allowAppInstallation</key>
 			<true/>
 			<key>allowAppRemoval</key>
-			<true/>
+			<false/>
+			<key>allowApplePersonalizedAdvertising</key>
+			<false/>
 			<key>allowAssistant</key>
 			<true/>
 			<key>allowAssistantWhileLocked</key>
@@ -68,7 +121,7 @@
 			<key>allowCloudKeychainSync</key>
 			<false/>
 			<key>allowCloudPhotoLibrary</key>
-			<true/>
+			<false/>
 			<key>allowContinuousPathKeyboard</key>
 			<true/>
 			<key>allowDefinitionLookup</key>
@@ -76,7 +129,7 @@
 			<key>allowDeviceNameModification</key>
 			<true/>
 			<key>allowDeviceSleep</key>
-			<true/>
+			<false/>
 			<key>allowDiagnosticSubmission</key>
 			<false/>
 			<key>allowDictation</key>
@@ -88,27 +141,29 @@
 			<key>allowEnterpriseAppTrust</key>
 			<false/>
 			<key>allowEnterpriseBookBackup</key>
-			<true/>
+			<false/>
 			<key>allowEnterpriseBookMetadataSync</key>
-			<true/>
+			<false/>
 			<key>allowEraseContentAndSettings</key>
-			<true/>
+			<false/>
 			<key>allowExplicitContent</key>
 			<true/>
 			<key>allowFilesNetworkDriveAccess</key>
-			<true/>
+			<false/>
 			<key>allowFilesUSBDriveAccess</key>
-			<true/>
+			<false/>
 			<key>allowFindMyDevice</key>
 			<true/>
 			<key>allowFindMyFriends</key>
-			<true/>
+			<false/>
+			<key>allowFindMyFriendsModification</key>
+			<false/>
 			<key>allowFingerprintForUnlock</key>
 			<true/>
 			<key>allowFingerprintModification</key>
 			<true/>
 			<key>allowGameCenter</key>
-			<true/>
+			<false/>
 			<key>allowGlobalBackgroundFetchWhenRoaming</key>
 			<true/>
 			<key>allowHostPairing</key>
@@ -130,53 +185,55 @@
 			<key>allowMusicService</key>
 			<true/>
 			<key>allowNews</key>
-			<true/>
+			<false/>
 			<key>allowNotificationsModification</key>
-			<true/>
+			<false/>
 			<key>allowOpenFromManagedToUnmanaged</key>
 			<false/>
 			<key>allowOpenFromUnmanagedToManaged</key>
 			<false/>
 			<key>allowPairedWatch</key>
-			<true/>
+			<false/>
 			<key>allowPassbookWhileLocked</key>
-			<true/>
+			<false/>
 			<key>allowPasscodeModification</key>
 			<true/>
 			<key>allowPasswordAutoFill</key>
 			<true/>
 			<key>allowPasswordProximityRequests</key>
-			<true/>
+			<false/>
 			<key>allowPasswordSharing</key>
-			<true/>
+			<false/>
 			<key>allowPersonalHotspotModification</key>
 			<true/>
 			<key>allowPhotoStream</key>
-			<true/>
+			<false/>
+			<key>allowPodcasts</key>
+			<false/>
 			<key>allowPredictiveKeyboard</key>
 			<true/>
 			<key>allowProximitySetupToNewDevice</key>
-			<true/>
+			<false/>
 			<key>allowRadioService</key>
 			<true/>
 			<key>allowRemoteAppPairing</key>
-			<true/>
+			<false/>
 			<key>allowRemoteScreenObservation</key>
-			<true/>
+			<false/>
 			<key>allowSafari</key>
 			<true/>
 			<key>allowScreenShot</key>
 			<true/>
 			<key>allowSharedStream</key>
-			<true/>
+			<false/>
 			<key>allowSpellCheck</key>
 			<true/>
 			<key>allowSpotlightInternetResults</key>
 			<true/>
 			<key>allowSystemAppRemoval</key>
-			<true/>
-			<key>allowUIAppInstallation</key>
 			<false/>
+			<key>allowUIAppInstallation</key>
+			<true/>
 			<key>allowUIConfigurationProfileInstallation</key>
 			<false/>
 			<key>allowUSBRestrictedMode</key>
@@ -192,19 +249,23 @@
 			<key>allowWallpaperModification</key>
 			<true/>
 			<key>allowiTunes</key>
-			<true/>
+			<false/>
 			<key>blacklistedAppBundleIDs</key>
 			<array>
 				<string>com.apple.shortcuts</string>
 			</array>
 			<key>forceAirDropUnmanaged</key>
 			<true/>
+			<key>forceAirPlayIncomingRequestsPairingPassword</key>
+			<true/>
+			<key>forceAirPlayOutgoingRequestsPairingPassword</key>
+			<true/>
 			<key>forceAirPrintTrustedTLSRequirement</key>
-			<false/>
+			<true/>
 			<key>forceAssistantProfanityFilter</key>
 			<false/>
 			<key>forceAuthenticationBeforeAutoFill</key>
-			<false/>
+			<true/>
 			<key>forceAutomaticDateAndTime</key>
 			<false/>
 			<key>forceClassroomAutomaticallyJoinClasses</key>
@@ -224,7 +285,7 @@
 			<key>forceLimitAdTracking</key>
 			<true/>
 			<key>forceWatchWristDetection</key>
-			<true/>
+			<false/>
 			<key>forceWiFiPowerOn</key>
 			<false/>
 			<key>forceWiFiWhitelisting</key>
@@ -238,41 +299,15 @@
 			<key>ratingTVShows</key>
 			<integer>1000</integer>
 			<key>safariAcceptCookies</key>
-			<integer>2</integer>
+			<real>1.5</real>
 			<key>safariAllowAutoFill</key>
 			<true/>
 			<key>safariAllowJavaScript</key>
 			<true/>
 			<key>safariAllowPopups</key>
-			<true/>
+			<false/>
 			<key>safariForceFraudWarning</key>
 			<true/>
-		</dict>
-		<dict>
-			<key>PayloadDescription</key>
-			<string>Configures passcode settings</string>
-			<key>PayloadDisplayName</key>
-			<string>Passcode</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.mobiledevice.passwordpolicy.0EA2B977-1733-4B87-8B92-97EAC5957FF6</string>
-			<key>PayloadType</key>
-			<string>com.apple.mobiledevice.passwordpolicy</string>
-			<key>PayloadUUID</key>
-			<string>0EA2B977-1733-4B87-8B92-97EAC5957FF6</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>allowSimple</key>
-			<false/>
-			<key>forcePIN</key>
-			<true/>
-			<key>maxFailedAttempts</key>
-			<integer>10</integer>
-			<key>maxInactivity</key>
-			<integer>10</integer>
-			<key>minLength</key>
-			<integer>6</integer>
-			<key>requireAlphanumeric</key>
-			<false/>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>

@@ -34,15 +34,15 @@
 							<integer>1440</integer>
 						</dict>
 						<key>DeadPeerDetectionRate</key>
-						<string>High</string>
+						<string>Medium</string>
 						<key>DisableMOBIKE</key>
 						<integer>0</integer>
 						<key>DisableRedirect</key>
 						<integer>0</integer>
 						<key>EnableCertificateRevocationCheck</key>
-						<true/>
+						<integer>0</integer>
 						<key>EnableFallback</key>
-						<false/>
+						<integer>0</integer>
 						<key>EnablePFS</key>
 						<true/>
 						<key>IKESecurityAssociationParameters</key>
@@ -64,7 +64,7 @@
 						<key>LocalIdentifier</key>
 						<string>device.example.com</string>
 						<key>NATKeepAliveInterval</key>
-						<integer>60</integer>
+						<integer>110</integer>
 						<key>NATKeepAliveOffloadEnable</key>
 						<integer>1</integer>
 						<key>ProtocolType</key>
@@ -77,8 +77,11 @@
 						<integer>0</integer>
 					</dict>
 				</array>
-				<key>UIToggleEnabled</key>
-				<true/>
+			</dict>
+			<key>DNS</key>
+			<dict>
+				<key>SupplementalMatchDomainsNoSearch</key>
+				<integer>0</integer>
 			</dict>
 			<key>IPv4</key>
 			<dict>
@@ -90,11 +93,11 @@
 			<key>PayloadDisplayName</key>
 			<string>VPN</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.vpn.managed.C4180FAE-F129-408D-8F83-943BF92F94DA</string>
+			<string>com.apple.vpn.managed.16EA2765-3DDF-47FA-9251-920CBE3AAFF2</string>
 			<key>PayloadType</key>
 			<string>com.apple.vpn.managed</string>
 			<key>PayloadUUID</key>
-			<string>C4180FAE-F129-408D-8F83-943BF92F94DA</string>
+			<string>16EA2765-3DDF-47FA-9251-920CBE3AAFF2</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Proxies</key>
@@ -105,7 +108,7 @@
 				<integer>0</integer>
 			</dict>
 			<key>UserDefinedName</key>
-			<string>NCSC Example VPN configuration</string>
+			<string>CTX VPN</string>
 			<key>VPNType</key>
 			<string>AlwaysOn</string>
 			<key>VendorConfig</key>

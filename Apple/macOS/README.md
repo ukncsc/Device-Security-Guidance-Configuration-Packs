@@ -2,6 +2,6 @@ This archive contains important security policy settings which are recommended f
 
 Remember, any guidance points given here are recommendations - they are not mandatory. Risk owners and administrators should agree a configuration which balances business requirements, usability and the security of the platform. 
 
-This configuration was last tested against macOS 10.15.1 in November 2019.
+This configuration was last tested against macOS 10.16.
 
-Crown Copyright (c) 2019
+Crown Copyright (c) 2021
