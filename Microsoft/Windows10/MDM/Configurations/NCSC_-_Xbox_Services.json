@@ -1,7 +1,7 @@
 {
     "@odata.type":  "#microsoft.graph.windows10EndpointProtectionConfiguration",
-    "id":  "6c610db8-1454-40d3-b6ff-13b413af642f",
-    "lastModifiedDateTime":  "2020-11-20T14:46:21.7751449Z",
+    "id":  "8fcde9fe-0663-49f0-9665-16a3570a1c76",
+    "lastModifiedDateTime":  "\/Date(1632833995356)\/",
     "roleScopeTagIds":  [
                             "0"
                         ],
@@ -9,11 +9,40 @@
     "deviceManagementApplicabilityRuleOsEdition":  null,
     "deviceManagementApplicabilityRuleOsVersion":  null,
     "deviceManagementApplicabilityRuleDeviceMode":  null,
-    "createdDateTime":  "2020-11-20T14:46:21.7751449Z",
+    "createdDateTime":  "\/Date(1632817300430)\/",
     "description":  null,
     "displayName":  "NCSC - Xbox Services",
-    "version":  1,
+    "version":  3,
     "dmaGuardDeviceEnumerationPolicy":  "deviceDefault",
+    "userRightsAccessCredentialManagerAsTrustedCaller":  null,
+    "userRightsAllowAccessFromNetwork":  null,
+    "userRightsBlockAccessFromNetwork":  null,
+    "userRightsActAsPartOfTheOperatingSystem":  null,
+    "userRightsLocalLogOn":  null,
+    "userRightsDenyLocalLogOn":  null,
+    "userRightsBackupData":  null,
+    "userRightsChangeSystemTime":  null,
+    "userRightsCreateGlobalObjects":  null,
+    "userRightsCreatePageFile":  null,
+    "userRightsCreatePermanentSharedObjects":  null,
+    "userRightsCreateSymbolicLinks":  null,
+    "userRightsCreateToken":  null,
+    "userRightsDebugPrograms":  null,
+    "userRightsRemoteDesktopServicesLogOn":  null,
+    "userRightsDelegation":  null,
+    "userRightsGenerateSecurityAudits":  null,
+    "userRightsImpersonateClient":  null,
+    "userRightsIncreaseSchedulingPriority":  null,
+    "userRightsLoadUnloadDrivers":  null,
+    "userRightsLockMemory":  null,
+    "userRightsManageAuditingAndSecurityLogs":  null,
+    "userRightsManageVolumes":  null,
+    "userRightsModifyFirmwareEnvironment":  null,
+    "userRightsModifyObjectLabels":  null,
+    "userRightsProfileSingleProcess":  null,
+    "userRightsRemoteShutdown":  null,
+    "userRightsRestoreData":  null,
+    "userRightsTakeOwnership":  null,
     "xboxServicesEnableXboxGameSaveTask":  false,
     "xboxServicesAccessoryManagementServiceStartupMode":  "disabled",
     "xboxServicesLiveAuthManagerServiceStartupMode":  "disabled",
@@ -135,10 +164,11 @@
     "defenderAdditionalGuardedFolders":  [
 
                                          ],
-    "defenderNetworkProtectionType":  "userDefined",
+    "defenderNetworkProtectionType":  "notConfigured",
     "defenderExploitProtectionXml":  null,
     "defenderExploitProtectionXmlFileName":  null,
     "defenderSecurityCenterBlockExploitProtectionOverride":  false,
+    "defenderBlockPersistenceThroughWmiType":  "userDefined",
     "appLockerApplicationControl":  "notConfigured",
     "deviceGuardLocalSystemAuthorityCredentialGuardSettings":  "notConfigured",
     "deviceGuardEnableVirtualizationBasedSecurity":  false,
@@ -160,6 +190,10 @@
     "applicationGuardAllowPrintToNetworkPrinters":  false,
     "applicationGuardAllowVirtualGPU":  false,
     "applicationGuardAllowFileSaveOnHost":  false,
+    "applicationGuardAllowCameraMicrophoneRedirection":  null,
+    "applicationGuardCertificateThumbprints":  [
+
+                                               ],
     "bitLockerAllowStandardUserEncryption":  false,
     "bitLockerDisableWarningForOtherDiskEncryption":  false,
     "bitLockerEnableStorageCardEncryptionOnMobile":  false,
@@ -218,180 +252,6 @@
     "firewallRules":  [
 
                       ],
-    "userRightsAccessCredentialManagerAsTrustedCaller":  {
-                                                             "state":  "notConfigured",
-                                                             "localUsersOrGroups":  [
-
-                                                                                    ]
-                                                         },
-    "userRightsAllowAccessFromNetwork":  {
-                                             "state":  "notConfigured",
-                                             "localUsersOrGroups":  [
-
-                                                                    ]
-                                         },
-    "userRightsBlockAccessFromNetwork":  {
-                                             "state":  "notConfigured",
-                                             "localUsersOrGroups":  [
-
-                                                                    ]
-                                         },
-    "userRightsActAsPartOfTheOperatingSystem":  {
-                                                    "state":  "notConfigured",
-                                                    "localUsersOrGroups":  [
-
-                                                                           ]
-                                                },
-    "userRightsLocalLogOn":  {
-                                 "state":  "notConfigured",
-                                 "localUsersOrGroups":  [
-
-                                                        ]
-                             },
-    "userRightsDenyLocalLogOn":  {
-                                     "state":  "notConfigured",
-                                     "localUsersOrGroups":  [
-
-                                                            ]
-                                 },
-    "userRightsBackupData":  {
-                                 "state":  "notConfigured",
-                                 "localUsersOrGroups":  [
-
-                                                        ]
-                             },
-    "userRightsChangeSystemTime":  {
-                                       "state":  "notConfigured",
-                                       "localUsersOrGroups":  [
-
-                                                              ]
-                                   },
-    "userRightsCreateGlobalObjects":  {
-                                          "state":  "notConfigured",
-                                          "localUsersOrGroups":  [
-
-                                                                 ]
-                                      },
-    "userRightsCreatePageFile":  {
-                                     "state":  "notConfigured",
-                                     "localUsersOrGroups":  [
-
-                                                            ]
-                                 },
-    "userRightsCreatePermanentSharedObjects":  {
-                                                   "state":  "notConfigured",
-                                                   "localUsersOrGroups":  [
-
-                                                                          ]
-                                               },
-    "userRightsCreateSymbolicLinks":  {
-                                          "state":  "notConfigured",
-                                          "localUsersOrGroups":  [
-
-                                                                 ]
-                                      },
-    "userRightsCreateToken":  {
-                                  "state":  "notConfigured",
-                                  "localUsersOrGroups":  [
-
-                                                         ]
-                              },
-    "userRightsDebugPrograms":  {
-                                    "state":  "notConfigured",
-                                    "localUsersOrGroups":  [
-
-                                                           ]
-                                },
-    "userRightsRemoteDesktopServicesLogOn":  {
-                                                 "state":  "notConfigured",
-                                                 "localUsersOrGroups":  [
-
-                                                                        ]
-                                             },
-    "userRightsDelegation":  {
-                                 "state":  "notConfigured",
-                                 "localUsersOrGroups":  [
-
-                                                        ]
-                             },
-    "userRightsGenerateSecurityAudits":  {
-                                             "state":  "notConfigured",
-                                             "localUsersOrGroups":  [
-
-                                                                    ]
-                                         },
-    "userRightsImpersonateClient":  {
-                                        "state":  "notConfigured",
-                                        "localUsersOrGroups":  [
-
-                                                               ]
-                                    },
-    "userRightsIncreaseSchedulingPriority":  {
-                                                 "state":  "notConfigured",
-                                                 "localUsersOrGroups":  [
-
-                                                                        ]
-                                             },
-    "userRightsLoadUnloadDrivers":  {
-                                        "state":  "notConfigured",
-                                        "localUsersOrGroups":  [
-
-                                                               ]
-                                    },
-    "userRightsLockMemory":  {
-                                 "state":  "notConfigured",
-                                 "localUsersOrGroups":  [
-
-                                                        ]
-                             },
-    "userRightsManageAuditingAndSecurityLogs":  {
-                                                    "state":  "notConfigured",
-                                                    "localUsersOrGroups":  [
-
-                                                                           ]
-                                                },
-    "userRightsManageVolumes":  {
-                                    "state":  "notConfigured",
-                                    "localUsersOrGroups":  [
-
-                                                           ]
-                                },
-    "userRightsModifyFirmwareEnvironment":  {
-                                                "state":  "notConfigured",
-                                                "localUsersOrGroups":  [
-
-                                                                       ]
-                                            },
-    "userRightsModifyObjectLabels":  {
-                                         "state":  "notConfigured",
-                                         "localUsersOrGroups":  [
-
-                                                                ]
-                                     },
-    "userRightsProfileSingleProcess":  {
-                                           "state":  "notConfigured",
-                                           "localUsersOrGroups":  [
-
-                                                                  ]
-                                       },
-    "userRightsRemoteShutdown":  {
-                                     "state":  "notConfigured",
-                                     "localUsersOrGroups":  [
-
-                                                            ]
-                                 },
-    "userRightsRestoreData":  {
-                                  "state":  "notConfigured",
-                                  "localUsersOrGroups":  [
-
-                                                         ]
-                              },
-    "userRightsTakeOwnership":  {
-                                    "state":  "notConfigured",
-                                    "localUsersOrGroups":  [
-
-                                                           ]
-                                },
     "bitLockerSystemDrivePolicy":  {
                                        "encryptionMethod":  null,
                                        "startupAuthenticationRequired":  false,
