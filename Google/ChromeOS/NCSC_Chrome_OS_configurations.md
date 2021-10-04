@@ -20,12 +20,12 @@
 |App and extension install sources                                              |Only trusted sources should be defined, as required.                                |
 |Allow insecure extension packaging                                             |Do not allow insecurely packaged extensions                                         |
 |External extensions                                                            |Block external extensions from being installed (unless specifically required)       |
-|Permissions and URL�s                                                          |If external extensions are allowed, this allows the setting of extension blocking on a granular level.|
+|Permissions and URL's                                                          |If external extensions are allowed, this allows the setting of extension blocking on a granular level.|
 |Chrome Web Store permissions                                                   |Do not allow users to publish private apps that are restricted to your domain on Chrome Web Store|
 |Android reporting for users and devices                                        |Enable Android reporting                                                            |
 |User & Browser settings (cont)                                                 |                                                                                    |
-|Site Isolation�                                                                |Turn on site isolation for all websites                                             |
-|Site Isolation (Chrome on Android)�                                            |Turn on site isolation for all websites                                             |
+|Site Isolation                                                                |Turn on site isolation for all websites                                             |
+|Site Isolation (Chrome on Android)                                            |Turn on site isolation for all websites                                             |
 |Password Manager                                                               |Always allow use of password manager                                                |
 |Lock Screen                                                                    |Allow locking screen                                                                |
 |Quick unlock                                                                   |Allow fingerprint and disallow the use of a PIN                                     |
@@ -35,7 +35,7 @@
 |Force Ephemeral Mode                                                           |Erase all local user data�                                                          |
 |Online Revocation Checks                                                       |Perform online OCSP/CRL checks                                                      |
 |RC4 cipher suites in TLS                                                       |Disable RC4                                                                         |
-|Local Trust Anchors Certificates                                               |Follow the publicly announced SHA-1 depreciation schedule for Local Anchors Sha1 Block Local Anchors Common Name Fallback Block Symantec Corporation�s Legacy PKI Infrastructure |
+|Local Trust Anchors Certificates                                               |Follow the publicly announced SHA-1 depreciation schedule for Local Anchors Sha1 Block Local Anchors Common Name Fallback Block Symantec Corporation's Legacy PKI Infrastructure |
 |User management of installed CA certificates                                   |Disallow users from managing certificates                                           |
 |User management of installed client certificates                               |Disallow users from managing certificates                                           |
 |Enable renderer code integrity                                                 |Renderer code integrity enabled                                                     |
@@ -88,7 +88,7 @@
 |WebRTC event log collection                                                    |Do not allow WebRTC event log collection                                            |
 |URLs in the address bar                                                        |Display the full URL                                                                |
 |Shared clipboard                                                               |Disable the shared clipboard feature                                                |
-|Smart Lock for Chrome                                                          |Do not allow Smart Lock for Chrome�                                                 |
+|Smart Lock for Chrome                                                          |Do not allow Smart Lock for Chrome                                                 |
 |Messages                                                                       |Do not allow users to sync SMS messages between their phone and Chromebook          |
 |Phone Hub                                                                      |Do not allow Phone Hub notifications to be enabled                                  |
 |External Storage Devices                                                       |Configure this in line with corporate policy on the use of external storage devices.|
@@ -110,10 +110,10 @@
 |Command line access                                                            |Disable VM command line access                                                      |
 |Port forwarding                                                                |Do not allow users to enable and configure port forwarding into the VM container    |
 |Android apps from untrusted sources                                            |Prevent the user from using Android apps from untrusted sources                     |
-|Parallels� Desktop                                                             |Do not allow Parallels Desktop                                                      |
+|Parallels Desktop                                                             |Do not allow Parallels Desktop                                                      |
 |Metrics reporting                                                              |Do not send anonymous reports of usage and crash-related data to Google             |
 |Wi-Fi network configurations sync                                              |Do not allow Wi-Fi network configurations to be synced across Google Chrome OS devices and a connected Android phone|
-|Chrome Management for Signed-in Users�                                         |Apply all user policies when users sign into Chrome, and provide a managed Chrome experience|
+|Chrome Management for Signed-in Users                                         |Apply all user policies when users sign into Chrome, and provide a managed Chrome experience|
 |                                                                               |                                                                                    |
 |Device settings                                                                |                                                                                    |
 |Forced Re-enrolment                                                            |Force device to re-enrol into this domain after wiping. This will also prevent users from enabling Developer mode on the device and enforce secure boot.|
@@ -130,13 +130,13 @@
 |System info on sign-in screen                                                  |Do not allow users to display system information on the sign-in screen              |
 |Privacy screen on sign-in screen                                               |Always enable the privacy screen on sign-in screen                                  |
 |Auto Update Settings                                                           |Allow auto-updates No restriction on Google Chrome version                          |
-|Device Reporting                                                               |Enable device state reporting,�Enable tracking recent device users�                 |
+|Device Reporting                                                               |Enable device state reporting, Enable tracking recent device users                 |
 |Inactive Device Notifications                                                  |Enable inactive device notifications Set inactive range, notification cadence and email addresses as appropriate for the organisation. This recommendation aims to reduce the number of unused but available devices that have access to business data.|
 |Anonymous Metric Reporting                                                     |Never send metrics to Google                                                        |
 |Device system log upload                                                       |Enable device system log upload                                                     |
-|Bluetooth                                                                      |Disable Bluetooth�unless required                                                   |
-|TPM Firmware Update                                                            |Allow users to perform TPM firmware updates. Users should follow the guidance on how to�update their TPM�and ensure that any local documents are backed up prior to updating their device.|
-|Virtual Machines�                                                              |Block usage for virtual machines needed to support Linux apps, unless specifically required for a sub-set of users (which are placed in a separate OU)|
+|Bluetooth                                                                      |Disable Bluetooth unless required                                                   |
+|TPM Firmware Update                                                            |Allow users to perform TPM firmware updates. Users should follow the guidance on how to update their TPM and ensure that any local documents are backed up prior to updating their device.|
+|Virtual Machines                                                              |Block usage for virtual machines needed to support Linux apps, unless specifically required for a sub-set of users (which are placed in a separate OU)|
 |Allow EMM partners access to device management                                 |Disable Chrome management  - partner access                                         |
 |                                                                               |                                                                                    |
 |Managed guest session settings                                                 |                                                                                    |
@@ -144,9 +144,9 @@
 |                                                                               |                                                                                    |
 |Security                                                                       |                                                                                    |
 |Configure this section to organisation policy                                  |                                                                                    |
-|Alert center: Rules                                                            |The following rules should be set to active, at a minimum:  � Device compromised  � Domain data export initiated  � Government-backed attacks  � Leaked password  � Malware message detected  post-delivery  � Phishing in inboxes due to bad whitelist  � Phishing message detected post-delivery  � Suspicious device activity  � Suspicious login  � Suspicious message reported  � Suspicious programmatic login  � User granted Admin privilege Consider setting others as appropriate for you organisation. |
+|Alert center: Rules                                                            |The following rules should be set to active, at a minimum:  - Device compromised  - Domain data export initiated  - Government-backed attacks  - Leaked password  - Malware message detected  post-delivery  - Phishing in inboxes due to bad whitelist  - Phishing message detected post-delivery  - Suspicious device activity  - Suspicious login  - Suspicious message reported  - Suspicious programmatic login  - User granted Admin privilege Consider setting others as appropriate for you organisation. |
 |Data protection: Data protection rules and detectors                           |Refer to  https://support.google.com/a/answer/6321530?hl=en                         |
-|Password management�                                                           |Configure a strong password policy in line with company policy requirements.        |
+|Password management                                                           |Configure a strong password policy in line with company policy requirements.        |
 |Less secure apps                                                               |Disable access to less secure apps for all users. This can be modified if a business case is available for allowing a less secure app.|
 |2-Step Verification                                                            |Consider enforcing two step verification (2SV) for all users. On Chrome OS, two step verification is enforced only at first login. Once 2SV is enabled, it must be allowed and configured by each user individually. |
 |Login Challenges                                                               |Consider implementing Login challenges as an additional security measure to verify the identity of users if suspicious login attempts are detected|
