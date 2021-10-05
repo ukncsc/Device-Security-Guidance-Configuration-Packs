@@ -14,16 +14,16 @@ Unless required by applicable law or agreed to in writing, software distributed 
   - [Structure](#structure)
   - [Installation](#installation)
     - [Google Workspace](#google-workspace)
-      - [Chrome OS, Windows 10, Android, and iOS](#chrome-os-windows-10-android-and-ios)
+      - [Chrome OS, Windows, Android, and iOS](#chrome-os-windows-android-and-ios)
     - [Microsoft Endpoint Manager](#microsoft-endpoint-manager)
-      - [Windows 10](#windows-10)
+      - [Windows](#windows)
       - [macOS, iOS, and Android](#macos-ios-and-android)
       - [Chrome OS, and Ubuntu LTS](#chrome-os-and-ubuntu-lts)
     - [Jamf Pro](#jamf-pro)
       - [macOS and iOS](#macos-and-ios)
-      - [Windows 10, Android, Ubuntu LTS and Chrome OS](#windows-10-android-ubuntu-lts-and-chrome-os)
+      - [Windows, Android, Ubuntu LTS and Chrome OS](#windows-android-ubuntu-lts-and-chrome-os)
     - [VMware Workspace ONE](#vmware-workspace-one)
-      - [Windows 10, iOS, macOS, Android, and Chrome OS](#windows-10-ios-macos-android-and-chrome-os)
+      - [Windows, iOS, macOS, Android, and Chrome OS](#windows-ios-macos-android-and-chrome-os)
     - [Ubuntu LTS](#ubuntu-lts)
   - [Contributing](#contributing)
   - [License](#license)
@@ -96,7 +96,7 @@ Device-Security-Guidance-Configuration-Packs
 │           Ubuntu-LTS-seed.txt
 │
 └───Microsoft
-    └───Windows10
+    └───Windows
         │   README.md
         │
         ├───GPO
@@ -143,11 +143,11 @@ Device-Security-Guidance-Configuration-Packs
 The policies can be installed in several ways, importing directly to management software, manually added in the management software and in some cases applied directly to the device.  
 ### Google Workspace
 
-#### Chrome OS, Windows 10, Android, and iOS
+#### Chrome OS, Windows, Android, and iOS
 
 Follow these instructions for 
 - [Chrome OS devices](https://support.google.com/chrome/a/topic/6274424?hl=en&ref_topic=4386913)
-- [Windows 10 devices](https://support.google.com/a/answer/10181140?hl=en&ref_topic=6079327)
+- [Windows devices](https://support.google.com/a/answer/10181140?hl=en&ref_topic=6079327)
 - [Android mobile devices](https://support.google.com/a/answer/6328708?hl=en)
 - [iOS mobile devices](https://support.google.com/a/answer/6328700?hl=en&ref_topic=6079327) 
 - [Universal settings for macOS and Linux devices](https://support.google.com/a/answer/6328676?hl=en&ref_topic=6079327)
@@ -157,7 +157,7 @@ Manually apply the settings, as specified in the policy file.
 
 ### Microsoft Endpoint Manager
 
-#### Windows 10
+#### Windows
 Using scripts available in [Microsoft's Graph repository](https://github.com/microsoftgraph/powershell-intune-samples/tree/master/DeviceConfiguration). You can import these configurations directly into your Azure tenancy by following these steps:
 1. Locate `DeviceConfiguration_Import_FromJSON.ps1`, this is the script that is required to import JSON-format configurations into Endpoint Manager
 2. Run this script in PowerShell on the device you use for administration of Azure and Endpoint Manager (such as a PAW), it will prompt for your AAD credentials
@@ -176,12 +176,12 @@ Currently, it is not possible to manage Chrome OS or Linux using Microsoft Endpo
 
 Follow the instructions on how to [apply settings for custom configurations for macOS and iOS mobile devices](https://docs.jamf.com/10.28.0/jamf-pro/administrator-guide/Computer_Configuration_Profiles.html) and apply the .mobileconfigs, or develop your own configurations using the policy pack as a guide.
 
-#### Windows 10, Android, Ubuntu LTS and Chrome OS
-Currently, it is not possible to manage Windows 10, Android, Ubuntu LTS or Chrome OS using Jamf Pro.
+#### Windows, Android, Ubuntu LTS and Chrome OS
+Currently, it is not possible to manage Windows, Android, Ubuntu LTS or Chrome OS using Jamf Pro.
 
 ### VMware Workspace ONE
 
-#### Windows 10, iOS, macOS, Android, and Chrome OS
+#### Windows, iOS, macOS, Android, and Chrome OS
 
 Follow the instructions on [Windows desktop profiles](https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/1909/Windows_Desktop_Device_Management/GUID-AWT-PROFILE-OVERVIEWWD.html), [iOS device profiles](https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/services/iOS_Platform/GUID-iOSProfileOverview.html), [macOS device profiles](https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/2011/macOS_Platform/GUID-AWT-PROFILES-OVERVIEW.html), [Android device profiles](https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/2011/Android_Platform/GUID-AWT-PROFILES-CONCEPT.html) or [Chrome OS device profiles](https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/1909/UEM_Managing_Devices/GUID-AWT-DEVICEENROLLMENTOVERVIEW.html) and apply configurations to profiles as required
 

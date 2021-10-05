@@ -2,9 +2,9 @@ This archive contains important security policy settings which are recommended f
 
 Remember, any guidance points given here are recommendations - they are not mandatory. Risk owners and administrators should agree a configuration which balances business requirements, usability and the security of the platform. 
 
-This configuration was last tested against Windows 10 20H2 in December 2020.
+This configuration was last tested against Windows 10 20H2 in December 2020 and Windows 11 in September 2021.
 
-Crown Copyright (c) 2020
+Crown Copyright (c) 2021
 
 
 ## Supplementary Information ##
