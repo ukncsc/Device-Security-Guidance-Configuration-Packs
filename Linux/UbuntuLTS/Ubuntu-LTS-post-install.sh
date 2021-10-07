@@ -157,7 +157,7 @@ read -p "User shell configuration:
 	if [ "$LEVEL" == "1" ]; then
 		# Disable shell access for new users (not affecting the existing admin user).
 		sed -ie '/^SHELL=/ s/=.*\+/=\/usr\/sbin\/nologin/' /etc/default/useradd
-		sed -ie '/^DSHELL=/ s/=.*\+/=a/usr\/sbin\/nologin/' /etc/adduser.conf
+		sed -ie '/^DSHELL=/ s/=.*\+/=\/usr\/sbin\/nologin/' /etc/adduser.conf
 	elif [ "$LEVEL" == "2" ]; then
 		# Keep shell access for new users (not affecting the existing admin user).
 		sed -ie '/^SHELL=/ s/=.*\+/=\/bin\/bash/' /etc/default/useradd
