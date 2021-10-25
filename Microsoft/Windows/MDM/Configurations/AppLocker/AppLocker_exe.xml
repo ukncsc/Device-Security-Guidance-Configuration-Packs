@@ -21,11 +21,6 @@
       </FilePublisherCondition>
     </Conditions>
   </FilePublisherRule>
-  <FilePathRule Action="Allow" UserOrGroupSid="S-1-1-0" Description="" Name="%OSDRIVE%\USERS\*\APPDATA\LOCAL\MICROSOFT\ONEDRIVE\*" Id="1815bcad-a1a4-4bce-9c0e-c733d6114f6d">
-    <Conditions>
-      <FilePathCondition Path="%OSDRIVE%\USERS\*\APPDATA\LOCAL\MICROSOFT\ONEDRIVE\*"/>
-    </Conditions>
-  </FilePathRule>
   <FilePathRule Action="Allow" UserOrGroupSid="S-1-1-0" Description="Allows members of the Everyone group to run applications that are located in the Program Files folder." Name="All files located in the Program Files folder" Id="36589a7e-4ac6-4bf0-aab9-1a87a469c7d2">
     <Conditions>
        <FilePathCondition Path="%PROGRAMFILES%\*"/>
@@ -97,16 +92,16 @@
     </FilePublisherCondition>
     </Exceptions>
   </FilePathRule>
-  <FilePathRule Action="Allow" UserOrGroupSid="S-1-1-0" Description="" Name="%OSDRIVE%\USERS\*\APPDATA\LOCAL\MICROSOFT\Teams\*" Id="87d8f18e-4ada-4026-99bc-8881676e60d9">
-    <Conditions>
-      <FilePathCondition Path="%OSDRIVE%\USERS\*\APPDATA\LOCAL\MICROSOFT\Teams\*"/>
-    </Conditions>
-    </FilePathRule>
       <FilePathRule Action="Allow" UserOrGroupSid="S-1-1-0" Description="Windows Defender" Name="C:\ProgramData\Microsoft\*" Id="95b9ab17-6f3d-4f15-b93c-06cca9e1236f">
     <Conditions>
       <FilePathCondition Path="C:\ProgramData\Microsoft\*"/>
     </Conditions>
   </FilePathRule>
+  <FilePathRule Id="fd58efe4-a598-460c-a8ec-c237d29dc936" Name="Additional allowed path: %OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*" Description="Allows Everyone to execute from %OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*" UserOrGroupSid="S-1-1-0" Action="Allow">
+  <Conditions>
+    <FilePathCondition Path="%OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*" />
+  </Conditions>
+</FilePathRule>
   <FilePathRule Action="Allow" UserOrGroupSid="S-1-1-0" Description="" Name="C:\ProgramData\App-V\*" Id="beac373b-e4fc-49d8-9c27-c9536b84a26b">
     <Conditions>
       <FilePathCondition Path="C:\ProgramData\App-V\*"/>
