@@ -121,19 +121,19 @@ chmod 700 "/home/$ADMINUSER"
 echo -e "${HIGHLIGHT}Configuring automatic updates...${NC}"
 EXISTS=$(grep "APT::Periodic::Update-Package-Lists" /etc/apt/apt.conf.d/20auto-upgrades)
 if [ -z "$EXISTS" ]; then
-	sed '/APT::Periodic::Update-Package-Lists/d' /etc/apt/apt.conf.d/20auto-upgrades
+	sed -i '/APT::Periodic::Update-Package-Lists/d' /etc/apt/apt.conf.d/20auto-upgrades
 	echo "APT::Periodic::Update-Package-Lists \"1\";" >> /etc/apt/apt.conf.d/20auto-upgrades
 fi
 
 EXISTS=$(grep "APT::Periodic::Unattended-Upgrade" /etc/apt/apt.conf.d/20auto-upgrades)
 if [ -z "$EXISTS" ]; then
-	sed '/APT::Periodic::Unattended-Upgrade/d' /etc/apt/apt.conf.d/20auto-upgrades
+	sed -i '/APT::Periodic::Unattended-Upgrade/d' /etc/apt/apt.conf.d/20auto-upgrades
 	echo "APT::Periodic::Unattended-Upgrade \"1\";" >> /etc/apt/apt.conf.d/20auto-upgrades
 fi
 
 EXISTS=$(grep "APT::Periodic::AutocleanInterval" /etc/apt/apt.conf.d/10periodic)
 if [ -z "$EXISTS" ]; then
-	sed '/APT::Periodic::AutocleanInterval/d' /etc/apt/apt.conf.d/10periodic
+	sed -i '/APT::Periodic::AutocleanInterval/d' /etc/apt/apt.conf.d/10periodic
 	echo "APT::Periodic::AutocleanInterval \"7\";" >> /etc/apt/apt.conf.d/10periodic
 fi
 
