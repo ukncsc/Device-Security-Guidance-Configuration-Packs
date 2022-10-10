@@ -1,0 +1,923 @@
+﻿Policy Config,Policy Path,Policy Setting Name,Policy Type,Policy Group or Registry Key,Policy Setting,ncsc1903,"ncsc1903
+Option",NCSC-GPO,"NCSC-GPO
+Option","ncsc1903
+GPO","NCSC-GPO
+GPO"
+,,,HKCU,SOFTWARE\Policies\Microsoft\OneDrive,DisablePersonalSync,,,1,1,,NCSC Windows - OneDrive
+,,,HKLM,SOFTWARE\Policies\Microsoft\AppHVSI,FileTrustCriteria,0,0,0,0,NCSC Windows 10 1903 - Application Guard,NCSC Windows - Application Guard
+,,,HKLM,SOFTWARE\Policies\Microsoft\AppHVSI\FileTrustOrigin,FileTrustOriginMarkOfTheWeb,1,1,1,1,NCSC Windows 10 1903 - Application Guard,NCSC Windows - Application Guard
+,,,HKLM,SOFTWARE\Policies\Microsoft\AppHVSI\FileTrustOrigin,FileTrustOriginNetworkShare,1,1,1,1,NCSC Windows 10 1903 - Application Guard,NCSC Windows - Application Guard
+,,,HKLM,SOFTWARE\Policies\Microsoft\AppHVSI\FileTrustOrigin,FileTrustOriginRemovableMedia,1,1,1,1,NCSC Windows 10 1903 - Application Guard,NCSC Windows - Application Guard
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\ACRS\Certificates,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\ACRS\CRLs,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\ACRS\CTLs,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\CA\Certificates,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\CA\CRLs,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\CA\CTLs,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\Disallowed\Certificates,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\Disallowed\CRLs,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\Disallowed\CTLs,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\DPNGRA\Certificates,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\DPNGRA\CRLs,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\DPNGRA\CTLs,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\FVE\Certificates,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\FVE\CRLs,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\FVE\CTLs,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\FVE_NKP\Certificates,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\FVE_NKP\CRLs,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\FVE_NKP\CTLs,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\Root\Certificates,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\Root\CRLs,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\Root\CTLs,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\Root\ProtectedRoots,Flags,65537,65537 (0x10001),65537,65537 (0x10001),NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\Root\ProtectedRoots,PeerUsages,"1.3.6.1.4.1.311.10.3.4,1.3.6.1.5.5.7.3.2,1.3.6.1.5.5.7.3.4","1.3.6.1.4.1.311.10.3.4
+1.3.6.1.5.5.7.3.2
+1.3.6.1.5.5.7.3.4","1.3.6.1.4.1.311.10.3.4,1.3.6.1.5.5.7.3.2,1.3.6.1.5.5.7.3.4","1.3.6.1.4.1.311.10.3.4
+1.3.6.1.5.5.7.3.2
+1.3.6.1.5.5.7.3.4",NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\Trust\Certificates,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\Trust\CRLs,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\Trust\CTLs,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\TrustedPeople\Certificates,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\TrustedPeople\CRLs,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\TrustedPeople\CTLs,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\TrustedPublisher\Certificates,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\TrustedPublisher\CRLs,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\SystemCertificates\TrustedPublisher\CTLs,,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,Software\Policies\Microsoft\Windows\Safer,,,,,,NCSC Windows 10 1903 - AppLocker,NCSC Windows - AppLocker
+,,,HKLM,Software\Policies\Microsoft\Windows\WindowsUpdate,ManagePreviewBuilds,0,0,0,0,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+,,,HKLM,SOFTWARE\Policies\Microsoft\WindowsFirewall,PolicyVersion,541,541 (0x21D),541,541 (0x21D),NCSC Windows 10 1903 - Firewall Configuration,NCSC Windows - Firewall
+Computer Configuration,...\AppLocker\DLL Rules,Configured,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Dll,EnforcementMode,1,Enforce rules,1,Enforce rules,NCSC Windows 10 1903 - AppLocker,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\DLL Rules,Rule 037a1688-740d-4fdd-998f-a34c246a8f5c,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Dll\037a1688-740d-4fdd-998f-a34c246a8f5c,Value,,,"<FilePathRule Id=""037a1688-740d-4fdd-998f-a34c246a8f5c"" Name=""C:\ProgramData\App-V\*"" Description="""" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""C:\ProgramData\App-V\*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | C:\ProgramData\App-V\*
+<FilePathRule Id=""037a1688-740d-4fdd-998f-a34c246a8f5c"" Name=""C:\ProgramData\App-V\*"" Description="""" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""C:\ProgramData\App-V\*"" />
+  </Conditions>
+</FilePathRule>",,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\DLL Rules,Rule 1c9e178f-cc4f-4081-9130-077b131ccdd6,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Dll\1c9e178f-cc4f-4081-9130-077b131ccdd6,Value,,,"<FilePathRule Id=""1c9e178f-cc4f-4081-9130-077b131ccdd6"" Name=""Additional allowed path: %OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*"" Description=""Allows Everyone to execute from %OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*"" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""%OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | Additional allowed path: %OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*
+<FilePathRule Id=""1c9e178f-cc4f-4081-9130-077b131ccdd6"" Name=""Additional allowed path: %OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*"" Description=""Allows Everyone to execute from %OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*"" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""%OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*"" />
+  </Conditions>
+</FilePathRule>",,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\DLL Rules,Rule 1f5ba109-db69-4ee8-8a67-457e21dca38b,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Dll\1f5ba109-db69-4ee8-8a67-457e21dca38b,Value,,,"<FilePathRule Id=""1f5ba109-db69-4ee8-8a67-457e21dca38b"" Name=""C:\ProgramData\Microsoft\*"" Description=""Windows Defender"" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""C:\ProgramData\Microsoft\*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | C:\ProgramData\Microsoft\*
+<FilePathRule Id=""1f5ba109-db69-4ee8-8a67-457e21dca38b"" Name=""C:\ProgramData\Microsoft\*"" Description=""Windows Defender"" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""C:\ProgramData\Microsoft\*"" />
+  </Conditions>
+</FilePathRule>",,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\DLL Rules,Rule 3737732c-99b7-41d4-9037-9cddfb0de0d0,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Dll\3737732c-99b7-41d4-9037-9cddfb0de0d0,Value,"<FilePathRule Id=""3737732c-99b7-41d4-9037-9cddfb0de0d0"" Name=""(Default Rule) All DLLs located in the Program Files folder"" Description=""Allows members of the Everyone group to load DLLs that are located in the Program Files folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""%PROGRAMFILES%\*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | (Default Rule) All DLLs located in the Program Files folder
+<FilePathRule Id=""3737732c-99b7-41d4-9037-9cddfb0de0d0"" Name=""(Default Rule) All DLLs located in the Program Files folder"" Description=""Allows members of the Everyone group to load DLLs that are located in the Program Files folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""%PROGRAMFILES%\*"" />
+  </Conditions>
+</FilePathRule>","<FilePathRule Id=""3737732c-99b7-41d4-9037-9cddfb0de0d0"" Name=""(Default Rule) All DLLs located in the Program Files folder"" Description=""Allows members of the Everyone group to load DLLs that are located in the Program Files folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""%PROGRAMFILES%\*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | (Default Rule) All DLLs located in the Program Files folder
+<FilePathRule Id=""3737732c-99b7-41d4-9037-9cddfb0de0d0"" Name=""(Default Rule) All DLLs located in the Program Files folder"" Description=""Allows members of the Everyone group to load DLLs that are located in the Program Files folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""%PROGRAMFILES%\*"" />
+  </Conditions>
+</FilePathRule>",NCSC Windows 10 1903 - AppLocker,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\DLL Rules,Rule ac2e214d-875e-47b8-879a-2175065c8903,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Dll\ac2e214d-875e-47b8-879a-2175065c8903,Value,,,"<FilePublisherRule Id=""ac2e214d-875e-47b8-879a-2175065c8903"" Name=""Microsoft Teams: Signer/product rule for O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US/MICROSOFT TEAMS"" Description=""Allowing Teams DLLs"" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT TEAMS"" BinaryName=""*""><BinaryVersionRange LowSection=""*"" HighSection=""*""/></FilePublisherCondition></Conditions></FilePublisherRule>\r\n","FilePublisherRule | Allow | Everyone | Microsoft Teams: Signer/product rule for O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US/MICROSOFT TEAMS
+<FilePublisherRule Id=""ac2e214d-875e-47b8-879a-2175065c8903"" Name=""Microsoft Teams: Signer/product rule for O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US/MICROSOFT TEAMS"" Description=""Allowing Teams DLLs"" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT TEAMS"" BinaryName=""*"">
+      <BinaryVersionRange LowSection=""*"" HighSection=""*"" />
+    </FilePublisherCondition>
+  </Conditions>
+</FilePublisherRule>",,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\DLL Rules,Rule b322869f-7431-488c-ab0d-e1c49510283f,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Dll\b322869f-7431-488c-ab0d-e1c49510283f,Value,"<FilePathRule Id=""b322869f-7431-488c-ab0d-e1c49510283f"" Name=""%OSDRIVE%\ProgramData\Microsoft\Windows Defender\Platform\*"" Description="""" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""%OSDRIVE%\ProgramData\Microsoft\Windows Defender\Platform\*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | %OSDRIVE%\ProgramData\Microsoft\Windows Defender\Platform\*
+<FilePathRule Id=""b322869f-7431-488c-ab0d-e1c49510283f"" Name=""%OSDRIVE%\ProgramData\Microsoft\Windows Defender\Platform\*"" Description="""" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""%OSDRIVE%\ProgramData\Microsoft\Windows Defender\Platform\*"" />
+  </Conditions>
+</FilePathRule>",,,NCSC Windows 10 1903 - AppLocker,
+Computer Configuration,...\AppLocker\DLL Rules,Rule c4f31fbd-634b-48a9-83b9-6ff20170573b,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Dll\c4f31fbd-634b-48a9-83b9-6ff20170573b,Value,,,"<FilePublisherRule Id=""c4f31fbd-634b-48a9-83b9-6ff20170573b"" Name=""*, version 1.0.0.0 and above, in MICROSOFT ONEDRIVE, from O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" Description="""" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT ONEDRIVE"" BinaryName=""*""><BinaryVersionRange LowSection=""*"" HighSection=""*""/></FilePublisherCondition></Conditions></FilePublisherRule>\r\n","FilePublisherRule | Allow | Everyone | *, version 1.0.0.0 and above, in MICROSOFT ONEDRIVE, from O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
+<FilePublisherRule Id=""c4f31fbd-634b-48a9-83b9-6ff20170573b"" Name=""*, version 1.0.0.0 and above, in MICROSOFT ONEDRIVE, from O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" Description="""" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT ONEDRIVE"" BinaryName=""*"">
+      <BinaryVersionRange LowSection=""*"" HighSection=""*"" />
+    </FilePublisherCondition>
+  </Conditions>
+</FilePublisherRule>",,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\DLL Rules,Rule dll,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Dll,AllowWindows,0,0,0,0,NCSC Windows 10 1903 - AppLocker,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\DLL Rules,Rule e0e1f454-d63e-41cb-85d5-3c11a9b9889f,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Dll\e0e1f454-d63e-41cb-85d5-3c11a9b9889f,Value,"<FilePathRule Id=""e0e1f454-d63e-41cb-85d5-3c11a9b9889f"" Name=""Microsoft Windows DLLs - with exceptions for writeable locations"" Description=""Allows members of the Everyone group to load DLLs located in the Windows folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""%WINDIR%\*""/></Conditions><Exceptions><FilePathCondition Path=""%SYSTEM32%\AppLocker\*""/><FilePathCondition Path=""%SYSTEM32%\com\dmp\*""/><FilePathCondition Path=""%SYSTEM32%\FxsTmp\*""/><FilePathCondition Path=""%SYSTEM32%\Microsoft\Crypto\RSA\MachineKeys\*""/><FilePathCondition Path=""%SYSTEM32%\Spool\drivers\color\*""/><FilePathCondition Path=""%SYSTEM32%\Spool\PRINTERS\*""/><FilePathCondition Path=""%SYSTEM32%\Spool\SERVERS\*""/><FilePathCondition Path=""%SYSTEM32%\Tasks\*""/><FilePathCondition Path=""%WINDIR%\registration\crmlog\*""/><FilePathCondition Path=""%WINDIR%\servicing\Packages\*""/><FilePathCondition Path=""%WINDIR%\servicing\Sessions\*""/><FilePathCondition Path=""%WINDIR%\Tasks\*""/><FilePathCondition Path=""%WINDIR%\temp\*""/><FilePathCondition Path=""%WINDIR%\Tracing\*""/></Exceptions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | Microsoft Windows DLLs - with exceptions for writeable locations
+<FilePathRule Id=""e0e1f454-d63e-41cb-85d5-3c11a9b9889f"" Name=""Microsoft Windows DLLs - with exceptions for writeable locations"" Description=""Allows members of the Everyone group to load DLLs located in the Windows folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""%WINDIR%\*"" />
+  </Conditions>
+  <Exceptions>
+    <FilePathCondition Path=""%SYSTEM32%\AppLocker\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\com\dmp\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\FxsTmp\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\Microsoft\Crypto\RSA\MachineKeys\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\Spool\drivers\color\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\Spool\PRINTERS\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\Spool\SERVERS\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\Tasks\*"" />
+    <FilePathCondition Path=""%WINDIR%\registration\crmlog\*"" />
+    <FilePathCondition Path=""%WINDIR%\servicing\Packages\*"" />
+    <FilePathCondition Path=""%WINDIR%\servicing\Sessions\*"" />
+    <FilePathCondition Path=""%WINDIR%\Tasks\*"" />
+    <FilePathCondition Path=""%WINDIR%\temp\*"" />
+    <FilePathCondition Path=""%WINDIR%\Tracing\*"" />
+  </Exceptions>
+</FilePathRule>","<FilePathRule Id=""e0e1f454-d63e-41cb-85d5-3c11a9b9889f"" Name=""Microsoft Windows DLLs - with exceptions for writeable locations"" Description=""Allows members of the Everyone group to load DLLs located in the Windows folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""%WINDIR%\*""/></Conditions><Exceptions><FilePathCondition Path=""%SYSTEM32%\catroot2\*""/><FilePathCondition Path=""%SYSTEM32%\com\dmp\*""/><FilePathCondition Path=""%SYSTEM32%\FxsTmp\*""/><FilePathCondition Path=""%SYSTEM32%\spool\drivers\color\*""/><FilePathCondition Path=""%SYSTEM32%\spool\PRINTERS\*""/><FilePathCondition Path=""%SYSTEM32%\spool\SERVERS\*""/><FilePathCondition Path=""%SYSTEM32%\Tasks\*""/><FilePathCondition Path=""%WINDIR%\debug\*""/><FilePathCondition Path=""%WINDIR%\pchealth\ERRORREP\*""/><FilePathCondition Path=""%WINDIR%\registration\*""/><FilePathCondition Path=""%WINDIR%\SysWOW64\com\tmp\*""/><FilePathCondition Path=""%WINDIR%\SysWOW64\FxsTmp\*""/><FilePathCondition Path=""%WINDIR%\SysWOW64\Tasks\*""/><FilePathCondition Path=""%WINDIR%\tasks\*""/><FilePathCondition Path=""%WINDIR%\temp\*""/><FilePathCondition Path=""%WINDIR%\tracing\*""/></Exceptions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | Microsoft Windows DLLs - with exceptions for writeable locations
+<FilePathRule Id=""e0e1f454-d63e-41cb-85d5-3c11a9b9889f"" Name=""Microsoft Windows DLLs - with exceptions for writeable locations"" Description=""Allows members of the Everyone group to load DLLs located in the Windows folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""%WINDIR%\*"" />
+  </Conditions>
+  <Exceptions>
+    <FilePathCondition Path=""%SYSTEM32%\catroot2\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\com\dmp\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\FxsTmp\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\spool\drivers\color\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\spool\PRINTERS\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\spool\SERVERS\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\Tasks\*"" />
+    <FilePathCondition Path=""%WINDIR%\debug\*"" />
+    <FilePathCondition Path=""%WINDIR%\pchealth\ERRORREP\*"" />
+    <FilePathCondition Path=""%WINDIR%\registration\*"" />
+    <FilePathCondition Path=""%WINDIR%\SysWOW64\com\tmp\*"" />
+    <FilePathCondition Path=""%WINDIR%\SysWOW64\FxsTmp\*"" />
+    <FilePathCondition Path=""%WINDIR%\SysWOW64\Tasks\*"" />
+    <FilePathCondition Path=""%WINDIR%\tasks\*"" />
+    <FilePathCondition Path=""%WINDIR%\temp\*"" />
+    <FilePathCondition Path=""%WINDIR%\tracing\*"" />
+  </Exceptions>
+</FilePathRule>",NCSC Windows 10 1903 - AppLocker,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\DLL Rules,Rule fe64f59f-6fca-45e5-a731-0f6715327c38,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Dll\fe64f59f-6fca-45e5-a731-0f6715327c38,Value,"<FilePathRule Id=""fe64f59f-6fca-45e5-a731-0f6715327c38"" Name=""(Default Rule) All DLLs"" Description=""Allows members of the local Administrators group to load all DLLs."" UserOrGroupSid=""S-1-5-32-544"" Action=""Allow""><Conditions><FilePathCondition Path=""*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | BUILTIN\Administrators | (Default Rule) All DLLs
+<FilePathRule Id=""fe64f59f-6fca-45e5-a731-0f6715327c38"" Name=""(Default Rule) All DLLs"" Description=""Allows members of the local Administrators group to load all DLLs."" UserOrGroupSid=""S-1-5-32-544"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""*"" />
+  </Conditions>
+</FilePathRule>","<FilePathRule Id=""fe64f59f-6fca-45e5-a731-0f6715327c38"" Name=""(Default Rule) All DLLs"" Description=""Allows members of the local Administrators group to load all DLLs."" UserOrGroupSid=""S-1-5-32-544"" Action=""Allow""><Conditions><FilePathCondition Path=""*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | BUILTIN\Administrators | (Default Rule) All DLLs
+<FilePathRule Id=""fe64f59f-6fca-45e5-a731-0f6715327c38"" Name=""(Default Rule) All DLLs"" Description=""Allows members of the local Administrators group to load all DLLs."" UserOrGroupSid=""S-1-5-32-544"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""*"" />
+  </Conditions>
+</FilePathRule>",NCSC Windows 10 1903 - AppLocker,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Executable Rules,Configured,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Exe,EnforcementMode,1,Enforce rules,1,Enforce rules,NCSC Windows 10 1903 - AppLocker,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Executable Rules,Rule 1242dbca-19a7-4351-8298-4bd4edfb4d8d,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Exe\1242dbca-19a7-4351-8298-4bd4edfb4d8d,Value,,,"<FilePublisherRule Id=""1242dbca-19a7-4351-8298-4bd4edfb4d8d"" Name=""*, version 18.0.0.0 and above, in MICROSOFT ONEDRIVE, from O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" Description="""" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT ONEDRIVE"" BinaryName=""*""><BinaryVersionRange LowSection=""*"" HighSection=""*""/></FilePublisherCondition></Conditions></FilePublisherRule>\r\n","FilePublisherRule | Allow | Everyone | *, version 18.0.0.0 and above, in MICROSOFT ONEDRIVE, from O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
+<FilePublisherRule Id=""1242dbca-19a7-4351-8298-4bd4edfb4d8d"" Name=""*, version 18.0.0.0 and above, in MICROSOFT ONEDRIVE, from O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" Description="""" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT ONEDRIVE"" BinaryName=""*"">
+      <BinaryVersionRange LowSection=""*"" HighSection=""*"" />
+    </FilePublisherCondition>
+  </Conditions>
+</FilePublisherRule>",,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Executable Rules,Rule 36589a7e-4ac6-4bf0-aab9-1a87a469c7d2,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Exe\36589a7e-4ac6-4bf0-aab9-1a87a469c7d2,Value,"<FilePathRule Id=""36589a7e-4ac6-4bf0-aab9-1a87a469c7d2"" Name=""All files located in the Program Files folder"" Description=""Allows members of the Everyone group to run applications that are located in the Program Files folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""%PROGRAMFILES%\*""/></Conditions><Exceptions><FilePathCondition Path=""%PROGRAMFILES%\Windows Kits\*\Debuggers\*""/></Exceptions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | All files located in the Program Files folder
+<FilePathRule Id=""36589a7e-4ac6-4bf0-aab9-1a87a469c7d2"" Name=""All files located in the Program Files folder"" Description=""Allows members of the Everyone group to run applications that are located in the Program Files folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""%PROGRAMFILES%\*"" />
+  </Conditions>
+  <Exceptions>
+    <FilePathCondition Path=""%PROGRAMFILES%\Windows Kits\*\Debuggers\*"" />
+  </Exceptions>
+</FilePathRule>","<FilePathRule Id=""36589a7e-4ac6-4bf0-aab9-1a87a469c7d2"" Name=""All files located in the Program Files folder"" Description=""Allows members of the Everyone group to run applications that are located in the Program Files folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""%PROGRAMFILES%\*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | All files located in the Program Files folder
+<FilePathRule Id=""36589a7e-4ac6-4bf0-aab9-1a87a469c7d2"" Name=""All files located in the Program Files folder"" Description=""Allows members of the Everyone group to run applications that are located in the Program Files folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""%PROGRAMFILES%\*"" />
+  </Conditions>
+</FilePathRule>",NCSC Windows 10 1903 - AppLocker,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Executable Rules,Rule 5c2a926d-aa07-41ee-8199-2933a0e05979,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Exe\5c2a926d-aa07-41ee-8199-2933a0e05979,Value,"<FilePathRule Id=""5c2a926d-aa07-41ee-8199-2933a0e05979"" Name=""All files located in the Windows folder - with exceptions"" Description=""Allows members of the Everyone group to run applications that are located in the Windows folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""%WINDIR%\*""/></Conditions><Exceptions><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""INTERNET EXPLORER"" BinaryName=""MSHTA.EXE""><BinaryVersionRange LowSection=""11.0.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT(R) CONNECTION MANAGER"" BinaryName=""CMSTP.EXE""><BinaryVersionRange LowSection=""*"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® .NET FRAMEWORK"" BinaryName=""IEEXEC.EXE""><BinaryVersionRange LowSection=""2.0.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® .NET FRAMEWORK"" BinaryName=""INSTALLUTIL.EXE""><BinaryVersionRange LowSection=""2.0.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® .NET FRAMEWORK"" BinaryName=""MSBUILD.EXE""><BinaryVersionRange LowSection=""1.0.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® .NET FRAMEWORK"" BinaryName=""REGASM.EXE""><BinaryVersionRange LowSection=""1.0.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® .NET FRAMEWORK"" BinaryName=""REGSVCS.EXE""><BinaryVersionRange LowSection=""1.0.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""CDB.EXE""><BinaryVersionRange LowSection=""1.0.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""CIPHER.EXE""><BinaryVersionRange LowSection=""*"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""PRESENTATIONHOST.EXE""><BinaryVersionRange LowSection=""*"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""WINDBG.EXE""><BinaryVersionRange LowSection=""1.0.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""WMIC.EXE""><BinaryVersionRange LowSection=""*"" HighSection=""*""/></FilePublisherCondition><FilePathCondition Path=""%SYSTEM32%\AppLocker\*""/><FilePathCondition Path=""%SYSTEM32%\com\dmp\*""/><FilePathCondition Path=""%SYSTEM32%\FxsTmp\*""/><FilePathCondition Path=""%SYSTEM32%\Microsoft\Crypto\RSA\MachineKeys\*""/><FilePathCondition Path=""%SYSTEM32%\Spool\drivers\color\*""/><FilePathCondition Path=""%SYSTEM32%\Spool\PRINTERS\*""/><FilePathCondition Path=""%SYSTEM32%\Spool\SERVERS\*""/><FilePathCondition Path=""%SYSTEM32%\Tasks\*""/><FilePathCondition Path=""%WINDIR%\registration\crmlog\*""/><FilePathCondition Path=""%WINDIR%\servicing\Packages\*""/><FilePathCondition Path=""%WINDIR%\servicing\Sessions\*""/><FilePathCondition Path=""%WINDIR%\Tasks\*""/><FilePathCondition Path=""%WINDIR%\temp\*""/><FilePathCondition Path=""%WINDIR%\Tracing\*""/></Exceptions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | All files located in the Windows folder - with exceptions
+<FilePathRule Id=""5c2a926d-aa07-41ee-8199-2933a0e05979"" Name=""All files located in the Windows folder - with exceptions"" Description=""Allows members of the Everyone group to run applications that are located in the Windows folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""%WINDIR%\*"" />
+  </Conditions>
+  <Exceptions>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""INTERNET EXPLORER"" BinaryName=""MSHTA.EXE"">
+      <BinaryVersionRange LowSection=""11.0.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT(R) CONNECTION MANAGER"" BinaryName=""CMSTP.EXE"">
+      <BinaryVersionRange LowSection=""*"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® .NET FRAMEWORK"" BinaryName=""IEEXEC.EXE"">
+      <BinaryVersionRange LowSection=""2.0.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® .NET FRAMEWORK"" BinaryName=""INSTALLUTIL.EXE"">
+      <BinaryVersionRange LowSection=""2.0.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® .NET FRAMEWORK"" BinaryName=""MSBUILD.EXE"">
+      <BinaryVersionRange LowSection=""1.0.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® .NET FRAMEWORK"" BinaryName=""REGASM.EXE"">
+      <BinaryVersionRange LowSection=""1.0.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® .NET FRAMEWORK"" BinaryName=""REGSVCS.EXE"">
+      <BinaryVersionRange LowSection=""1.0.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""CDB.EXE"">
+      <BinaryVersionRange LowSection=""1.0.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""CIPHER.EXE"">
+      <BinaryVersionRange LowSection=""*"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""PRESENTATIONHOST.EXE"">
+      <BinaryVersionRange LowSection=""*"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""WINDBG.EXE"">
+      <BinaryVersionRange LowSection=""1.0.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""WMIC.EXE"">
+      <BinaryVersionRange LowSection=""*"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePathCondition Path=""%SYSTEM32%\AppLocker\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\com\dmp\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\FxsTmp\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\Microsoft\Crypto\RSA\MachineKeys\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\Spool\drivers\color\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\Spool\PRINTERS\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\Spool\SERVERS\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\Tasks\*"" />
+    <FilePathCondition Path=""%WINDIR%\registration\crmlog\*"" />
+    <FilePathCondition Path=""%WINDIR%\servicing\Packages\*"" />
+    <FilePathCondition Path=""%WINDIR%\servicing\Sessions\*"" />
+    <FilePathCondition Path=""%WINDIR%\Tasks\*"" />
+    <FilePathCondition Path=""%WINDIR%\temp\*"" />
+    <FilePathCondition Path=""%WINDIR%\Tracing\*"" />
+  </Exceptions>
+</FilePathRule>","<FilePathRule Id=""5c2a926d-aa07-41ee-8199-2933a0e05979"" Name=""All files located in the Windows folder - with exceptions"" Description=""Allows members of the Everyone group to run applications that are located in the Windows folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""%WINDIR%\*""/></Conditions><Exceptions><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""INTERNET EXPLORER"" BinaryName=""MSHTA.EXE""><BinaryVersionRange LowSection=""11.0.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT ® WINDOWS SCRIPT HOST"" BinaryName=""CSCRIPT.EXE""><BinaryVersionRange LowSection=""5.8.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT ® WINDOWS SCRIPT HOST"" BinaryName=""WSCRIPT.EXE""><BinaryVersionRange LowSection=""5.8.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® .NET FRAMEWORK"" BinaryName=""IEEXEC.EXE""><BinaryVersionRange LowSection=""2.0.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® .NET FRAMEWORK"" BinaryName=""INSTALLUTIL.EXE""><BinaryVersionRange LowSection=""2.0.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""FTP.EXE""><BinaryVersionRange LowSection=""6.3.9600.17415"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""NET.EXE""><BinaryVersionRange LowSection=""6.3.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""NET1.EXE""><BinaryVersionRange LowSection=""6.3.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""NETSH.EXE""><BinaryVersionRange LowSection=""6.3.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""POWERSHELL_ISE.EXE""><BinaryVersionRange LowSection=""6.3.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""REG.EXE""><BinaryVersionRange LowSection=""6.3.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""REGEDT32.EXE""><BinaryVersionRange LowSection=""6.3.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""REGINI.EXE""><BinaryVersionRange LowSection=""6.3.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""RUNAS.EXE""><BinaryVersionRange LowSection=""6.3.0.0"" HighSection=""*""/></FilePublisherCondition><FilePathCondition Path=""%SYSTEM32%\catroot2\*""/><FilePathCondition Path=""%SYSTEM32%\com\dmp\*""/><FilePathCondition Path=""%SYSTEM32%\FxsTmp\*""/><FilePathCondition Path=""%SYSTEM32%\Spool\drivers\color\*""/><FilePathCondition Path=""%SYSTEM32%\Spool\PRINTERS\*""/><FilePathCondition Path=""%SYSTEM32%\Spool\SERVERS\*""/><FilePathCondition Path=""%SYSTEM32%\Tasks\*""/><FilePathCondition Path=""%WINDIR%\debug\*""/><FilePathCondition Path=""%WINDIR%\Debug\wia\*""/><FilePathCondition Path=""%WINDIR%\pchealth\ERRORREP\*""/><FilePathCondition Path=""%WINDIR%\registration\*""/><FilePathCondition Path=""%WINDIR%\SysWOW64\com\dmp\*""/><FilePathCondition Path=""%WINDIR%\SysWOW64\FxsTmp\*""/><FilePathCondition Path=""%WINDIR%\SysWOW64\Tasks\*""/><FilePathCondition Path=""%WINDIR%\Tasks\*""/><FilePathCondition Path=""%WINDIR%\temp\*""/><FilePathCondition Path=""%WINDIR%\Tracing\*""/></Exceptions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | All files located in the Windows folder - with exceptions
+<FilePathRule Id=""5c2a926d-aa07-41ee-8199-2933a0e05979"" Name=""All files located in the Windows folder - with exceptions"" Description=""Allows members of the Everyone group to run applications that are located in the Windows folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""%WINDIR%\*"" />
+  </Conditions>
+  <Exceptions>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""INTERNET EXPLORER"" BinaryName=""MSHTA.EXE"">
+      <BinaryVersionRange LowSection=""11.0.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT ® WINDOWS SCRIPT HOST"" BinaryName=""CSCRIPT.EXE"">
+      <BinaryVersionRange LowSection=""5.8.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT ® WINDOWS SCRIPT HOST"" BinaryName=""WSCRIPT.EXE"">
+      <BinaryVersionRange LowSection=""5.8.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® .NET FRAMEWORK"" BinaryName=""IEEXEC.EXE"">
+      <BinaryVersionRange LowSection=""2.0.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® .NET FRAMEWORK"" BinaryName=""INSTALLUTIL.EXE"">
+      <BinaryVersionRange LowSection=""2.0.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""FTP.EXE"">
+      <BinaryVersionRange LowSection=""6.3.9600.17415"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""NET.EXE"">
+      <BinaryVersionRange LowSection=""6.3.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""NET1.EXE"">
+      <BinaryVersionRange LowSection=""6.3.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""NETSH.EXE"">
+      <BinaryVersionRange LowSection=""6.3.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""POWERSHELL_ISE.EXE"">
+      <BinaryVersionRange LowSection=""6.3.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""REG.EXE"">
+      <BinaryVersionRange LowSection=""6.3.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""REGEDT32.EXE"">
+      <BinaryVersionRange LowSection=""6.3.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""REGINI.EXE"">
+      <BinaryVersionRange LowSection=""6.3.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT® WINDOWS® OPERATING SYSTEM"" BinaryName=""RUNAS.EXE"">
+      <BinaryVersionRange LowSection=""6.3.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePathCondition Path=""%SYSTEM32%\catroot2\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\com\dmp\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\FxsTmp\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\Spool\drivers\color\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\Spool\PRINTERS\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\Spool\SERVERS\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\Tasks\*"" />
+    <FilePathCondition Path=""%WINDIR%\debug\*"" />
+    <FilePathCondition Path=""%WINDIR%\Debug\wia\*"" />
+    <FilePathCondition Path=""%WINDIR%\pchealth\ERRORREP\*"" />
+    <FilePathCondition Path=""%WINDIR%\registration\*"" />
+    <FilePathCondition Path=""%WINDIR%\SysWOW64\com\dmp\*"" />
+    <FilePathCondition Path=""%WINDIR%\SysWOW64\FxsTmp\*"" />
+    <FilePathCondition Path=""%WINDIR%\SysWOW64\Tasks\*"" />
+    <FilePathCondition Path=""%WINDIR%\Tasks\*"" />
+    <FilePathCondition Path=""%WINDIR%\temp\*"" />
+    <FilePathCondition Path=""%WINDIR%\Tracing\*"" />
+  </Exceptions>
+</FilePathRule>",NCSC Windows 10 1903 - AppLocker,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Executable Rules,Rule 75b579da-f591-4380-9d7a-59047789f775,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Exe\75b579da-f591-4380-9d7a-59047789f775,Value,,,"<FilePublisherRule Id=""75b579da-f591-4380-9d7a-59047789f775"" Name=""MICROSOFT TEAMS, from O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" Description="""" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT TEAMS"" BinaryName=""*""><BinaryVersionRange LowSection=""*"" HighSection=""*""/></FilePublisherCondition></Conditions></FilePublisherRule>\r\n","FilePublisherRule | Allow | Everyone | MICROSOFT TEAMS, from O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
+<FilePublisherRule Id=""75b579da-f591-4380-9d7a-59047789f775"" Name=""MICROSOFT TEAMS, from O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" Description="""" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT TEAMS"" BinaryName=""*"">
+      <BinaryVersionRange LowSection=""*"" HighSection=""*"" />
+    </FilePublisherCondition>
+  </Conditions>
+</FilePublisherRule>",,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Executable Rules,Rule 769c8959-0b3c-43e7-8d03-bf457723bc8b,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Exe\769c8959-0b3c-43e7-8d03-bf457723bc8b,Value,,,"<FilePublisherRule Id=""769c8959-0b3c-43e7-8d03-bf457723bc8b"" Name=""MICROSOFT TEAMS UPDATE, from O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" Description="""" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT TEAMS UPDATE"" BinaryName=""*""><BinaryVersionRange LowSection=""*"" HighSection=""*""/></FilePublisherCondition></Conditions></FilePublisherRule>\r\n","FilePublisherRule | Allow | Everyone | MICROSOFT TEAMS UPDATE, from O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
+<FilePublisherRule Id=""769c8959-0b3c-43e7-8d03-bf457723bc8b"" Name=""MICROSOFT TEAMS UPDATE, from O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" Description="""" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT TEAMS UPDATE"" BinaryName=""*"">
+      <BinaryVersionRange LowSection=""*"" HighSection=""*"" />
+    </FilePublisherCondition>
+  </Conditions>
+</FilePublisherRule>",,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Executable Rules,Rule 95b9ab17-6f3d-4f15-b93c-06cca9e1236f,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Exe\95b9ab17-6f3d-4f15-b93c-06cca9e1236f,Value,,,"<FilePathRule Id=""95b9ab17-6f3d-4f15-b93c-06cca9e1236f"" Name=""C:\ProgramData\Microsoft\*"" Description=""Windows Defender"" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""C:\ProgramData\Microsoft\*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | C:\ProgramData\Microsoft\*
+<FilePathRule Id=""95b9ab17-6f3d-4f15-b93c-06cca9e1236f"" Name=""C:\ProgramData\Microsoft\*"" Description=""Windows Defender"" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""C:\ProgramData\Microsoft\*"" />
+  </Conditions>
+</FilePathRule>",,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Executable Rules,Rule abbf7b1e-e4ce-46ae-9ab3-ca044e1f0079,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Exe\abbf7b1e-e4ce-46ae-9ab3-ca044e1f0079,Value,"<FilePathRule Id=""abbf7b1e-e4ce-46ae-9ab3-ca044e1f0079"" Name=""%OSDRIVE%\ProgramData\Microsoft\Windows Defender\Platform\*"" Description="""" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""%OSDRIVE%\ProgramData\Microsoft\Windows Defender\Platform\*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | %OSDRIVE%\ProgramData\Microsoft\Windows Defender\Platform\*
+<FilePathRule Id=""abbf7b1e-e4ce-46ae-9ab3-ca044e1f0079"" Name=""%OSDRIVE%\ProgramData\Microsoft\Windows Defender\Platform\*"" Description="""" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""%OSDRIVE%\ProgramData\Microsoft\Windows Defender\Platform\*"" />
+  </Conditions>
+</FilePathRule>",,,NCSC Windows 10 1903 - AppLocker,
+Computer Configuration,...\AppLocker\Executable Rules,Rule beac373b-e4fc-49d8-9c27-c9536b84a26b,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Exe\beac373b-e4fc-49d8-9c27-c9536b84a26b,Value,,,"<FilePathRule Id=""beac373b-e4fc-49d8-9c27-c9536b84a26b"" Name=""C:\ProgramData\App-V\*"" Description="""" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""C:\ProgramData\App-V\*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | C:\ProgramData\App-V\*
+<FilePathRule Id=""beac373b-e4fc-49d8-9c27-c9536b84a26b"" Name=""C:\ProgramData\App-V\*"" Description="""" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""C:\ProgramData\App-V\*"" />
+  </Conditions>
+</FilePathRule>",,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Executable Rules,Rule exe,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Exe,AllowWindows,0,0,0,0,NCSC Windows 10 1903 - AppLocker,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Executable Rules,Rule fd58efe4-a598-460c-a8ec-c237d29dc936,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Exe\fd58efe4-a598-460c-a8ec-c237d29dc936,Value,,,"<FilePathRule Id=""fd58efe4-a598-460c-a8ec-c237d29dc936"" Name=""Additional allowed path: %OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*"" Description=""Allows Everyone to execute from %OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*"" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""%OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | Additional allowed path: %OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*
+<FilePathRule Id=""fd58efe4-a598-460c-a8ec-c237d29dc936"" Name=""Additional allowed path: %OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*"" Description=""Allows Everyone to execute from %OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*"" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""%OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*"" />
+  </Conditions>
+</FilePathRule>",,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Executable Rules,Rule fd686d83-a829-4351-8ff4-27c7de5755d2,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Exe\fd686d83-a829-4351-8ff4-27c7de5755d2,Value,"<FilePathRule Id=""fd686d83-a829-4351-8ff4-27c7de5755d2"" Name=""(Default Rule) All files"" Description=""Allows members of the local Administrators group to run all applications."" UserOrGroupSid=""S-1-5-32-544"" Action=""Allow""><Conditions><FilePathCondition Path=""*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | BUILTIN\Administrators | (Default Rule) All files
+<FilePathRule Id=""fd686d83-a829-4351-8ff4-27c7de5755d2"" Name=""(Default Rule) All files"" Description=""Allows members of the local Administrators group to run all applications."" UserOrGroupSid=""S-1-5-32-544"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""*"" />
+  </Conditions>
+</FilePathRule>","<FilePathRule Id=""fd686d83-a829-4351-8ff4-27c7de5755d2"" Name=""(Default Rule) All files"" Description=""Allows members of the local Administrators group to run all applications."" UserOrGroupSid=""S-1-5-32-544"" Action=""Allow""><Conditions><FilePathCondition Path=""*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | BUILTIN\Administrators | (Default Rule) All files
+<FilePathRule Id=""fd686d83-a829-4351-8ff4-27c7de5755d2"" Name=""(Default Rule) All files"" Description=""Allows members of the local Administrators group to run all applications."" UserOrGroupSid=""S-1-5-32-544"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""*"" />
+  </Conditions>
+</FilePathRule>",NCSC Windows 10 1903 - AppLocker,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Packaged app Rules,Configured,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Appx,EnforcementMode,1,Enforce rules,1,Enforce rules,NCSC Windows 10 1903 - AppLocker,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Packaged app Rules,Rule 5b2a8477-5617-4653-badd-81ee23fc2bb6,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Appx\5b2a8477-5617-4653-badd-81ee23fc2bb6,Value,"<FilePublisherRule Id=""5b2a8477-5617-4653-badd-81ee23fc2bb6"" Name=""All signed packaged apps"" Description=""Allows members of the Everyone group to run packaged apps that are signed."" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePublisherCondition PublisherName=""*"" ProductName=""*"" BinaryName=""*""><BinaryVersionRange LowSection=""0.0.0.0"" HighSection=""*""/></FilePublisherCondition></Conditions><Exceptions><FilePublisherCondition PublisherName=""CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"" ProductName=""Microsoft.Getstarted"" BinaryName=""*""><BinaryVersionRange LowSection=""2.1.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"" ProductName=""Microsoft.MicrosoftOfficeHub"" BinaryName=""*""><BinaryVersionRange LowSection=""17.4218.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""CN=Skype Software Sarl, O=Microsoft Corporation, L=Luxembourg, S=Luxembourg, C=LU"" ProductName=""Microsoft.SkypeApp"" BinaryName=""*""><BinaryVersionRange LowSection=""3.2.0.0"" HighSection=""*""/></FilePublisherCondition><FilePublisherCondition PublisherName=""CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"" ProductName=""Microsoft.WindowsFeedback"" BinaryName=""*""><BinaryVersionRange LowSection=""10.0.0.0"" HighSection=""*""/></FilePublisherCondition></Exceptions></FilePublisherRule>\r\n","FilePublisherRule | Allow | Everyone | All signed packaged apps
+<FilePublisherRule Id=""5b2a8477-5617-4653-badd-81ee23fc2bb6"" Name=""All signed packaged apps"" Description=""Allows members of the Everyone group to run packaged apps that are signed."" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePublisherCondition PublisherName=""*"" ProductName=""*"" BinaryName=""*"">
+      <BinaryVersionRange LowSection=""0.0.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+  </Conditions>
+  <Exceptions>
+    <FilePublisherCondition PublisherName=""CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"" ProductName=""Microsoft.Getstarted"" BinaryName=""*"">
+      <BinaryVersionRange LowSection=""2.1.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"" ProductName=""Microsoft.MicrosoftOfficeHub"" BinaryName=""*"">
+      <BinaryVersionRange LowSection=""17.4218.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""CN=Skype Software Sarl, O=Microsoft Corporation, L=Luxembourg, S=Luxembourg, C=LU"" ProductName=""Microsoft.SkypeApp"" BinaryName=""*"">
+      <BinaryVersionRange LowSection=""3.2.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+    <FilePublisherCondition PublisherName=""CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"" ProductName=""Microsoft.WindowsFeedback"" BinaryName=""*"">
+      <BinaryVersionRange LowSection=""10.0.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+  </Exceptions>
+</FilePublisherRule>",,,NCSC Windows 10 1903 - AppLocker,
+Computer Configuration,...\AppLocker\Packaged app Rules,Rule a9e18c21-ff8f-43cf-b9fc-db40eed693ba,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Appx\a9e18c21-ff8f-43cf-b9fc-db40eed693ba,Value,,,"<FilePublisherRule Id=""a9e18c21-ff8f-43cf-b9fc-db40eed693ba"" Name=""(Default Rule) All signed packaged apps"" Description=""Allows members of the Everyone group to run packaged apps that are signed."" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePublisherCondition PublisherName=""*"" ProductName=""*"" BinaryName=""*""><BinaryVersionRange LowSection=""0.0.0.0"" HighSection=""*""/></FilePublisherCondition></Conditions></FilePublisherRule>\r\n","FilePublisherRule | Allow | Everyone | (Default Rule) All signed packaged apps
+<FilePublisherRule Id=""a9e18c21-ff8f-43cf-b9fc-db40eed693ba"" Name=""(Default Rule) All signed packaged apps"" Description=""Allows members of the Everyone group to run packaged apps that are signed."" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePublisherCondition PublisherName=""*"" ProductName=""*"" BinaryName=""*"">
+      <BinaryVersionRange LowSection=""0.0.0.0"" HighSection=""*"" />
+    </FilePublisherCondition>
+  </Conditions>
+</FilePublisherRule>",,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Packaged app Rules,Rule appx,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Appx,AllowWindows,0,0,0,0,NCSC Windows 10 1903 - AppLocker,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Script Rules,Configured,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Script,EnforcementMode,1,Enforce rules,1,Enforce rules,NCSC Windows 10 1903 - AppLocker,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Script Rules,Rule 06dce67b-934c-454f-a263-2515c8796a5d,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Script\06dce67b-934c-454f-a263-2515c8796a5d,Value,"<FilePathRule Id=""06dce67b-934c-454f-a263-2515c8796a5d"" Name=""(Default Rule) All scripts located in the Program Files folder"" Description=""Allows members of the Everyone group to run scripts that are located in the Program Files folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""%PROGRAMFILES%\*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | (Default Rule) All scripts located in the Program Files folder
+<FilePathRule Id=""06dce67b-934c-454f-a263-2515c8796a5d"" Name=""(Default Rule) All scripts located in the Program Files folder"" Description=""Allows members of the Everyone group to run scripts that are located in the Program Files folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""%PROGRAMFILES%\*"" />
+  </Conditions>
+</FilePathRule>",,,NCSC Windows 10 1903 - AppLocker,
+Computer Configuration,...\AppLocker\Script Rules,Rule 2d2e2715-50d1-4f32-9885-7c935e189f44,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Script\2d2e2715-50d1-4f32-9885-7c935e189f44,Value,,,"<FilePathRule Id=""2d2e2715-50d1-4f32-9885-7c935e189f44"" Name=""All scripts located in the Windows folder"" Description=""Allows members of the Everyone group to run scripts that are located in the Windows folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""%WINDIR%\*""/></Conditions><Exceptions><FilePathCondition Path=""%WINDIR%\registration\crmlog\*""/><FilePathCondition Path=""%WINDIR%\servicestate\detectionverificationdrv\data\*""/><FilePathCondition Path=""%WINDIR%\servicestate\detectionverificationdrv\data:*""/><FilePathCondition Path=""%WINDIR%\servicestate\esif_umdf2\data\*""/><FilePathCondition Path=""%WINDIR%\servicestate\esif_umdf2\data:*""/><FilePathCondition Path=""%WINDIR%\servicestate\helloface\data\*""/><FilePathCondition Path=""%WINDIR%\servicestate\helloface\data:*""/><FilePathCondition Path=""%WINDIR%\servicestate\sensorscx0102\data\*""/><FilePathCondition Path=""%WINDIR%\servicestate\sensorscx0102\data:*""/><FilePathCondition Path=""%WINDIR%\servicestate\sensorshidclassdriver\data\*""/><FilePathCondition Path=""%WINDIR%\servicestate\sensorshidclassdriver\data:*""/><FilePathCondition Path=""%WINDIR%\servicestate\surfacepenpairing\data\*""/><FilePathCondition Path=""%WINDIR%\servicestate\surfacepenpairing\data:*""/><FilePathCondition Path=""%SYSTEM32%\com\dmp\*""/><FilePathCondition Path=""%SYSTEM32%\drivers\driverdata\*""/><FilePathCondition Path=""%SYSTEM32%\drivers\driverdata:*""/><FilePathCondition Path=""%SYSTEM32%\fxstmp\*""/><FilePathCondition Path=""%SYSTEM32%\microsoft\crypto\rsa\machinekeys\*""/><FilePathCondition Path=""%SYSTEM32%\microsoft\crypto\rsa\machinekeys:*""/><FilePathCondition Path=""%SYSTEM32%\spool\drivers\color\*""/><FilePathCondition Path=""%SYSTEM32%\spool\printers\*""/><FilePathCondition Path=""%SYSTEM32%\spool\servers\*""/><FilePathCondition Path=""%SYSTEM32%\tasks\*""/><FilePathCondition Path=""%SYSTEM32%\tasks_migrated\*""/><FilePathCondition Path=""%WINDIR%\SysWOW64\com\dmp\*""/><FilePathCondition Path=""%WINDIR%\SysWOW64\FxsTmp\*""/><FilePathCondition Path=""%WINDIR%\SysWOW64\Tasks\*""/><FilePathCondition Path=""%WINDIR%\tasks\*""/><FilePathCondition Path=""%WINDIR%\temp\*""/><FilePathCondition Path=""%WINDIR%\tracing\*""/><FilePathCondition Path=""%WINDIR%\tracing:*""/></Exceptions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | All scripts located in the Windows folder
+<FilePathRule Id=""2d2e2715-50d1-4f32-9885-7c935e189f44"" Name=""All scripts located in the Windows folder"" Description=""Allows members of the Everyone group to run scripts that are located in the Windows folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""%WINDIR%\*"" />
+  </Conditions>
+  <Exceptions>
+    <FilePathCondition Path=""%WINDIR%\registration\crmlog\*"" />
+    <FilePathCondition Path=""%WINDIR%\servicestate\detectionverificationdrv\data\*"" />
+    <FilePathCondition Path=""%WINDIR%\servicestate\detectionverificationdrv\data:*"" />
+    <FilePathCondition Path=""%WINDIR%\servicestate\esif_umdf2\data\*"" />
+    <FilePathCondition Path=""%WINDIR%\servicestate\esif_umdf2\data:*"" />
+    <FilePathCondition Path=""%WINDIR%\servicestate\helloface\data\*"" />
+    <FilePathCondition Path=""%WINDIR%\servicestate\helloface\data:*"" />
+    <FilePathCondition Path=""%WINDIR%\servicestate\sensorscx0102\data\*"" />
+    <FilePathCondition Path=""%WINDIR%\servicestate\sensorscx0102\data:*"" />
+    <FilePathCondition Path=""%WINDIR%\servicestate\sensorshidclassdriver\data\*"" />
+    <FilePathCondition Path=""%WINDIR%\servicestate\sensorshidclassdriver\data:*"" />
+    <FilePathCondition Path=""%WINDIR%\servicestate\surfacepenpairing\data\*"" />
+    <FilePathCondition Path=""%WINDIR%\servicestate\surfacepenpairing\data:*"" />
+    <FilePathCondition Path=""%SYSTEM32%\com\dmp\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\drivers\driverdata\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\drivers\driverdata:*"" />
+    <FilePathCondition Path=""%SYSTEM32%\fxstmp\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\microsoft\crypto\rsa\machinekeys\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\microsoft\crypto\rsa\machinekeys:*"" />
+    <FilePathCondition Path=""%SYSTEM32%\spool\drivers\color\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\spool\printers\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\spool\servers\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\tasks\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\tasks_migrated\*"" />
+    <FilePathCondition Path=""%WINDIR%\SysWOW64\com\dmp\*"" />
+    <FilePathCondition Path=""%WINDIR%\SysWOW64\FxsTmp\*"" />
+    <FilePathCondition Path=""%WINDIR%\SysWOW64\Tasks\*"" />
+    <FilePathCondition Path=""%WINDIR%\tasks\*"" />
+    <FilePathCondition Path=""%WINDIR%\temp\*"" />
+    <FilePathCondition Path=""%WINDIR%\tracing\*"" />
+    <FilePathCondition Path=""%WINDIR%\tracing:*"" />
+  </Exceptions>
+</FilePathRule>",,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Script Rules,Rule 4424ec7c-c6ff-4015-ba6a-7f465808db21,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Script\4424ec7c-c6ff-4015-ba6a-7f465808db21,Value,"<FilePathRule Id=""4424ec7c-c6ff-4015-ba6a-7f465808db21"" Name=""All scripts located in the Windows folder"" Description=""Allows members of the Everyone group to run scripts that are located in the Windows folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""%WINDIR%\*""/></Conditions><Exceptions><FilePathCondition Path=""%SYSTEM32%\AppLocker\*""/><FilePathCondition Path=""%SYSTEM32%\com\dmp\*""/><FilePathCondition Path=""%SYSTEM32%\FxsTmp\*""/><FilePathCondition Path=""%SYSTEM32%\Microsoft\Crypto\RSA\MachineKeys\*""/><FilePathCondition Path=""%SYSTEM32%\Spool\drivers\color\*""/><FilePathCondition Path=""%SYSTEM32%\Spool\PRINTERS\*""/><FilePathCondition Path=""%SYSTEM32%\Spool\SERVERS\*""/><FilePathCondition Path=""%SYSTEM32%\Tasks\*""/><FilePathCondition Path=""%WINDIR%\registration\crmlog\*""/><FilePathCondition Path=""%WINDIR%\servicing\Packages\*""/><FilePathCondition Path=""%WINDIR%\servicing\Sessions\*""/><FilePathCondition Path=""%WINDIR%\Tasks\*""/><FilePathCondition Path=""%WINDIR%\temp\*""/><FilePathCondition Path=""%WINDIR%\Tracing\*""/></Exceptions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | All scripts located in the Windows folder
+<FilePathRule Id=""4424ec7c-c6ff-4015-ba6a-7f465808db21"" Name=""All scripts located in the Windows folder"" Description=""Allows members of the Everyone group to run scripts that are located in the Windows folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""%WINDIR%\*"" />
+  </Conditions>
+  <Exceptions>
+    <FilePathCondition Path=""%SYSTEM32%\AppLocker\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\com\dmp\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\FxsTmp\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\Microsoft\Crypto\RSA\MachineKeys\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\Spool\drivers\color\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\Spool\PRINTERS\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\Spool\SERVERS\*"" />
+    <FilePathCondition Path=""%SYSTEM32%\Tasks\*"" />
+    <FilePathCondition Path=""%WINDIR%\registration\crmlog\*"" />
+    <FilePathCondition Path=""%WINDIR%\servicing\Packages\*"" />
+    <FilePathCondition Path=""%WINDIR%\servicing\Sessions\*"" />
+    <FilePathCondition Path=""%WINDIR%\Tasks\*"" />
+    <FilePathCondition Path=""%WINDIR%\temp\*"" />
+    <FilePathCondition Path=""%WINDIR%\Tracing\*"" />
+  </Exceptions>
+</FilePathRule>",,,NCSC Windows 10 1903 - AppLocker,
+Computer Configuration,...\AppLocker\Script Rules,Rule 4584b3d3-9e11-4104-b7fa-851a2274d430,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Script\4584b3d3-9e11-4104-b7fa-851a2274d430,Value,,,"<FilePublisherRule Id=""4584b3d3-9e11-4104-b7fa-851a2274d430"" Name=""Microsoft-signed script files: Signer rule for O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" Description=""Information acquired from TrustedSigners.ps1"" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""*"" BinaryName=""*""><BinaryVersionRange LowSection=""*"" HighSection=""*""/></FilePublisherCondition></Conditions></FilePublisherRule>\r\n","FilePublisherRule | Allow | Everyone | Microsoft-signed script files: Signer rule for O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
+<FilePublisherRule Id=""4584b3d3-9e11-4104-b7fa-851a2274d430"" Name=""Microsoft-signed script files: Signer rule for O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" Description=""Information acquired from TrustedSigners.ps1"" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""*"" BinaryName=""*"">
+      <BinaryVersionRange LowSection=""*"" HighSection=""*"" />
+    </FilePublisherCondition>
+  </Conditions>
+</FilePublisherRule>",,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Script Rules,Rule 742c089a-d5bc-4f1e-98dc-2535b7b164b5,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Script\742c089a-d5bc-4f1e-98dc-2535b7b164b5,Value,,,"<FilePathRule Id=""742c089a-d5bc-4f1e-98dc-2535b7b164b5"" Name=""All scripts located in the Program Files folder"" Description=""Allows members of the Everyone group to run scripts that are located in the Program Files folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""%PROGRAMFILES%\*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | All scripts located in the Program Files folder
+<FilePathRule Id=""742c089a-d5bc-4f1e-98dc-2535b7b164b5"" Name=""All scripts located in the Program Files folder"" Description=""Allows members of the Everyone group to run scripts that are located in the Program Files folder."" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""%PROGRAMFILES%\*"" />
+  </Conditions>
+</FilePathRule>",,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Script Rules,Rule 8a78bdbf-dad8-4b32-ba4f-2d97124e4171,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Script\8a78bdbf-dad8-4b32-ba4f-2d97124e4171,Value,,,"<FilePublisherRule Id=""8a78bdbf-dad8-4b32-ba4f-2d97124e4171"" Name=""Microsoft Teams: Signer/product rule for O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US/MICROSOFT TEAMS"" Description=""Information acquired from TrustedSigners.ps1"" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT TEAMS"" BinaryName=""*""><BinaryVersionRange LowSection=""*"" HighSection=""*""/></FilePublisherCondition></Conditions></FilePublisherRule>\r\n","FilePublisherRule | Allow | Everyone | Microsoft Teams: Signer/product rule for O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US/MICROSOFT TEAMS
+<FilePublisherRule Id=""8a78bdbf-dad8-4b32-ba4f-2d97124e4171"" Name=""Microsoft Teams: Signer/product rule for O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US/MICROSOFT TEAMS"" Description=""Information acquired from TrustedSigners.ps1"" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT TEAMS"" BinaryName=""*"">
+      <BinaryVersionRange LowSection=""*"" HighSection=""*"" />
+    </FilePublisherCondition>
+  </Conditions>
+</FilePublisherRule>",,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Script Rules,Rule cb53b773-9929-4a09-9758-641d189ef2b4,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Script\cb53b773-9929-4a09-9758-641d189ef2b4,Value,,,"<FilePathRule Id=""cb53b773-9929-4a09-9758-641d189ef2b4"" Name=""Additional allowed path: %OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*"" Description=""Allows Everyone to execute from %OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*"" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""%OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | Additional allowed path: %OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*
+<FilePathRule Id=""cb53b773-9929-4a09-9758-641d189ef2b4"" Name=""Additional allowed path: %OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*"" Description=""Allows Everyone to execute from %OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*"" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""%OSDRIVE%\PROGRAMDATA\MICROSOFT\WINDOWS DEFENDER\*"" />
+  </Conditions>
+</FilePathRule>",,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Script Rules,Rule ed97d0cb-15ff-430f-b82c-8d7832957725,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Script\ed97d0cb-15ff-430f-b82c-8d7832957725,Value,"<FilePathRule Id=""ed97d0cb-15ff-430f-b82c-8d7832957725"" Name=""(Default Rule) All scripts"" Description=""Allows members of the local Administrators group to run all scripts."" UserOrGroupSid=""S-1-5-32-544"" Action=""Allow""><Conditions><FilePathCondition Path=""*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | BUILTIN\Administrators | (Default Rule) All scripts
+<FilePathRule Id=""ed97d0cb-15ff-430f-b82c-8d7832957725"" Name=""(Default Rule) All scripts"" Description=""Allows members of the local Administrators group to run all scripts."" UserOrGroupSid=""S-1-5-32-544"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""*"" />
+  </Conditions>
+</FilePathRule>","<FilePathRule Id=""ed97d0cb-15ff-430f-b82c-8d7832957725"" Name=""(Default Rule) All scripts"" Description=""Allows members of the local Administrators group to run all scripts."" UserOrGroupSid=""S-1-5-32-544"" Action=""Allow""><Conditions><FilePathCondition Path=""*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | BUILTIN\Administrators | (Default Rule) All scripts
+<FilePathRule Id=""ed97d0cb-15ff-430f-b82c-8d7832957725"" Name=""(Default Rule) All scripts"" Description=""Allows members of the local Administrators group to run all scripts."" UserOrGroupSid=""S-1-5-32-544"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""*"" />
+  </Conditions>
+</FilePathRule>",NCSC Windows 10 1903 - AppLocker,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Script Rules,Rule script,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Script,AllowWindows,0,0,0,0,NCSC Windows 10 1903 - AppLocker,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Windows Installer Rules,Configured,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Msi,EnforcementMode,1,Enforce rules,1,Enforce rules,NCSC Windows 10 1903 - AppLocker,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Windows Installer Rules,Rule 5b290184-345a-4453-b184-45305f6d9a54,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Msi\5b290184-345a-4453-b184-45305f6d9a54,Value,,,"<FilePathRule Id=""5b290184-345a-4453-b184-45305f6d9a54"" Name=""(Default Rule) All Windows Installer files in %systemdrive%\Windows\Installer"" Description=""Allows members of the Everyone group to run all Windows Installer files located in %systemdrive%\Windows\Installer."" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""%WINDIR%\Installer\*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | (Default Rule) All Windows Installer files in %systemdrive%\Windows\Installer
+<FilePathRule Id=""5b290184-345a-4453-b184-45305f6d9a54"" Name=""(Default Rule) All Windows Installer files in %systemdrive%\Windows\Installer"" Description=""Allows members of the Everyone group to run all Windows Installer files located in %systemdrive%\Windows\Installer."" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""%WINDIR%\Installer\*"" />
+  </Conditions>
+</FilePathRule>",,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Windows Installer Rules,Rule 64ad46ff-0d71-4fa0-a30b-3f3d30c5433d,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Msi\64ad46ff-0d71-4fa0-a30b-3f3d30c5433d,Value,"<FilePathRule Id=""64ad46ff-0d71-4fa0-a30b-3f3d30c5433d"" Name=""(Default Rule) All Windows Installer files"" Description=""Allows members of the local Administrators group to run all Windows Installer files."" UserOrGroupSid=""S-1-5-32-544"" Action=""Allow""><Conditions><FilePathCondition Path=""*.*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | BUILTIN\Administrators | (Default Rule) All Windows Installer files
+<FilePathRule Id=""64ad46ff-0d71-4fa0-a30b-3f3d30c5433d"" Name=""(Default Rule) All Windows Installer files"" Description=""Allows members of the local Administrators group to run all Windows Installer files."" UserOrGroupSid=""S-1-5-32-544"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""*.*"" />
+  </Conditions>
+</FilePathRule>","<FilePathRule Id=""64ad46ff-0d71-4fa0-a30b-3f3d30c5433d"" Name=""(Default Rule) All Windows Installer files"" Description=""Allows members of the local Administrators group to run all Windows Installer files."" UserOrGroupSid=""S-1-5-32-544"" Action=""Allow""><Conditions><FilePathCondition Path=""*.*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | BUILTIN\Administrators | (Default Rule) All Windows Installer files
+<FilePathRule Id=""64ad46ff-0d71-4fa0-a30b-3f3d30c5433d"" Name=""(Default Rule) All Windows Installer files"" Description=""Allows members of the local Administrators group to run all Windows Installer files."" UserOrGroupSid=""S-1-5-32-544"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""*.*"" />
+  </Conditions>
+</FilePathRule>",NCSC Windows 10 1903 - AppLocker,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Windows Installer Rules,Rule c51929f5-81f2-4d34-a3bc-fead5f724d97,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Msi\c51929f5-81f2-4d34-a3bc-fead5f724d97,Value,,,"<FilePublisherRule Id=""c51929f5-81f2-4d34-a3bc-fead5f724d97"" Name=""Microsoft Teams: Signer/product rule for O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US/MICROSOFT TEAMS"" Description=""Information acquired from TrustedSigners.ps1"" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT TEAMS"" BinaryName=""*""><BinaryVersionRange LowSection=""*"" HighSection=""*""/></FilePublisherCondition></Conditions></FilePublisherRule>\r\n","FilePublisherRule | Allow | Everyone | Microsoft Teams: Signer/product rule for O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US/MICROSOFT TEAMS
+<FilePublisherRule Id=""c51929f5-81f2-4d34-a3bc-fead5f724d97"" Name=""Microsoft Teams: Signer/product rule for O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US/MICROSOFT TEAMS"" Description=""Information acquired from TrustedSigners.ps1"" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""MICROSOFT TEAMS"" BinaryName=""*"">
+      <BinaryVersionRange LowSection=""*"" HighSection=""*"" />
+    </FilePublisherCondition>
+  </Conditions>
+</FilePublisherRule>",,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Windows Installer Rules,Rule c64e52fe-bd05-43ed-ae91-f3612182829e,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Msi\c64e52fe-bd05-43ed-ae91-f3612182829e,Value,,,"<FilePathRule Id=""c64e52fe-bd05-43ed-ae91-f3612182829e"" Name=""All Windows Installer files under %windir%\ccmcache"" Description=""Allows everyone to run installer files in the SCCM cache."" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""%WINDIR%\ccmcache\*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | All Windows Installer files under %windir%\ccmcache
+<FilePathRule Id=""c64e52fe-bd05-43ed-ae91-f3612182829e"" Name=""All Windows Installer files under %windir%\ccmcache"" Description=""Allows everyone to run installer files in the SCCM cache."" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""%WINDIR%\ccmcache\*"" />
+  </Conditions>
+</FilePathRule>",,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Windows Installer Rules,Rule ca34e838-94c7-4330-8f4f-6a52e8ce7050,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Msi\ca34e838-94c7-4330-8f4f-6a52e8ce7050,Value,,,"<FilePublisherRule Id=""ca34e838-94c7-4330-8f4f-6a52e8ce7050"" Name=""Microsoft-signed MSI files: Signer rule for O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" Description=""Information acquired from TrustedSigners.ps1"" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""*"" BinaryName=""*""><BinaryVersionRange LowSection=""*"" HighSection=""*""/></FilePublisherCondition></Conditions></FilePublisherRule>\r\n","FilePublisherRule | Allow | Everyone | Microsoft-signed MSI files: Signer rule for O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
+<FilePublisherRule Id=""ca34e838-94c7-4330-8f4f-6a52e8ce7050"" Name=""Microsoft-signed MSI files: Signer rule for O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" Description=""Information acquired from TrustedSigners.ps1"" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePublisherCondition PublisherName=""O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US"" ProductName=""*"" BinaryName=""*"">
+      <BinaryVersionRange LowSection=""*"" HighSection=""*"" />
+    </FilePublisherCondition>
+  </Conditions>
+</FilePublisherRule>",,NCSC Windows - AppLocker
+Computer Configuration,...\AppLocker\Windows Installer Rules,Rule dbd8ff9e-a670-4e3b-b59e-c0cd39637b99,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Msi\dbd8ff9e-a670-4e3b-b59e-c0cd39637b99,Value,"<FilePathRule Id=""dbd8ff9e-a670-4e3b-b59e-c0cd39637b99"" Name=""%WINDIR%\Installer\*"" Description="""" UserOrGroupSid=""S-1-1-0"" Action=""Allow""><Conditions><FilePathCondition Path=""%WINDIR%\Installer\*""/></Conditions></FilePathRule>\r\n","FilePathRule | Allow | Everyone | %WINDIR%\Installer\*
+<FilePathRule Id=""dbd8ff9e-a670-4e3b-b59e-c0cd39637b99"" Name=""%WINDIR%\Installer\*"" Description="""" UserOrGroupSid=""S-1-1-0"" Action=""Allow"">
+  <Conditions>
+    <FilePathCondition Path=""%WINDIR%\Installer\*"" />
+  </Conditions>
+</FilePathRule>",,,NCSC Windows 10 1903 - AppLocker,
+Computer Configuration,...\AppLocker\Windows Installer Rules,Rule msi,HKLM,Software\Policies\Microsoft\Windows\SrpV2\Msi,AllowWindows,0,0,0,0,NCSC Windows 10 1903 - AppLocker,NCSC Windows - AppLocker
+Computer Configuration,...\Windows Defender Firewall with Advanced Security\...Rules,{16179759-79D2-48F1-A567-B1EF930E13C5},HKLM,SOFTWARE\Policies\Microsoft\WindowsFirewall\FirewallRules,{16179759-79D2-48F1-A567-B1EF930E13C5},v2.28|Action=Allow|Active=TRUE|Dir=Out|Protocol=17|Profile=Private|Profile=Public|App=%SystemRoot%\system32\lsass.exe|Name=Allow outbound Kerberos - UDP|,"Outbound: Allow outbound Kerberos - UDP
+v2.28
+Action = Allow
+Active = TRUE
+Dir = Out
+Protocol = 17
+Profile = Private
+Profile = Public
+App = %SystemRoot%\system32\lsass.exe
+Name = Allow outbound Kerberos - UDP",v2.28|Action=Allow|Active=TRUE|Dir=Out|Protocol=17|Profile=Private|Profile=Public|App=%SystemRoot%\system32\lsass.exe|Name=Allow outbound Kerberos - UDP|,"Outbound: Allow outbound Kerberos - UDP
+v2.28
+Action = Allow
+Active = TRUE
+Dir = Out
+Protocol = 17
+Profile = Private
+Profile = Public
+App = %SystemRoot%\system32\lsass.exe
+Name = Allow outbound Kerberos - UDP",NCSC Windows 10 1903 - Firewall Configuration,NCSC Windows - Firewall
+Computer Configuration,...\Windows Defender Firewall with Advanced Security\...Rules,{5FB5B55E-568D-466D-BF82-EB825B66BA93},HKLM,SOFTWARE\Policies\Microsoft\WindowsFirewall\FirewallRules,{5FB5B55E-568D-466D-BF82-EB825B66BA93},v2.28|Action=Allow|Active=TRUE|Dir=Out|Protocol=17|Profile=Private|Profile=Public|RPort=389|Name=Allow outbound LDAP - UDP|,"Outbound: Allow outbound LDAP - UDP
+v2.28
+Action = Allow
+Active = TRUE
+Dir = Out
+Protocol = 17
+Profile = Private
+Profile = Public
+RPort = 389
+Name = Allow outbound LDAP - UDP",v2.28|Action=Allow|Active=TRUE|Dir=Out|Protocol=17|Profile=Private|Profile=Public|RPort=389|Name=Allow outbound LDAP - UDP|,"Outbound: Allow outbound LDAP - UDP
+v2.28
+Action = Allow
+Active = TRUE
+Dir = Out
+Protocol = 17
+Profile = Private
+Profile = Public
+RPort = 389
+Name = Allow outbound LDAP - UDP",NCSC Windows 10 1903 - Firewall Configuration,NCSC Windows - Firewall
+Computer Configuration,...\Windows Defender Firewall with Advanced Security\...Rules,{70159D70-3BB0-437C-BC55-CB2312D6BA60},HKLM,SOFTWARE\Policies\Microsoft\WindowsFirewall\FirewallRules,{70159D70-3BB0-437C-BC55-CB2312D6BA60},v2.28|Action=Allow|Active=TRUE|Dir=Out|Protocol=6|Profile=Private|Profile=Public|RPort=389|Name=Allow outbound LDAP - TCP|,"Outbound: Allow outbound LDAP - TCP
+v2.28
+Action = Allow
+Active = TRUE
+Dir = Out
+Protocol = 6
+Profile = Private
+Profile = Public
+RPort = 389
+Name = Allow outbound LDAP - TCP",v2.28|Action=Allow|Active=TRUE|Dir=Out|Protocol=6|Profile=Private|Profile=Public|RPort=389|Name=Allow outbound LDAP - TCP|,"Outbound: Allow outbound LDAP - TCP
+v2.28
+Action = Allow
+Active = TRUE
+Dir = Out
+Protocol = 6
+Profile = Private
+Profile = Public
+RPort = 389
+Name = Allow outbound LDAP - TCP",NCSC Windows 10 1903 - Firewall Configuration,NCSC Windows - Firewall
+Computer Configuration,...\Windows Defender Firewall with Advanced Security\...Rules,{9F1872F0-C054-463C-95B1-A81ED2C81D31},HKLM,SOFTWARE\Policies\Microsoft\WindowsFirewall\FirewallRules,{9F1872F0-C054-463C-95B1-A81ED2C81D31},v2.28|Action=Allow|Active=TRUE|Dir=Out|Protocol=6|Profile=Private|Profile=Public|RPort=53|App=%SystemRoot%\system32\svchost.exe|Svc=Dnscache|Name=Allow outboud DNS - TCP|,"Outbound: Allow outboud DNS - TCP
+v2.28
+Action = Allow
+Active = TRUE
+Dir = Out
+Protocol = 6
+Profile = Private
+Profile = Public
+RPort = 53
+App = %SystemRoot%\system32\svchost.exe
+Svc = Dnscache
+Name = Allow outboud DNS - TCP",v2.28|Action=Allow|Active=TRUE|Dir=Out|Protocol=6|Profile=Private|Profile=Public|RPort=53|App=%SystemRoot%\system32\svchost.exe|Svc=Dnscache|Name=Allow outboud DNS - TCP|,"Outbound: Allow outboud DNS - TCP
+v2.28
+Action = Allow
+Active = TRUE
+Dir = Out
+Protocol = 6
+Profile = Private
+Profile = Public
+RPort = 53
+App = %SystemRoot%\system32\svchost.exe
+Svc = Dnscache
+Name = Allow outboud DNS - TCP",NCSC Windows 10 1903 - Firewall Configuration,NCSC Windows - Firewall
+Computer Configuration,...\Windows Defender Firewall with Advanced Security\...Rules,{A7583DB6-FF00-401F-8EF4-7254022FE8EC},HKLM,SOFTWARE\Policies\Microsoft\WindowsFirewall\FirewallRules,{A7583DB6-FF00-401F-8EF4-7254022FE8EC},v2.28|Action=Allow|Active=TRUE|Dir=Out|Protocol=6|Profile=Private|Profile=Public|App=%SystemRoot%\system32\lsass.exe|Name=Allow outbound Kerberos - TCP|,"Outbound: Allow outbound Kerberos - TCP
+v2.28
+Action = Allow
+Active = TRUE
+Dir = Out
+Protocol = 6
+Profile = Private
+Profile = Public
+App = %SystemRoot%\system32\lsass.exe
+Name = Allow outbound Kerberos - TCP",v2.28|Action=Allow|Active=TRUE|Dir=Out|Protocol=6|Profile=Private|Profile=Public|App=%SystemRoot%\system32\lsass.exe|Name=Allow outbound Kerberos - TCP|,"Outbound: Allow outbound Kerberos - TCP
+v2.28
+Action = Allow
+Active = TRUE
+Dir = Out
+Protocol = 6
+Profile = Private
+Profile = Public
+App = %SystemRoot%\system32\lsass.exe
+Name = Allow outbound Kerberos - TCP",NCSC Windows 10 1903 - Firewall Configuration,NCSC Windows - Firewall
+Computer Configuration,...\Windows Defender Firewall with Advanced Security\...Rules,{B37D8400-2B70-4844-BC76-2109733F2CF3},HKLM,SOFTWARE\Policies\Microsoft\WindowsFirewall\FirewallRules,{B37D8400-2B70-4844-BC76-2109733F2CF3},v2.28|Action=Allow|Active=TRUE|Dir=Out|Protocol=6|Profile=Private|Profile=Public|RPort=80|App=%SystemRoot%\System32\svchost.exe|Svc=NlaSvc|Name=Allow outbound NCSI Probe|,"Outbound: Allow outbound NCSI Probe
+v2.28
+Action = Allow
+Active = TRUE
+Dir = Out
+Protocol = 6
+Profile = Private
+Profile = Public
+RPort = 80
+App = %SystemRoot%\System32\svchost.exe
+Svc = NlaSvc
+Name = Allow outbound NCSI Probe",v2.28|Action=Allow|Active=TRUE|Dir=Out|Protocol=6|Profile=Private|Profile=Public|RPort=80|App=%SystemRoot%\System32\svchost.exe|Svc=NlaSvc|Name=Allow outbound NCSI Probe|,"Outbound: Allow outbound NCSI Probe
+v2.28
+Action = Allow
+Active = TRUE
+Dir = Out
+Protocol = 6
+Profile = Private
+Profile = Public
+RPort = 80
+App = %SystemRoot%\System32\svchost.exe
+Svc = NlaSvc
+Name = Allow outbound NCSI Probe",NCSC Windows 10 1903 - Firewall Configuration,NCSC Windows - Firewall
+Computer Configuration,...\Windows Defender Firewall with Advanced Security\...Rules,{B5F5CEB9-7989-4DAF-8B80-9C6DD1A139BC},HKLM,SOFTWARE\Policies\Microsoft\WindowsFirewall\FirewallRules,{B5F5CEB9-7989-4DAF-8B80-9C6DD1A139BC},v2.28|Action=Allow|Active=TRUE|Dir=Out|Protocol=17|Profile=Private|Profile=Public|LPort=68|RPort=67|App=%SystemRoot%\system32\svchost.exe|Svc=Dhcp|Name=Allow outbound DCHP|,"Outbound: Allow outbound DCHP
+v2.28
+Action = Allow
+Active = TRUE
+Dir = Out
+Protocol = 17
+Profile = Private
+Profile = Public
+LPort = 68
+RPort = 67
+App = %SystemRoot%\system32\svchost.exe
+Svc = Dhcp
+Name = Allow outbound DCHP",v2.28|Action=Allow|Active=TRUE|Dir=Out|Protocol=17|Profile=Private|Profile=Public|LPort=68|RPort=67|App=%SystemRoot%\system32\svchost.exe|Svc=Dhcp|Name=Allow outbound DCHP|,"Outbound: Allow outbound DCHP
+v2.28
+Action = Allow
+Active = TRUE
+Dir = Out
+Protocol = 17
+Profile = Private
+Profile = Public
+LPort = 68
+RPort = 67
+App = %SystemRoot%\system32\svchost.exe
+Svc = Dhcp
+Name = Allow outbound DCHP",NCSC Windows 10 1903 - Firewall Configuration,NCSC Windows - Firewall
+Computer Configuration,...\Windows Defender Firewall with Advanced Security\...Rules,{B61409AB-083A-45DF-9348-F2DDC77FB732},HKLM,SOFTWARE\Policies\Microsoft\WindowsFirewall\FirewallRules,{B61409AB-083A-45DF-9348-F2DDC77FB732},v2.28|Action=Allow|Active=TRUE|Dir=Out|Protocol=17|Profile=Private|Profile=Public|RPort=53|App=%SystemRoot%\system32\svchost.exe|Name=Allow outbound DNS - UDP|,"Outbound: Allow outbound DNS - UDP
+v2.28
+Action = Allow
+Active = TRUE
+Dir = Out
+Protocol = 17
+Profile = Private
+Profile = Public
+RPort = 53
+App = %SystemRoot%\system32\svchost.exe
+Name = Allow outbound DNS - UDP",v2.28|Action=Allow|Active=TRUE|Dir=Out|Protocol=17|Profile=Private|Profile=Public|RPort=53|App=%SystemRoot%\system32\svchost.exe|Name=Allow outbound DNS - UDP|,"Outbound: Allow outbound DNS - UDP
+v2.28
+Action = Allow
+Active = TRUE
+Dir = Out
+Protocol = 17
+Profile = Private
+Profile = Public
+RPort = 53
+App = %SystemRoot%\system32\svchost.exe
+Name = Allow outbound DNS - UDP",NCSC Windows 10 1903 - Firewall Configuration,NCSC Windows - Firewall
+Computer Configuration,...\Windows Defender Firewall with Advanced Security\Domain Profile\Settings,Apply local firewall rules,HKLM,SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile,AllowLocalPolicyMerge,0,No,0,No,NCSC Windows 10 1903 - Firewall Configuration,NCSC Windows - Firewall
+Computer Configuration,...\Windows Defender Firewall with Advanced Security\Domain Profile\State,Firewall state,HKLM,SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile,EnableFirewall,1,On (recommended),1,On (recommended),NCSC Windows 10 1903 - Firewall Configuration,NCSC Windows - Firewall
+Computer Configuration,...\Windows Defender Firewall with Advanced Security\Domain Profile\State,Inbound connections,HKLM,SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile,DefaultInboundAction,1,Block (default),1,Block (default),NCSC Windows 10 1903 - Firewall Configuration,NCSC Windows - Firewall
+Computer Configuration,...\Windows Defender Firewall with Advanced Security\Domain Profile\State,Outbound connections,HKLM,SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile,DefaultOutboundAction,0,Allow (default),0,Allow (default),NCSC Windows 10 1903 - Firewall Configuration,NCSC Windows - Firewall
+Computer Configuration,...\Windows Defender Firewall with Advanced Security\Private Profile\Settings,Apply local firewall rules,HKLM,SOFTWARE\Policies\Microsoft\WindowsFirewall\PrivateProfile,AllowLocalPolicyMerge,0,No,0,No,NCSC Windows 10 1903 - Firewall Configuration,NCSC Windows - Firewall
+Computer Configuration,...\Windows Defender Firewall with Advanced Security\Private Profile\State,Firewall state,HKLM,SOFTWARE\Policies\Microsoft\WindowsFirewall\PrivateProfile,EnableFirewall,1,On (recommended),1,On (recommended),NCSC Windows 10 1903 - Firewall Configuration,NCSC Windows - Firewall
+Computer Configuration,...\Windows Defender Firewall with Advanced Security\Private Profile\State,Inbound connections,HKLM,SOFTWARE\Policies\Microsoft\WindowsFirewall\PrivateProfile,DefaultInboundAction,1,Block (default),1,Block (default),NCSC Windows 10 1903 - Firewall Configuration,NCSC Windows - Firewall
+Computer Configuration,...\Windows Defender Firewall with Advanced Security\Private Profile\State,Outbound connections,HKLM,SOFTWARE\Policies\Microsoft\WindowsFirewall\PrivateProfile,DefaultOutboundAction,1,Block,1,Block,NCSC Windows 10 1903 - Firewall Configuration,NCSC Windows - Firewall
+Computer Configuration,...\Windows Defender Firewall with Advanced Security\Public Profile\Settings,Apply local firewall rules,HKLM,SOFTWARE\Policies\Microsoft\WindowsFirewall\PublicProfile,AllowLocalPolicyMerge,0,No,0,No,NCSC Windows 10 1903 - Firewall Configuration,NCSC Windows - Firewall
+Computer Configuration,...\Windows Defender Firewall with Advanced Security\Public Profile\State,Firewall state,HKLM,SOFTWARE\Policies\Microsoft\WindowsFirewall\PublicProfile,EnableFirewall,1,On (recommended),1,On (recommended),NCSC Windows 10 1903 - Firewall Configuration,NCSC Windows - Firewall
+Computer Configuration,...\Windows Defender Firewall with Advanced Security\Public Profile\State,Inbound connections,HKLM,SOFTWARE\Policies\Microsoft\WindowsFirewall\PublicProfile,DefaultInboundAction,1,Block (default),1,Block (default),NCSC Windows 10 1903 - Firewall Configuration,NCSC Windows - Firewall
+Computer Configuration,...\Windows Defender Firewall with Advanced Security\Public Profile\State,Outbound connections,HKLM,SOFTWARE\Policies\Microsoft\WindowsFirewall\PublicProfile,DefaultOutboundAction,1,Block,1,Block,NCSC Windows 10 1903 - Firewall Configuration,NCSC Windows - Firewall
+Computer Configuration,Control Panel\Personalization\,Prevent enabling lock screen camera,HKLM,Software\Policies\Microsoft\Windows\Personalization,NoLockScreenCamera,1,Enabled,1,Enabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,Network\Network Connections\,Require domain users to elevate when setting a network's location,HKLM,Software\Policies\Microsoft\Windows\Network Connections,NC_StdDomainUserSetLocation,1,Enabled,1,Enabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,Network\Network Isolation\,Proxy definitions are authoritative,HKLM,Software\Policies\Microsoft\Windows\NetworkIsolation,DProxiesAuthoritive,1,Enabled,1,Enabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,Network\Network Isolation\,Subnet definitions are authoritative,HKLM,Software\Policies\Microsoft\Windows\NetworkIsolation,DSubnetsAuthoritive,1,Enabled,1,Enabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,System\Device Guard\,Turn On Virtualization Based Security,HKLM,SOFTWARE\Policies\Microsoft\Windows\DeviceGuard,EnableVirtualizationBasedSecurity,1,Enabled,1,Enabled,NCSC Windows 10 1903 - Device Guard,NCSC Windows - Device Guard
+Computer Configuration,System\Device Guard\,Turn On Virtualization Based Security --> Credential Guard Configuration:,HKLM,SOFTWARE\Policies\Microsoft\Windows\DeviceGuard,LsaCfgFlags,1,Enabled with UEFI lock,2,Enabled without lock,NCSC Windows 10 1903 - Device Guard,NCSC Windows - Device Guard
+Computer Configuration,System\Device Guard\,Turn On Virtualization Based Security --> Require UEFI Memory Attributes Table,HKLM,SOFTWARE\Policies\Microsoft\Windows\DeviceGuard,HVCIMATRequired,1,TRUE,1,TRUE,NCSC Windows 10 1903 - Device Guard,NCSC Windows - Device Guard
+Computer Configuration,System\Device Guard\,Turn On Virtualization Based Security --> Secure Launch Configuration:,HKLM,SOFTWARE\Policies\Microsoft\Windows\DeviceGuard,ConfigureSystemGuardLaunch,1,Enabled,1,Enabled,NCSC Windows 10 1903 - Device Guard,NCSC Windows - Device Guard
+Computer Configuration,System\Device Guard\,Turn On Virtualization Based Security --> Select Platform Security Level:,HKLM,SOFTWARE\Policies\Microsoft\Windows\DeviceGuard,RequirePlatformSecurityFeatures,3,Secure Boot and DMA Protection,3,Secure Boot and DMA Protection,NCSC Windows 10 1903 - Device Guard,NCSC Windows - Device Guard
+Computer Configuration,System\Device Guard\,Turn On Virtualization Based Security --> Virtualization Based Protection of Code Integrity:,HKLM,SOFTWARE\Policies\Microsoft\Windows\DeviceGuard,HypervisorEnforcedCodeIntegrity,1,Enabled with UEFI lock,2,Enabled without lock,NCSC Windows 10 1903 - Device Guard,NCSC Windows - Device Guard
+Computer Configuration,System\Device Health Attestation Service\,Enable Device Health Attestation Monitoring and Reporting,HKLM,Software\Policies\Microsoft\DeviceHealthAttestationService,EnableDeviceHealthAttestationService,,,1,Enabled,,NCSC Windows - Device Health Attestation
+Computer Configuration,System\Device Installation\Device Installation Restrictions\,Prevent installation of devices that match any of these device IDs,HKLM,SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions,DenyDeviceIDs,1,Enabled,1,Enabled,"NCSC Windows 10 1903 - BitLocker
+NCSC Windows 10 1903 - Computer",NCSC Windows - Computer
+Computer Configuration,System\Device Installation\Device Installation Restrictions\,Prevent installation of devices that match any of these device IDs --> Also apply to matching devices that are already installed.,HKLM,SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions,DenyDeviceIDsRetroactive,0,FALSE,0,FALSE,"NCSC Windows 10 1903 - BitLocker
+NCSC Windows 10 1903 - Computer",NCSC Windows - Computer
+Computer Configuration,System\Device Installation\Device Installation Restrictions\,Prevent installation of devices that match any of these device IDs --> Prevent installation of devices that match any of these Device IDs:,HKLM,SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyDeviceIDs,[[[Delete all values]]],,,,,"NCSC Windows 10 1903 - BitLocker
+NCSC Windows 10 1903 - Computer",NCSC Windows - Computer
+Computer Configuration,System\Device Installation\Device Installation Restrictions\,Prevent installation of devices that match any of these device IDs --> Prevent installation of devices that match any of these Device IDs:,HKLM,SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyDeviceIDs,1,PCI\CC_0C0A,PCI\CC_0C0A,PCI\CC_0C0A,PCI\CC_0C0A,"NCSC Windows 10 1903 - BitLocker
+NCSC Windows 10 1903 - Computer",NCSC Windows - Computer
+Computer Configuration,System\Device Installation\Device Installation Restrictions\,Prevent installation of devices using drivers that match these device setup classes,HKLM,SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions,DenyDeviceClasses,1,Enabled,1,Enabled,"NCSC Windows 10 1903 - BitLocker
+NCSC Windows 10 1903 - Computer",NCSC Windows - Computer
+Computer Configuration,System\Device Installation\Device Installation Restrictions\,Prevent installation of devices using drivers that match these device setup classes --> Also apply to matching devices that are already installed.,HKLM,SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions,DenyDeviceClassesRetroactive,0,FALSE,0,FALSE,"NCSC Windows 10 1903 - BitLocker
+NCSC Windows 10 1903 - Computer",NCSC Windows - Computer
+Computer Configuration,System\Device Installation\Device Installation Restrictions\,Prevent installation of devices using drivers that match these device setup classes --> Prevent installation of devices using drivers for these device setup classes:,HKLM,SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyDeviceClasses,[[[Delete all values]]],,,,,"NCSC Windows 10 1903 - BitLocker
+NCSC Windows 10 1903 - Computer",NCSC Windows - Computer
+Computer Configuration,System\Device Installation\Device Installation Restrictions\,Prevent installation of devices using drivers that match these device setup classes --> Prevent installation of devices using drivers for these device setup classes:,HKLM,SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyDeviceClasses,1,{d48179be-ec20-11d1-b6b8-00c04fa372a7},{d48179be-ec20-11d1-b6b8-00c04fa372a7},{d48179be-ec20-11d1-b6b8-00c04fa372a7},{d48179be-ec20-11d1-b6b8-00c04fa372a7},"NCSC Windows 10 1903 - BitLocker
+NCSC Windows 10 1903 - Computer",NCSC Windows - Computer
+Computer Configuration,System\Device Installation\Device Installation Restrictions\,Prevent installation of devices using drivers that match these device setup classes --> Prevent installation of devices using drivers for these device setup classes:,HKLM,SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyDeviceClasses,2,"{7ebefcbc0-3200-11d2-b4c2-00a0C9697d07}
+{7ebefbc0-3200-11d2-b4c2-00a0C9697d07}","{7ebefcbc0-3200-11d2-b4c2-00a0C9697d07}
+{7ebefbc0-3200-11d2-b4c2-00a0C9697d07}",{7ebefbc0-3200-11d2-b4c2-00a0C9697d07},{7ebefbc0-3200-11d2-b4c2-00a0C9697d07},"NCSC Windows 10 1903 - BitLocker
+NCSC Windows 10 1903 - Computer",NCSC Windows - Computer
+Computer Configuration,System\Device Installation\Device Installation Restrictions\,Prevent installation of devices using drivers that match these device setup classes --> Prevent installation of devices using drivers for these device setup classes:,HKLM,SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyDeviceClasses,3,{c06ff265-ae09-48f0-812c-16753d7cba83},{c06ff265-ae09-48f0-812c-16753d7cba83},{c06ff265-ae09-48f0-812c-16753d7cba83},{c06ff265-ae09-48f0-812c-16753d7cba83},"NCSC Windows 10 1903 - BitLocker
+NCSC Windows 10 1903 - Computer",NCSC Windows - Computer
+Computer Configuration,System\Device Installation\Device Installation Restrictions\,Prevent installation of devices using drivers that match these device setup classes --> Prevent installation of devices using drivers for these device setup classes:,HKLM,SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyDeviceClasses,4,{6bdd1fc1-810f-11d0-bec7-08002be2092f},{6bdd1fc1-810f-11d0-bec7-08002be2092f},{6bdd1fc1-810f-11d0-bec7-08002be2092f},{6bdd1fc1-810f-11d0-bec7-08002be2092f},"NCSC Windows 10 1903 - BitLocker
+NCSC Windows 10 1903 - Computer",NCSC Windows - Computer
+Computer Configuration,System\Group Policy\,Continue experiences on this device,HKLM,Software\Policies\Microsoft\Windows\System,EnableCdp,0,Disabled,0,Disabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,System\Group Policy\,Phone-PC linking on this device,HKLM,Software\Policies\Microsoft\Windows\System,EnableMmx,0,Disabled,0,Disabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,System\Logon\,Turn off picture password sign-in,HKLM,Software\Policies\Microsoft\Windows\System,BlockDomainPicturePassword,1,Enabled,1,Enabled,NCSC Windows 10 1903 - User,NCSC Windows - Computer
+Computer Configuration,System\OS Policies\,Allow Clipboard History,HKLM,Software\Policies\Microsoft\Windows\System,AllowClipboardHistory,0,Disabled,0,Disabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,System\OS Policies\,Allow Clipboard synchronization across devices,HKLM,Software\Policies\Microsoft\Windows\System,AllowCrossDeviceClipboard,0,Disabled,0,Disabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,System\OS Policies\,Allow publishing of User Activities,HKLM,Software\Policies\Microsoft\Windows\System,PublishUserActivities,0,Disabled,0,Disabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,System\OS Policies\,Allow upload of User Activities,HKLM,Software\Policies\Microsoft\Windows\System,UploadUserActivities,0,Disabled,0,Disabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,System\OS Policies\,Enables Activity Feed,HKLM,Software\Policies\Microsoft\Windows\System,EnableActivityFeed,0,Disabled,0,Disabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,System\Power Management\Sleep Settings\,Allow standby states (S1-S3) when sleeping (on battery),HKLM,SOFTWARE\Policies\Microsoft\Power\PowerSettings\abfc2519-3608-4c2a-94ea-171b0ed546ab,DCSettingIndex,0,Disabled,0,Disabled,NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,System\Power Management\Sleep Settings\,Allow standby states (S1-S3) when sleeping (plugged in),HKLM,SOFTWARE\Policies\Microsoft\Power\PowerSettings\abfc2519-3608-4c2a-94ea-171b0ed546ab,ACSettingIndex,0,Disabled,0,Disabled,NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\App runtime\,Block launching Universal Windows apps with Windows Runtime API access from hosted content.,HKLM,Software\Microsoft\Windows\CurrentVersion\Policies\System,BlockHostedAppAccessWinRT,1,Enabled,1,Enabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,Windows Components\BitLocker Drive Encryption\,Choose drive encryption method and cipher strength (Windows 10 [Version 1511] and later) --> Select the encryption method for fixed data drives:,HKLM,SOFTWARE\Policies\Microsoft\FVE,EncryptionMethodWithXtsFdv,6,XTS-AES 128-bit (default),6,XTS-AES 128-bit (default),NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\,Choose drive encryption method and cipher strength (Windows 10 [Version 1511] and later) --> Select the encryption method for operating system drives:,HKLM,SOFTWARE\Policies\Microsoft\FVE,EncryptionMethodWithXtsOs,6,XTS-AES 128-bit (default),6,XTS-AES 128-bit (default),NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\,Choose drive encryption method and cipher strength (Windows 10 [Version 1511] and later) --> Select the encryption method for removable data drives:,HKLM,SOFTWARE\Policies\Microsoft\FVE,EncryptionMethodWithXtsRdv,3,AES-CBC 128-bit  (default),3,AES-CBC 128-bit  (default),NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\,Disable new DMA devices when this computer is locked,HKLM,SOFTWARE\Policies\Microsoft\FVE,DisableExternalDMAUnderLock,1,Enabled,1,Enabled,NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\Fixed Data Drives\,Configure use of hardware-based encryption for fixed data drives,HKLM,SOFTWARE\Policies\Microsoft\FVE,FDVHardwareEncryption,0,Disabled,0,Disabled,NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\Fixed Data Drives\,Configure use of hardware-based encryption for fixed data drives --> Restrict crypto algorithms or cipher suites to the following:,HKLM,SOFTWARE\Policies\Microsoft\FVE,FDVAllowedHardwareEncryptionAlgorithms,,[[[delete]]],,[[[delete]]],NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\Fixed Data Drives\,Configure use of hardware-based encryption for fixed data drives --> Restrict encryption algorithms and cipher suites allowed for hardware-based encryption,HKLM,SOFTWARE\Policies\Microsoft\FVE,FDVRestrictHardwareEncryptionAlgorithms,0,FALSE,0,FALSE,NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\Fixed Data Drives\,Configure use of hardware-based encryption for fixed data drives --> Use BitLocker software-based encryption when hardware encryption is not available,HKLM,SOFTWARE\Policies\Microsoft\FVE,FDVAllowSoftwareEncryptionFailover,0,FALSE,0,FALSE,NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\Fixed Data Drives\,Enforce drive encryption type on fixed data drives,HKLM,SOFTWARE\Policies\Microsoft\FVE,FDVEncryptionType,1,Full encryption,1,Full encryption,NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\Operating System Drives\,Allow enhanced PINs for startup,HKLM,SOFTWARE\Policies\Microsoft\FVE,UseEnhancedPin,1,Enabled,1,Enabled,NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\Operating System Drives\,Allow Secure Boot for integrity validation,HKLM,SOFTWARE\Policies\Microsoft\FVE,OSAllowSecureBootForIntegrity,1,Enabled,1,Enabled,NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\Operating System Drives\,Configure use of hardware-based encryption for operating system drives,HKLM,SOFTWARE\Policies\Microsoft\FVE,OSHardwareEncryption,0,Disabled,0,Disabled,NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\Operating System Drives\,Configure use of hardware-based encryption for operating system drives --> Restrict crypto algorithms or cipher suites to the following:,HKLM,SOFTWARE\Policies\Microsoft\FVE,OSAllowedHardwareEncryptionAlgorithms,,[[[delete]]],,[[[delete]]],NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\Operating System Drives\,Configure use of hardware-based encryption for operating system drives --> Restrict encryption algorithms and cipher suites allowed for hardware-based encryption,HKLM,SOFTWARE\Policies\Microsoft\FVE,OSRestrictHardwareEncryptionAlgorithms,0,FALSE,0,FALSE,NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\Operating System Drives\,Configure use of hardware-based encryption for operating system drives --> Use BitLocker software-based encryption when hardware encryption is not available,HKLM,SOFTWARE\Policies\Microsoft\FVE,OSAllowSoftwareEncryptionFailover,0,FALSE,0,FALSE,NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\Operating System Drives\,Enforce drive encryption type on operating system drives,HKLM,SOFTWARE\Policies\Microsoft\FVE,OSEncryptionType,1,Full encryption,1,Full encryption,NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\Operating System Drives\,Require additional authentication at startup,HKLM,SOFTWARE\Policies\Microsoft\FVE,UseAdvancedStartup,1,Enabled,1,Enabled,NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\Operating System Drives\,Require additional authentication at startup --> Allow BitLocker without a compatible TPM (requires a password or a startup key on a USB flash drive),HKLM,SOFTWARE\Policies\Microsoft\FVE,EnableBDEWithNoTPM,0,FALSE,0,FALSE,NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\Operating System Drives\,Require additional authentication at startup --> Configure TPM startup key and PIN:,HKLM,SOFTWARE\Policies\Microsoft\FVE,UseTPMKeyPIN,2,Allow startup key and PIN with TPM,2,Allow startup key and PIN with TPM,NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\Operating System Drives\,Require additional authentication at startup --> Configure TPM startup key:,HKLM,SOFTWARE\Policies\Microsoft\FVE,UseTPMKey,0,Do not allow startup key with TPM,0,Do not allow startup key with TPM,NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\Operating System Drives\,Require additional authentication at startup --> Configure TPM startup PIN:,HKLM,SOFTWARE\Policies\Microsoft\FVE,UseTPMPIN,2,Allow startup PIN with TPM,2,Allow startup PIN with TPM,NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\Operating System Drives\,Require additional authentication at startup --> Configure TPM startup:,HKLM,SOFTWARE\Policies\Microsoft\FVE,UseTPM,0,Do not allow TPM,0,Do not allow TPM,NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\Removable Data Drives\,Deny write access to removable drives not protected by BitLocker,HKLM,System\CurrentControlSet\Policies\Microsoft\FVE,RDVDenyWriteAccess,1,Enabled,1,Enabled,NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\BitLocker Drive Encryption\Removable Data Drives\,Deny write access to removable drives not protected by BitLocker --> Do not allow write access to devices configured in another organization,HKLM,SOFTWARE\Policies\Microsoft\FVE,RDVDenyCrossOrg,0,FALSE,0,FALSE,NCSC Windows 10 1903 - BitLocker,NCSC Windows - BitLocker
+Computer Configuration,Windows Components\Credential User Interface\,Do not display the password reveal button,HKLM,Software\Policies\Microsoft\Windows\CredUI,DisablePasswordReveal,1,Enabled,1,Enabled,NCSC Windows 10 1903 - User,NCSC Windows - Computer
+Computer Configuration,Windows Components\Credential User Interface\,Prevent the use of security questions for local accounts,HKLM,Software\Policies\Microsoft\Windows\System,NoLocalPasswordResetQuestions,1,Enabled,1,Enabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,Windows Components\Data Collection and Preview Builds\,Allow Diagnostic Data,HKLM,Software\Policies\Microsoft\Windows\DataCollection,AllowTelemetry,1,Send required diagnostic data,1,Send required diagnostic data,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,Windows Components\Data Collection and Preview Builds\,Configure collection of browsing data for Desktop Analytics --> Configure telemetry collection,HKLM,Software\Microsoft\Windows\CurrentVersion\Policies\DataCollection,MicrosoftEdgeDataOptIn,0,Do not allow sending intranet or internet history,0,Do not allow sending intranet or internet history,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,Windows Components\Data Collection and Preview Builds\,Disable deleting diagnostic data,HKLM,Software\Policies\Microsoft\Windows\DataCollection,DisableDeviceDelete,0,Disabled,0,Disabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,Windows Components\Data Collection and Preview Builds\,Disable diagnostic data viewer,HKLM,Software\Policies\Microsoft\Windows\DataCollection,DisableDiagnosticDataViewer,1,Enabled,1,Enabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\,Turn off Microsoft Defender Antivirus,HKLM,Software\Policies\Microsoft\Windows Defender,DisableAntiSpyware,0,Disabled,0,Disabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\MAPS\,Configure the 'Block at First Sight' feature,HKLM,Software\Policies\Microsoft\Windows Defender\Spynet,DisableBlockAtFirstSeen,0,Enabled,0,Enabled,NCSC Windows 10 1903 - Windows Defender,NCSC Windows - Windows Defender
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\MAPS\,Join Microsoft MAPS,HKLM,Software\Policies\Microsoft\Windows Defender\Spynet,SpynetReporting,2,Advanced MAPS,2,Advanced MAPS,NCSC Windows 10 1903 - Windows Defender,NCSC Windows - Windows Defender
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\MAPS\,Send file samples when further analysis is required,HKLM,Software\Policies\Microsoft\Windows Defender\Spynet,SubmitSamplesConsent,1,Send safe samples,1,Send safe samples,NCSC Windows 10 1903 - Windows Defender,NCSC Windows - Windows Defender
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Attack Surface Reduction\,Configure Attack Surface Reduction rules,HKLM,Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR,ExploitGuard_ASR_Rules,1,Enabled,1,Enabled,NCSC Windows 10 1903 - Exploit Guard,NCSC Windows - Exploit Guard
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Attack Surface Reduction\,Configure Attack Surface Reduction rules --> Set the state for each ASR rule:,HKLM,Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR\Rules,01443614-cd74-433a-b99e-2ecdc07bfc25,,,2,"Rule: Block executable files from running unless they meet a prevalence, age, or trusted list criterion
+State: Audit",,NCSC Windows - Exploit Guard
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Attack Surface Reduction\,Configure Attack Surface Reduction rules --> Set the state for each ASR rule:,HKLM,Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR\Rules,26190899-1602-49e8-8b27-eb1d0a1ce869,1,"Rule: Block Office communication application from creating child processes
+State: Block (enable ASR rule)",1,"Rule: Block Office communication application from creating child processes
+State: Block (enable ASR rule)",NCSC Windows 10 1903 - Exploit Guard,NCSC Windows - Exploit Guard
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Attack Surface Reduction\,Configure Attack Surface Reduction rules --> Set the state for each ASR rule:,HKLM,Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR\Rules,3b576869-a4ec-4529-8536-b80a7769e899,1,"Rule: Block Office applications from creating executable content
+State: Block (enable ASR rule)",1,"Rule: Block Office applications from creating executable content
+State: Block (enable ASR rule)",NCSC Windows 10 1903 - Exploit Guard,NCSC Windows - Exploit Guard
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Attack Surface Reduction\,Configure Attack Surface Reduction rules --> Set the state for each ASR rule:,HKLM,Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR\Rules,56a863a9-875e-4185-98a7-b882c64b5ce5,,,2,2,,NCSC Windows - Exploit Guard
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Attack Surface Reduction\,Configure Attack Surface Reduction rules --> Set the state for each ASR rule:,HKLM,Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR\Rules,5beb7efe-fd9a-4556-801d-275e5ffc04cc,1,"Rule: Block execution of potentially obfuscated scripts
+State: Block (enable ASR rule)",1,"Rule: Block execution of potentially obfuscated scripts
+State: Block (enable ASR rule)",NCSC Windows 10 1903 - Exploit Guard,NCSC Windows - Exploit Guard
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Attack Surface Reduction\,Configure Attack Surface Reduction rules --> Set the state for each ASR rule:,HKLM,Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR\Rules,75668c1f-73b5-4cf0-bb93-3ecf5cb7cc84,1,"Rule: Block Office applications from injecting code into other processes
+State: Block (enable ASR rule)",1,"Rule: Block Office applications from injecting code into other processes
+State: Block (enable ASR rule)",NCSC Windows 10 1903 - Exploit Guard,NCSC Windows - Exploit Guard
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Attack Surface Reduction\,Configure Attack Surface Reduction rules --> Set the state for each ASR rule:,HKLM,Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR\Rules,7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c,1,"Rule: Block Adobe Reader from creating child processes
+State: Block (enable ASR rule)",1,"Rule: Block Adobe Reader from creating child processes
+State: Block (enable ASR rule)",NCSC Windows 10 1903 - Exploit Guard,NCSC Windows - Exploit Guard
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Attack Surface Reduction\,Configure Attack Surface Reduction rules --> Set the state for each ASR rule:,HKLM,Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR\Rules,92e97fa1-2edf-4476-bdd6-9dd0b4dddc7b,1,"Rule: Block Win32 API calls from Office macro
+State: Block (enable ASR rule)",1,"Rule: Block Win32 API calls from Office macro
+State: Block (enable ASR rule)",NCSC Windows 10 1903 - Exploit Guard,NCSC Windows - Exploit Guard
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Attack Surface Reduction\,Configure Attack Surface Reduction rules --> Set the state for each ASR rule:,HKLM,Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR\Rules,9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2,1,"Rule: Block credential stealing from the Windows local security authority subsystem (lsass.exe)
+State: Block (enable ASR rule)",1,"Rule: Block credential stealing from the Windows local security authority subsystem (lsass.exe)
+State: Block (enable ASR rule)",NCSC Windows 10 1903 - Exploit Guard,NCSC Windows - Exploit Guard
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Attack Surface Reduction\,Configure Attack Surface Reduction rules --> Set the state for each ASR rule:,HKLM,Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR\Rules,b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4,1,"Rule: Block untrusted and unsigned processes that run from USB
+State: Block (enable ASR rule)",1,"Rule: Block untrusted and unsigned processes that run from USB
+State: Block (enable ASR rule)",NCSC Windows 10 1903 - Exploit Guard,NCSC Windows - Exploit Guard
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Attack Surface Reduction\,Configure Attack Surface Reduction rules --> Set the state for each ASR rule:,HKLM,Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR\Rules,be9ba2d9-53ea-4cdc-84e5-9b1eeee46550,1,"Rule: Block executable content from email client and webmail
+State: Block (enable ASR rule)",1,"Rule: Block executable content from email client and webmail
+State: Block (enable ASR rule)",NCSC Windows 10 1903 - Exploit Guard,NCSC Windows - Exploit Guard
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Attack Surface Reduction\,Configure Attack Surface Reduction rules --> Set the state for each ASR rule:,HKLM,Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR\Rules,c1db55ab-c21a-4637-bb3f-a12568109d35,,,2,"Rule: Use advanced protection against ransomware
+State: Audit",,NCSC Windows - Exploit Guard
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Attack Surface Reduction\,Configure Attack Surface Reduction rules --> Set the state for each ASR rule:,HKLM,Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR\Rules,d1e49aac-8f56-4280-b9ba-993a6d77406c,2,"Rule: Block process creations originating from PSExec and WMI commands
+State: Audit",2,"Rule: Block process creations originating from PSExec and WMI commands
+State: Audit",NCSC Windows 10 1903 - Exploit Guard,NCSC Windows - Exploit Guard
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Attack Surface Reduction\,Configure Attack Surface Reduction rules --> Set the state for each ASR rule:,HKLM,Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR\Rules,d3e037e1-3eb8-44c8-a917-57927947596d,1,"Rule: Block JavaScript or VBScript from launching downloaded executable content
+State: Block (enable ASR rule)",1,"Rule: Block JavaScript or VBScript from launching downloaded executable content
+State: Block (enable ASR rule)",NCSC Windows 10 1903 - Exploit Guard,NCSC Windows - Exploit Guard
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Attack Surface Reduction\,Configure Attack Surface Reduction rules --> Set the state for each ASR rule:,HKLM,Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR\Rules,d4f940ab-401b-4efc-aadc-ad5f3c50688a,1,"Rule: Block all Office applications from creating child processes
+State: Block (enable ASR rule)",1,"Rule: Block all Office applications from creating child processes
+State: Block (enable ASR rule)",NCSC Windows 10 1903 - Exploit Guard,NCSC Windows - Exploit Guard
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Attack Surface Reduction\,Configure Attack Surface Reduction rules --> Set the state for each ASR rule:,HKLM,Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR\Rules,e6db77e5-3df2-4cf1-b95a-636979351e5b,,,2,"Rule: Block persistence through WMI event subscription
+State: Audit",,NCSC Windows - Exploit Guard
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Controlled Folder Access\,Configure Controlled folder access,HKLM,Software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\Controlled Folder Access,EnableControlledFolderAccess,1,Block,1,Block,NCSC Windows 10 1903 - Exploit Guard,NCSC Windows - Exploit Guard
+Computer Configuration,Windows Components\Microsoft Defender Antivirus\Real-time Protection\,Turn off real-time protection,HKLM,Software\Policies\Microsoft\Windows Defender\Real-Time Protection,DisableRealtimeMonitoring,0,Disabled,0,Disabled,NCSC Windows 10 1903 - Windows Defender,NCSC Windows - Windows Defender
+Computer Configuration,Windows Components\Microsoft Defender Application Guard\,Allow auditing events in Microsoft Defender Application Guard,HKLM,SOFTWARE\Policies\Microsoft\AppHVSI,AuditApplicationGuard,1,Enabled,1,Enabled,NCSC Windows 10 1903 - Application Guard,NCSC Windows - Application Guard
+Computer Configuration,Windows Components\Microsoft Defender Application Guard\,Allow camera and microphone access in Microsoft Defender Application Guard,HKLM,SOFTWARE\Policies\Microsoft\AppHVSI,AllowCameraMicrophoneRedirection,0,Disabled,0,Disabled,NCSC Windows 10 1903 - Application Guard,NCSC Windows - Application Guard
+Computer Configuration,Windows Components\Microsoft Defender Application Guard\,Allow data persistence for Microsoft Defender Application Guard,HKLM,SOFTWARE\Policies\Microsoft\AppHVSI,AllowPersistence,0,Disabled,0,Disabled,NCSC Windows 10 1903 - Application Guard,NCSC Windows - Application Guard
+Computer Configuration,Windows Components\Microsoft Defender Application Guard\,Allow files to download and save to the host operating system from Microsoft Defender Application Guard,HKLM,SOFTWARE\Policies\Microsoft\AppHVSI,SaveFilesToHost,1,Enabled,1,Enabled,NCSC Windows 10 1903 - Application Guard,NCSC Windows - Application Guard
+Computer Configuration,Windows Components\Microsoft Defender Application Guard\,Allow Microsoft Defender Application Guard to use Root Certificate Authorities from the user’s device --> Thumbprints of the certificates to share,HKLM,SOFTWARE\Policies\Microsoft\AppHVSI,CertificateThumbprints,,[[[delete]]],,[[[delete]]],NCSC Windows 10 1903 - Application Guard,NCSC Windows - Application Guard
+Computer Configuration,Windows Components\Microsoft Defender Application Guard\,Configure Microsoft Defender Application Guard clipboard settings --> Clipboard behavior setting.,HKLM,SOFTWARE\Policies\Microsoft\AppHVSI,AppHVSIClipboardSettings,1,Enable clipboard operation from an isolated session to the host,1,Enable clipboard operation from an isolated session to the host,NCSC Windows 10 1903 - Application Guard,NCSC Windows - Application Guard
+Computer Configuration,Windows Components\Microsoft Defender Application Guard\,Configure Microsoft Defender Application Guard clipboard settings --> Clipboard content options.,HKLM,SOFTWARE\Policies\Microsoft\AppHVSI,AppHVSIClipboardFileType,3,3,3,3,NCSC Windows 10 1903 - Application Guard,NCSC Windows - Application Guard
+Computer Configuration,Windows Components\Microsoft Defender Application Guard\,Configure Microsoft Defender Application Guard print settings --> Allowed print types in Application Guard.,HKLM,SOFTWARE\Policies\Microsoft\AppHVSI,AppHVSIPrintingSettings,11,11,11,11,NCSC Windows 10 1903 - Application Guard,NCSC Windows - Application Guard
+Computer Configuration,Windows Components\Microsoft Defender Application Guard\,Prevent enterprise websites from loading non-enterprise content in Microsoft Edge and Internet Explorer,HKLM,SOFTWARE\Policies\Microsoft\AppHVSI,BlockNonEnterpriseContent,1,Enabled,1,Enabled,NCSC Windows 10 1903 - Application Guard,NCSC Windows - Application Guard
+Computer Configuration,Windows Components\Microsoft Defender Application Guard\,Turn on Microsoft Defender Application Guard in Managed Mode,HKLM,SOFTWARE\Policies\Microsoft\AppHVSI,AllowAppHVSI_ProviderSet,1,1,1,1,NCSC Windows 10 1903 - Application Guard,NCSC Windows - Application Guard
+Computer Configuration,Windows Components\Microsoft Edge\,Allow a shared Books folder,HKLM,Software\Policies\Microsoft\MicrosoftEdge\BooksLibrary,UseSharedFolderForBooks,0,Disabled,0,Disabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,Windows Components\Microsoft Edge\,Allow configuration updates for the Books Library,HKLM,Software\Policies\Microsoft\MicrosoftEdge\BooksLibrary,AllowConfigurationUpdateForBooksLibrary,1,Enabled,1,Enabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,Windows Components\Microsoft Edge\,Allow extended telemetry for the Books tab,HKLM,Software\Policies\Microsoft\MicrosoftEdge\BooksLibrary,EnableExtendedBooksTelemetry,0,Disabled,0,Disabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,Windows Components\Microsoft Edge\,Allow Microsoft Edge to start and load the Start and New Tab page at Windows startup and each time Microsoft Edge is closed --> Configure tab preloading,HKLM,Software\Policies\Microsoft\MicrosoftEdge\TabPreloader,AllowTabPreloading,0,Prevent tab preloading,0,Prevent tab preloading,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,Windows Components\Microsoft Edge\,Allow Sideloading of extension,HKLM,Software\Policies\Microsoft\MicrosoftEdge\Extensions,AllowSideloadingOfExtensions,0,Disabled,0,Disabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,Windows Components\Microsoft Edge\,Prevent bypassing Windows Defender SmartScreen prompts for files,HKLM,Software\Policies\Microsoft\MicrosoftEdge\PhishingFilter,PreventOverrideAppRepUnknown,1,Enabled,,,NCSC Windows 10 1903 - Windows Defender,
+Computer Configuration,Windows Components\OneDrive\,Prevent the usage of OneDrive for file storage,HKLM,Software\Policies\Microsoft\Windows\OneDrive,DisableFileSyncNGSC,1,Enabled,,,NCSC Windows 10 1903 - User,
+Computer Configuration,Windows Components\Portable Operating System\,Windows To Go Default Startup Options,HKLM,Software\Policies\Microsoft\PortableOperatingSystem,Launcher,0,Disabled,0,Disabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,Windows Components\Search\,Allow Cortana,HKLM,Software\Policies\Microsoft\Windows\Windows Search,AllowCortana,0,Disabled,0,Disabled,NCSC Windows 10 1903 - User,NCSC Windows - Computer
+Computer Configuration,Windows Components\Search\,Don't search the web or display web results in Search,HKLM,Software\Policies\Microsoft\Windows\Windows Search,ConnectedSearchUseWeb,0,Enabled,0,Enabled,NCSC Windows 10 1903 - User,NCSC Windows - Computer
+Computer Configuration,Windows Components\Store\,Disable all apps from Microsoft Store,HKLM,Software\Policies\Microsoft\WindowsStore,DisableStoreApps,0,Enabled,0,Enabled,NCSC Windows 10 1903 - User,NCSC Windows - Computer
+Computer Configuration,Windows Components\Store\,Turn off the Store application,HKLM,Software\Policies\Microsoft\WindowsStore,RemoveWindowsStore,1,Enabled,1,Enabled,NCSC Windows 10 1903 - User,NCSC Windows - Computer
+Computer Configuration,Windows Components\Sync your settings\,Do not sync,HKLM,Software\Policies\Microsoft\Windows\SettingSync,DisableSettingSync,2,Enabled,2,Enabled,NCSC Windows 10 1903 - User,NCSC Windows - Computer
+Computer Configuration,Windows Components\Sync your settings\,Do not sync --> Allow users to turn syncing on.,HKLM,Software\Policies\Microsoft\Windows\SettingSync,DisableSettingSyncUserOverride,1,FALSE,1,FALSE,NCSC Windows 10 1903 - User,NCSC Windows - Computer
+Computer Configuration,Windows Components\Windows Defender SmartScreen\Explorer\,Configure App Install Control,HKLM,Software\Policies\Microsoft\Windows Defender\SmartScreen,ConfigureAppInstallControlEnabled,1,Enabled,1,Enabled,NCSC Windows 10 1903 - Windows Defender,NCSC Windows - Windows Defender
+Computer Configuration,Windows Components\Windows Defender SmartScreen\Explorer\,Configure App Install Control --> Pick one of the following settings:,HKLM,Software\Policies\Microsoft\Windows Defender\SmartScreen,ConfigureAppInstallControl,PreferStore,Warn me before installing apps from outside the Store,PreferStore,Warn me before installing apps from outside the Store,NCSC Windows 10 1903 - Windows Defender,NCSC Windows - Windows Defender
+Computer Configuration,Windows Components\Windows Hello for Business\,Use a hardware security device,HKLM,Software\Policies\Microsoft\PassportForWork,RequireSecurityDevice,1,Enabled,1,Enabled,NCSC Windows 10 1903 - User,NCSC Windows - Computer
+Computer Configuration,Windows Components\Windows Hello for Business\,Use a hardware security device --> TPM 1.2,HKLM,Software\Policies\Microsoft\PassportForWork\ExcludeSecurityDevices,TPM12,0,FALSE,0,FALSE,NCSC Windows 10 1903 - User,NCSC Windows - Computer
+Computer Configuration,Windows Components\Windows Update\Manage end user experience\,"Remove access to ""Pause updates"" feature",HKLM,Software\Policies\Microsoft\Windows\WindowsUpdate,SetDisablePauseUXAccess,1,Enabled,1,Enabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,Windows Components\Windows Update\Manage updates offered from Windows Update\,Manage preview builds,HKLM,Software\Policies\Microsoft\Windows\WindowsUpdate,ManagePreviewBuildsPolicyValue,,[[[delete]]],,[[[delete]]],NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,Windows Components\Windows Update\Manage updates offered from Windows Update\,Manage preview builds --> Select the Windows readiness level for the updates you want to receive:,HKLM,Software\Policies\Microsoft\Windows\WindowsUpdate,BranchReadinessLevel,32,32 (0x20),32,32 (0x20),NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,Windows Components\Windows Update\Manage updates offered from Windows Update\,Select when Preview Builds and Feature Updates are received,HKLM,Software\Policies\Microsoft\Windows\WindowsUpdate,DeferFeatureUpdates,1,Enabled,1,Enabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,Windows Components\Windows Update\Manage updates offered from Windows Update\,Select when Preview Builds and Feature Updates are received --> How many days after a Feature Update is released would you like to defer the update before it is offered to the device?,HKLM,Software\Policies\Microsoft\Windows\WindowsUpdate,DeferFeatureUpdatesPeriodInDays,0,0,0,0,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Computer Configuration,Windows Components\Windows Update\Manage updates offered from Windows Update\,Select when Preview Builds and Feature Updates are received --> Pause Preview Builds or Feature Updates starting:,HKLM,Software\Policies\Microsoft\Windows\WindowsUpdate,PauseFeatureUpdatesStartTime,,,,,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+"Computer Configuration
+Computer Configuration","System\Internet Communication Management\Internet Communication settings\
+Windows Components\Windows Error Reporting\","Turn off Windows Error Reporting
+Disable Windows Error Reporting",HKLM,Software\Policies\Microsoft\Windows\Windows Error Reporting,Disabled,1,Enabled,1,Enabled,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+"Computer Configuration
+Computer Configuration","Windows Components\File Explorer\
+Windows Components\Windows Defender SmartScreen\Explorer\","Configure Windows Defender SmartScreen --> Pick one of the following settings:
+Configure Windows Defender SmartScreen --> Pick one of the following settings:",HKLM,Software\Policies\Microsoft\Windows\System,ShellSmartScreenLevel,Block,"Warn and prevent bypass
+Warn and prevent bypass",Block,"Warn and prevent bypass
+Warn and prevent bypass",NCSC Windows 10 1903 - Windows Defender,NCSC Windows - Windows Defender
+"Computer Configuration
+Computer Configuration","Windows Components\File Explorer\
+Windows Components\Windows Defender SmartScreen\Explorer\","Configure Windows Defender SmartScreen
+Configure Windows Defender SmartScreen",HKLM,Software\Policies\Microsoft\Windows\System,EnableSmartScreen,1,"Enabled
+Enabled",1,"Enabled
+Enabled",NCSC Windows 10 1903 - Windows Defender,NCSC Windows - Windows Defender
+"Computer Configuration
+Computer Configuration","Windows Components\Microsoft Edge\
+Windows Components\Windows Defender SmartScreen\Microsoft Edge\","Configure Windows Defender SmartScreen
+Configure Windows Defender SmartScreen",HKLM,Software\Policies\Microsoft\MicrosoftEdge\PhishingFilter,EnabledV9,1,"Enabled
+Enabled",1,"Enabled
+Enabled",NCSC Windows 10 1903 - Windows Defender,NCSC Windows - Windows Defender
+"Computer Configuration
+Computer Configuration","Windows Components\Store\
+Windows Components\Store\","Turn off Automatic Download of updates on Win8 machines
+Turn off Automatic Download and Install of updates",HKLM,Software\Policies\Microsoft\WindowsStore,AutoDownload,4,"4
+Disabled",4,"4
+Disabled","NCSC Windows 10 1903 - Computer
+NCSC Windows 10 1903 - User",NCSC Windows - Computer
+"Computer Configuration
+Computer Configuration","Windows Components\Windows Defender SmartScreen\Microsoft Edge\
+Windows Components\Microsoft Edge\","Prevent bypassing Windows Defender SmartScreen prompts for sites
+Prevent bypassing Windows Defender SmartScreen prompts for sites",HKLM,Software\Policies\Microsoft\MicrosoftEdge\PhishingFilter,PreventOverride,1,"Enabled
+Enabled",1,"Enabled
+Enabled","NCSC Windows 10 1903 - Computer
+NCSC Windows 10 1903 - Windows Defender",NCSC Windows - Windows Defender
+Security Settings,Local Policies\Security Options,Accounts: Block Microsoft accounts,HKLM,Software\Microsoft\Windows\CurrentVersion\Policies\System,NoConnectedUser,3,Users can't add or log on with Microsoft accounts,3,Users can't add or log on with Microsoft accounts,NCSC Windows 10 1903 - Computer,NCSC Windows - Computer
+Security Settings,System Services,Application Identity,Security Template,Service General Setting,"""AppIDSvc""","2,""""",Service start: Automatic,"2,""""",Service start: Automatic,NCSC Windows 10 1903 - AppLocker,NCSC Windows - AppLocker
+User Configuration,Control Panel\Personalization\,Screen saver timeout --> Seconds:,HKCU,Software\Policies\Microsoft\Windows\Control Panel\Desktop,ScreenSaveTimeOut,600,600,600,600,NCSC Windows 10 1903 - User,NCSC Windows - User
