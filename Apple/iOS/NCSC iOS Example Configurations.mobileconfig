@@ -254,7 +254,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>This configuration profile contains an example lockdown that can be used as a starting point for your own configurations.  Configuration options enforced by this profile should be customised to your particular requirements. </string>
+	<string>This configuration profile contains example configurations that can be used as a starting point for your own iOS devices.  Configuration options enforced by this profile should be customised to your particular requirements. </string>
 	<key>PayloadDisplayName</key>
 	<string>NCSC iOS Example Configurations</string>
 	<key>PayloadIdentifier</key>
