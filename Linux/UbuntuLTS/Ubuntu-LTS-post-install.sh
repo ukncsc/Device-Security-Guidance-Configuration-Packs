@@ -177,7 +177,7 @@ adduser "$ENDUSER"
 
 # Set some AppArmor profiles to enforce mode.
 echo -e "${HIGHLIGHT}Configuring apparmor...${NC}"
-aa-enforce /etc/apparmor.d/usr.bin.firefox
+aa-enforce /etc/apparmor.d/usr.bin.firefox || aa-enforce /usr/share/apparmor/extra-profiles/usr.lib.firefox.firefox
 aa-enforce /etc/apparmor.d/usr.sbin.avahi-daemon
 aa-enforce /etc/apparmor.d/usr.sbin.dnsmasq
 aa-enforce /etc/apparmor.d/bin.ping
@@ -332,6 +332,8 @@ chmod a+x /etc/dconf/db
 # Disable apport (error reporting)
 sed -ie '/^enabled=1$/ s/1/0/' /etc/default/apport
 
+# Disable apport pop-up message
+apt-get install -y dbus-x11
 sudo -H -u "$ENDUSER" dbus-launch gsettings set com.ubuntu.update-notifier show-apport-crashes false
 
 # Fix some permissions in /var that are writable and executable by the standard user.
