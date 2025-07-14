@@ -13,7 +13,8 @@ The settings we have listed can be viewed reviewed manually inside the [Configur
 
 ## Supplementary Information ##
 
-- [Installation instructions](https://github.com/ukncsc/Device-Security-Guidance-Configuration-Packs#microsoft-endpoint-manager)
+- [Installation instructions](https://github.com/ukncsc/Device-Security-Guidance-Configuration-Packs#microsoft-intune)
+- There is a current known issue with the different types of policies being imported using the MS Graph and JSON import functions within Intune. These are being [fixed by Microsoft](https://github.com/microsoft/mggraph-intune-samples/issues/27).
 
 ---
 
