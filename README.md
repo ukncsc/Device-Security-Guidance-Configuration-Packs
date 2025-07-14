@@ -1,6 +1,6 @@
 # Device Security Guidance Configuration Packs
 
-Copyright 2021 Crown Copyright
+Copyright 2025 Crown Copyright
 
 Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) (the "License"). You may not use this file except in compliance with the License.
 
@@ -14,17 +14,14 @@ Unless required by applicable law or agreed to in writing, software distributed 
   - [Structure](#structure)
   - [Installation](#installation)
     - [Google Workspace](#google-workspace)
-      - [Chrome OS, Windows, Android, and iOS](#chrome-os-windows-android-and-ios)
-    - [Microsoft Endpoint Manager](#microsoft-endpoint-manager)
+      - [ChromeOS, Windows, Android, and iOS](#chromeos-windows-android-and-ios)
+    - [Microsoft Intune](#microsoft-intune)
       - [Windows](#windows)
       - [macOS, iOS, and Android](#macos-ios-and-android)
-      - [Chrome OS, and Ubuntu LTS](#chrome-os-and-ubuntu-lts)
+      - [ChromeOS](#chromeos)
     - [Jamf Pro](#jamf-pro)
       - [macOS and iOS](#macos-and-ios)
-      - [Windows, Android, Ubuntu LTS and Chrome OS](#windows-android-ubuntu-lts-and-chrome-os)
-    - [VMware Workspace ONE](#vmware-workspace-one)
-      - [Windows, iOS, macOS, Android, and Chrome OS](#windows-ios-macos-android-and-chrome-os)
-    - [Ubuntu LTS](#ubuntu-lts)
+      - [Windows, Android and ChromeOS](#windows-android-and-chromeos)
   - [Contributing](#contributing)
   - [License](#license)
 
@@ -89,53 +86,40 @@ Device-Security-Guidance-Configuration-Packs
 │           NCSC_Chrome_OS_configurations.md
 │           README.md
 │
-├───Linux
-│   └───UbuntuLTS
-│           README.md
-│           Ubuntu-LTS-post-install.sh
-│           Ubuntu-LTS-seed.txt
-│
 └───Microsoft
     └───Windows
         │   README.md
         │
-        ├───GPO
-        │       NCSC+MSFT_Windows_10_2004_GPO.zip
-        │
         └───MDM
             └───Configurations
-                │   Configurations_-_NCSC.csv
-                │   Configurations_-_NCSC.md
-                │   NCSC_-_Application_Control.json
-                │   NCSC_-_AppLocker.json
-                │   NCSC_-_Attack_Surface_Reduction_Rules.json
-                │   NCSC_-_BitLocker.json
-                │   NCSC_-_Credential_Guard.json
-                │   NCSC_-_Custom_Settings.json
-                │   NCSC_-_Defender_AV.json
-                │   NCSC_-_Defender_AV_Exclusions.json
-                │   NCSC_-_Defender_AV_Security_Experience.json
-                │   NCSC_-_Device_Control.json
-                │   NCSC_-_Device_Restriction.json
-                │   NCSC_-_Edge.json
-                │   NCSC_-_Firewall.json
-                │   NCSC_-_Firewall_Rules.json
-                │   NCSC_-_Google_Chrome_Settings.json
-                │   NCSC_-_Identity_Protections.json
-                │   NCSC_-_Internet_Explorer.json
-                │   NCSC_-_Local_Security.json
-                │   NCSC_-_Password.json
-                │   NCSC_-_Web_Protections_(DR).json
-                │   NCSC_-_Web_Protections_(EP).json
-                │   NCSC_-_Xbox_Services.json
-                │
-                └───AppLocker
-                        AppLocker_appx.xml
-                        AppLocker_dll.xml
-                        AppLocker_exe.xml
-                        AppLocker_msi.xml
-                        AppLocker_script.xml
-                        README.md
+                │   Configurations_-_NCSC 2025.csv
+                │   Configurations_-_NCSC 2025.md
+                |
+                ├───AppLocker
+                |     AppLocker_appx.xml
+                |     AppLocker_dll.xml
+                |     AppLocker_exe.xml
+                |     AppLocker_msi.xml
+                |     AppLocker_script.xml
+                |
+                ├───DeviceConfiguration
+                |     2025-NCSC-Surface-DFCI.json
+                |
+                ├───EndpointSecurity
+                |     2025-NCSC-Account-Protections.json
+                |     2025-NCSC-Account-Protections_Settings.json
+                |     2025-NCSC-Application-Control.json
+                |     2025-NCSC-Application-Control_Settings.json
+                |
+                └───SettingsCatalog
+                      2025-NCSC-ASR.json
+                      2025-NCSC-App-Control-for-Business.json
+                      2025-NCSC-BitLocker.json
+                      2025-NCSC-Defender-Antivirus.json
+                      2025-NCSC-Defender.json
+                      2025-NCSC-Device-Control.json
+                      2025-NCSC-Edge.json
+                      2025-NCSC-General.json
 ```
 
 
@@ -143,10 +127,10 @@ Device-Security-Guidance-Configuration-Packs
 The policies can be installed in several ways, importing directly to management software, manually added in the management software and in some cases applied directly to the device.  
 ### Google Workspace
 
-#### Chrome OS, Windows, Android, and iOS
+#### ChromeOS, Windows, Android, and iOS
 
 Follow these instructions for 
-- [Chrome OS devices](https://support.google.com/chrome/a/topic/6274424?hl=en&ref_topic=4386913)
+- [ChromeOS devices](https://support.google.com/chrome/a/topic/6274424?hl=en&ref_topic=4386913)
 - [Windows devices](https://support.google.com/a/answer/10181140?hl=en&ref_topic=6079327)
 - [Android mobile devices](https://support.google.com/a/answer/6328708?hl=en)
 - [iOS mobile devices](https://support.google.com/a/answer/6328700?hl=en&ref_topic=6079327) 
@@ -155,20 +139,22 @@ Follow these instructions for 
 Manually apply the settings, as specified in the policy file.
 
 
-### Microsoft Endpoint Manager
+### Microsoft Intune
 
 #### Windows
-Using scripts available in [Microsoft's Graph repository](https://github.com/microsoftgraph/powershell-intune-samples/tree/master/DeviceConfiguration). You can import these configurations directly into your Azure tenancy by following these steps:
+Using scripts available in [Microsoft's Graph repository](https://github.com/microsoft/mggraph-intune-samples/tree/main/DeviceConfiguration). You will need to locate the relevant import script for the policy type you are importing. Once you have located the script, you can import these configurations directly into your Intune tenancy by following these steps as an example:
 1. Locate `DeviceConfiguration_Import_FromJSON.ps1`, this is the script that is required to import JSON-format configurations into Endpoint Manager
-2. Run this script in PowerShell on the device you use for administration of Azure and Endpoint Manager (such as a PAW), it will prompt for your AAD credentials
+2. Run this script in PowerShell on the device you use for administration of Azure and Endpoint Manager (such as a PAW), it will prompt for your Entra ID credentials
 3. On sucessful authentication, the script will then prompt for a location for the JSON file you want to upload
-4. So long as the file is found, and the AAD account provided has the correct privileges, the configuration will be imported into Endpoint Manager. Policy and Profile Manager is a Built-in RBAC role which will allow configuration importing.
+4. So long as the file is found, and the Entra ID account provided has the correct privileges, the configuration will be imported into Endpoint Manager. Policy and Profile Manager is a Built-in RBAC role which will allow configuration importing.
+
+A manual version of the policies and settings are available within the repository README documents.
 
 #### macOS, iOS, and Android
 Follow the instructions on the Endpoint Manager pages for configurating [macOS](https://docs.microsoft.com/en-us/mem/intune/configuration/custom-settings-macos), [iOS](https://docs.microsoft.com/en-us/mem/intune/configuration/custom-settings-ios) and [Android](https://docs.microsoft.com/en-us/mem/intune/configuration/custom-settings-android-for-work) and apply the configurations in the corresponding file.
 
-#### Chrome OS, and Ubuntu LTS
-Currently, it is not possible to manage Chrome OS or Linux using Microsoft Endpoint Manager.
+#### ChromeOS
+Currently, it is not possible to manage ChromeOS using Microsoft Intune.
 
 ### Jamf Pro
 
@@ -176,17 +162,8 @@ Currently, it is not possible to manage Chrome OS or Linux using Microsoft Endpo
 
 Follow the instructions on how to [apply settings for custom configurations for macOS and iOS mobile devices](https://docs.jamf.com/10.28.0/jamf-pro/administrator-guide/Computer_Configuration_Profiles.html) and apply the .mobileconfigs, or develop your own configurations using the policy pack as a guide.
 
-#### Windows, Android, Ubuntu LTS and Chrome OS
-Currently, it is not possible to manage Windows, Android, Ubuntu LTS or Chrome OS using Jamf Pro.
-
-### VMware Workspace ONE
-
-#### Windows, iOS, macOS, Android, and Chrome OS
-
-Follow the instructions on [Windows desktop profiles](https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/1909/Windows_Desktop_Device_Management/GUID-AWT-PROFILE-OVERVIEWWD.html), [iOS device profiles](https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/services/iOS_Platform/GUID-iOSProfileOverview.html), [macOS device profiles](https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/2011/macOS_Platform/GUID-AWT-PROFILES-OVERVIEW.html), [Android device profiles](https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/2011/Android_Platform/GUID-AWT-PROFILES-CONCEPT.html) or [Chrome OS device profiles](https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/1909/UEM_Managing_Devices/GUID-AWT-DEVICEENROLLMENTOVERVIEW.html) and apply configurations to profiles as required
-
-### Ubuntu LTS
-The provided scripts in the Ubuntu folder are expected to be deployed through a Software Configuration Manager but can also be manually deployed onto a device.
+#### Windows, Android and ChromeOS
+Currently, it is not possible to manage Windows, Android or ChromeOS using Jamf Pro.
 
 ## Contributing
 
