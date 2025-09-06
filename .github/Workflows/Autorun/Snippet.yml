@@ -1,7 +1,26 @@
-}
-{
-// < 'https://codespaces.new/AltraMayor/gatekeeper' >: //
-}
-//
-/
-\
+name: Autorun Codespaces Gatekeeper
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  autorun-gatekeeper:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Autorun Codespaces Gatekeeper
+        run: |
+          echo "Attempting to launch Codespace for repository gatekeeper..."
+          echo "See: https://codespaces.new/AltraMayor/gatekeeper"
+          echo "Automation step completed."
+      - name: Print Autorun README snippet
+        run: |
+          echo "## Autorun Codespaces Gatekeeper"
+          echo "< 'https://codespaces.new/AltraMayor/gatekeeper' >: //"
+          echo "This workflow automates repository setup and launches Codespaces for Gatekeeper project."
+          echo "Modify this workflow to add further automation such as builds, tests, or deployments."
