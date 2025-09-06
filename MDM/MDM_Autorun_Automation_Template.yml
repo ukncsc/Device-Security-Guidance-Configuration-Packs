@@ -1,0 +1,77 @@
+# MDM Autorun & Automation Template
+# This file is a central hub for all MDM-related automations, autorun workflows, templates, and snippets.
+# Extend and add to this file and directory for future requests!
+
+templates:
+  autorun_codespaces_gatekeeper:
+    description: Autorun workflow for Codespaces Gatekeeper.
+    workflow: |
+      name: Autorun Codespaces Gatekeeper
+
+      on:
+        workflow_dispatch:
+        push:
+          branches:
+            - main
+            - master
+
+      jobs:
+        autorun-gatekeeper:
+          runs-on: ubuntu-latest
+          steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+
+            - name: Autorun Codespaces Gatekeeper
+              run: |
+                echo "Attempting to launch Codespace for repository gatekeeper..."
+                echo "See: https://codespaces.new/AltraMayor/gatekeeper"
+                echo "Automation step completed."
+
+            - name: Print Autorun README snippet
+              run: |
+                echo "## Autorun Codespaces Gatekeeper"
+                echo "< 'https://codespaces.new/AltraMayor/gatekeeper' >: //"
+                echo "This workflow automates repository setup and launches Codespaces for Gatekeeper project."
+                echo "Modify this workflow to add further automation such as builds, tests, or deployments."
+
+  generic_workflow_template:
+    description: Use this as a boilerplate for new MDM workflow automations.
+    workflow: |
+      name: Example MDM Automation
+
+      on:
+        workflow_dispatch:
+        push:
+          branches:
+            - main
+            - master
+
+      jobs:
+        example-job:
+          runs-on: ubuntu-latest
+          steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+            - name: Example step
+              run: echo "This is an example step for your MDM automation."
+
+snippets:
+  codespaces_launch_url: "https://codespaces.new/AltraMayor/gatekeeper"
+  autorun_readme: |
+    # Autorun Codespaces Gatekeeper
+
+    This workflow automates repository setup and launches Codespaces for the Gatekeeper project.
+
+    - Launch Codespace: [codespaces.new/AltraMayor/gatekeeper](https://codespaces.new/AltraMayor/gatekeeper)
+    - The workflow is triggered by pushes to `main` or `master`, or manually via the Actions tab.
+    - You can extend this workflow to add build, test, or deployment steps as needed.
+
+    > **Note:** Actual Codespace launch must be performed via GitHub UI or API. The workflow provides automation hooks and setup steps.
+
+automation:
+  instructions: |
+    - Add new workflow templates under "templates:"
+    - Add reusable code snippets under "snippets:"
+    - Extend the "automation:" section for centralized instructions on further automation.
+    - All new files related to MDM automation, autorun, and templates should be placed in this directory.
