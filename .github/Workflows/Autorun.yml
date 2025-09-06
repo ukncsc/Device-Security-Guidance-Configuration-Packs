@@ -1,0 +1,180 @@
+# ADMIN ONLY TEMPLATE (Universal, Permanent, Non-Alterable)
+
+---
+
+## 1. DECLARATION
+
+# ADMIN ACCESS:
+# Only and exclusively accessible by:
+#   - Email (Primary): NAVitolo071286@proton.me
+#   - Email (Alternative): NAVitolo071286@gmail.com
+#   - Phone: +1 (321) 290-4404 (Text only)
+#   - Legal Name: Thomas L. Vitolo (Hidden, always private, never displayed or accessible except to admin)
+# All domains, all subdomains, only private; subdomain range: 255.255.255.0 - 255.255.0.0
+# No other user or process may modify, read, or technically alter this template under any condition except the admin named above.
+
+## 2. AUTOMATION & AUTOFILL
+
+# Auto-Run: All actions and autofill operations run automatically and randomly, especially upon error or fault.
+# Autofill:
+#   - All information fields auto-populate using admin credentials and legal identifiers.
+#   - If autofill or automation fails, immediately:
+#       - Send bug report to admin email (as above)
+#       - Notify admin via GitHub profile
+#       - Send prompt/alert to admin phone (as above)
+# Confirmation:
+#   - Every autofill/automation task generates a receipt
+#   - Receipt sent by text and emailed every 24 hours at 12:00 a.m. to admin only
+#   - All transactions logged, hidden, and private
+# Firewall/Threshold:
+#   - All incoming actions must request permission and validate via two-way confirmation with admin
+#   - Cookie receipt, text link, and legal legitimacy check required for all outgoing/incoming transactions
+# Encoding:
+#   - Use all listed encoding formats (Base91, Base92, Base16, Base32, Base64, Base8, Base4)
+#   - If error, auto-select next best fit and randomize when choices are available
+#   - Always use Q#, C++, Java, Visual Studio encoding/automation standards
+# Automation Protocol:
+#   - Must comply with GitHub, US federal, and any applicable foreign cyber security and legal standards
+#   - Adaptive to any required format for C++, Q#, Java, or platform-specific requirements
+
+## 3. POST-QUANTUM SECURITY (Advanced)
+
+# Quantum and post-quantum firewall:
+#   - Black-hole simulation for unauthorized access attempts
+#   - If triggered, flash offending device’s memory cache at ≥9000TB/s for 1.5s
+#   - Incident report sent to federal authorities, site admins, and admin’s scheduled report
+# Hidden, locked, non-readable except for admin via automation
+
+## 4. BOUNDARY & LICENSING
+
+# Security boundary (firewall analogue) around template; locked, hidden, private, only admin accessible
+# All changes auto-adjusted, automation preferred, manual only if no other option
+# Bibliography and license references auto-included for all used standards, citing credits as required
+# Legal compliance enforced for admin’s country (USA) and all applicable jurisdictions
+
+## 5. GLOBAL & LEGAL CONSIDERATIONS
+
+# Thresholds and references defined for absolute prevention of unauthorized access, in line with global, national, and cyber security protocols
+# Automation and security features always permanent, never alterable by any non-admin
+# Supports mathematical auto-adjustment for rate, volume, union/junction for automation needs
+# Invariant, stable, and legally compliant under all conditions
+
+## 6. SKELETON TEMPLATE (Semi-Final Draft)
+
+ADMIN_ONLY_TEMPLATE:
+  admin:
+    emails:
+      - NAVitolo071286@proton.me
+      - NAVitolo071286@gmail.com
+    phone: "+1 (321) 290-4404"
+    legal_name: "Thomas L. Vitolo" # Always hidden/private
+    domains:
+      - "all"
+    subdomains:
+      - "255.255.255.0-255.255.0.0"
+  access: "admin_only"
+  privacy: "locked_hidden_private"
+  automation:
+    auto_run: true
+    auto_fill: true
+    error_report: [admin_email, github_profile, admin_phone]
+    receipt_schedule: "daily@00:00"
+    outgoing_confirmation: "2-way, legal, cookie+text+legitimacy"
+  encoding:
+    formats: [Base91, Base92, Base16, Base32, Base64, Base8, Base4, Q#, C++, Java]
+    fallback: "auto_select_next_best"
+    randomize: true
+  firewall:
+    type: "post_quantum_blackhole"
+    triggered_action:
+      - "memory_flash_9000TBps_1.5s"
+      - "incident_report"
+      - "admin_receipt"
+  compliance:
+    protocols: ["GitHub", "USA_Federal", "International"]
+    license: "auto_include_bibliography"
+  security_boundary:
+    attributes: [locked, hidden, private, automation_only]
+    manual_interaction: "if_no_automation_possible"
+  global_legal:
+    threshold: "absolute_prevention"
+    adjustment: "mathematical_auto"
+    compliance: ["invariant", "stable", "legal"]
+
+---
+
+# NOTE:
+# This template is designed as a _universal declarative skeleton_ for admin-only, permanent, automated, and legally compliant configuration.
+# It is not alterable by any user, technicality, or condition except by the named admin. All requests, automation, and changes must comply with the above declarative rules.
+# Use this as a reference for implementation in code, configs, policies, or as a master template for private admin-only automation.
+
+################################################################################
+# AUTO FEATURE: Universal Language Autorun for Task Execution
+################################################################################
+
+name: "Universal Auto-Run & Autofill"
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "*"
+  pull_request:
+    branches:
+      - "*"
+  schedule:
+    - cron: '0 0 * * *' # runs daily at midnight
+
+jobs:
+  autorun-any-language:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        language: [python, node, java, csharp, cpp, go, ruby, bash, powershell]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up ${{ matrix.language }}
+        uses: actions/setup-${{ matrix.language }}@v4
+        if: ${{ matrix.language != 'bash' && matrix.language != 'powershell' }}
+
+      - name: Autorun Task (${{ matrix.language }})
+        run: |
+          echo "Autorun for language: ${{ matrix.language }}"
+          # Example language-specific execution:
+          if [ "${{ matrix.language }}" = "python" ]; then
+            python3 main.py || echo "No Python entry found."
+          elif [ "${{ matrix.language }}" = "node" ]; then
+            node main.js || echo "No Node.js entry found."
+          elif [ "${{ matrix.language }}" = "java" ]; then
+            javac Main.java && java Main || echo "No Java entry found."
+          elif [ "${{ matrix.language }}" = "csharp" ]; then
+            dotnet run || echo "No C# entry found."
+          elif [ "${{ matrix.language }}" = "cpp" ]; then
+            g++ -o main main.cpp && ./main || echo "No C++ entry found."
+          elif [ "${{ matrix.language }}" = "go" ]; then
+            go run main.go || echo "No Go entry found."
+          elif [ "${{ matrix.language }}" = "ruby" ]; then
+            ruby main.rb || echo "No Ruby entry found."
+          elif [ "${{ matrix.language }}" = "bash" ]; then
+            bash main.sh || echo "No Bash entry found."
+          elif [ "${{ matrix.language }}" = "powershell" ]; then
+            pwsh main.ps1 || echo "No PowerShell entry found."
+          else
+            echo "Unsupported language: ${{ matrix.language }}"
+          fi
+
+      - name: Send Confirmation Receipt
+        run: |
+          echo "Sending confirmation receipt to admin emails and phone..."
+          # Insert actual integration for email, SMS, or notification if needed
+
+      - name: Log Transaction (Hidden/Private)
+        run: |
+          echo "Transaction log for admin only. Details hidden/private."
+          # Insert actual transaction log mechanism, encrypted/hidden from non-admin
+
+################################################################################
+# END OF ADMIN ONLY TEMPLATE & UNIVERSAL AUTORUN WORKFLOW
+################################################################################
