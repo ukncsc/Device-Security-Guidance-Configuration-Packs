@@ -174,16 +174,6 @@
 |---|---|---|
 | Defer Software Updates | `forceDelayedSoftwareUpdates` | No |
 
-## Content Ratings
-| Setting | XML Key | Value |
-|---|---|---|
-| Allow Explicit Content | `allowExplicitContent` | Yes |
-| Allow Explicit Content in Books | `allowBookstoreErotica` | Yes |
-| Allowed App Ratings | `ratingApps` | 1000 |
-| Allowed Movie Ratings | `ratingMovies` | 1000 |
-| Allowed TV Show Ratings | `ratingTVShows` | 1000 |
-| Ratings Region | `ratingRegion` | gb |
-
 ## Siri
 | Setting | XML Key | Value |
 |---|---|---|
