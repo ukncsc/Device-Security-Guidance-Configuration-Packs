@@ -1,6 +1,6 @@
-# iOS/iPadOS Restrictions (com.apple.applicationaccess) 
+# iOS/iPadOS Restrictions
 
-> **Columns:** *Setting · *XML Key* · *Value*  
+> **Columns:** *Setting* · *XML Key* · *Value*  
 
 ## General
 | Setting | XML Key | Value |
